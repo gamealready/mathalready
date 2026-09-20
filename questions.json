@@ -1,0 +1,1704 @@
+[
+  {
+    "year": 2016,
+    "num": 1,
+    "question": "The longest professional tennis match ever played lasted a total of 11 hours and 5 minutes. How many minutes was this?",
+    "choices": [
+      "605",
+      "655",
+      "665",
+      "1005",
+      "1105"
+    ],
+    "answer": 2,
+    "page": "AMC8_2016_1.html"
+  },
+  {
+    "year": 2016,
+    "num": 10,
+    "question": "Suppose that a * b means 3a-b. What is the value of x if \\[2 * (5 * x)=1\\]",
+    "choices": [
+      "1/10",
+      "2",
+      "10/3",
+      "10",
+      "14"
+    ],
+    "answer": 3,
+    "page": "AMC8_2016_10.html"
+  },
+  {
+    "year": 2016,
+    "num": 11,
+    "question": "Determine how many two-digit numbers satisfy the following property: when the number is added to the number obtained by reversing its digits, the sum is 132.",
+    "choices": [
+      "5",
+      "7",
+      "9",
+      "11",
+      "12"
+    ],
+    "answer": 1,
+    "page": "AMC8_2016_11.html"
+  },
+  {
+    "year": 2016,
+    "num": 12,
+    "question": "Jefferson Middle School has the same number of boys and girls. 34 of the girls and 23 of the boys went on a field trip. What fraction of the students on the field trip were girls?",
+    "choices": [
+      "1/2",
+      "9/17",
+      "7/13",
+      "2/3",
+      "14/15"
+    ],
+    "answer": 1,
+    "page": "AMC8_2016_12.html"
+  },
+  {
+    "year": 2016,
+    "num": 13,
+    "question": "Two different numbers are randomly selected from the set \\ - 2, -1, 0, 3, 4, 5\\ and multiplied together. What is the probability that the product is 0 ?",
+    "choices": [
+      "1/6",
+      "1/5",
+      "1/4",
+      "1/3",
+      "1/2"
+    ],
+    "answer": 1,
+    "page": "AMC8_2016_13.html"
+  },
+  {
+    "year": 2016,
+    "num": 14,
+    "question": "Karl's car uses a gallon of gas every 35 miles, and his gas tank holds 14 gallons when it is full. One day, Karl started with a full tank of gas, drove 350 miles, bought 8 gallons of gas, and continued driving to his destination. When he arrived, his gas tank was half full. How many miles did Karl drive that day?",
+    "choices": [
+      "525",
+      "560",
+      "595",
+      "665",
+      "735"
+    ],
+    "answer": 0,
+    "page": "AMC8_2016_14.html"
+  },
+  {
+    "year": 2016,
+    "num": 15,
+    "question": "What is the largest power of 2 that is a divisor of 13^4 - 11^4 ?",
+    "choices": [
+      "8",
+      "16",
+      "32",
+      "64",
+      "128"
+    ],
+    "answer": 3,
+    "page": "AMC8_2016_15.html"
+  },
+  {
+    "year": 2016,
+    "num": 16,
+    "question": "Annie and Bonnie are running laps around a 400 -meter oval track. They started together, but Annie has pulled ahead, because she runs 25\\% faster than Bonnie. How many laps will Annie have run when she first passes Bonnie?",
+    "choices": [
+      "1 1/4",
+      "3 1/3",
+      "4",
+      "5",
+      "25"
+    ],
+    "answer": 3,
+    "page": "AMC8_2016_16.html"
+  },
+  {
+    "year": 2016,
+    "num": 17,
+    "question": "An ATM password at Fred's Bank is composed of four digits from 0 to 9 , with repeated digits allowable. If no password may begin with the sequence 9,1,1, then how many passwords are possible?",
+    "choices": [
+      "30",
+      "7290",
+      "9000",
+      "9990",
+      "9999"
+    ],
+    "answer": 3,
+    "page": "AMC8_2016_17.html"
+  },
+  {
+    "year": 2016,
+    "num": 18,
+    "question": "In an All-Area track meet, 216 sprinters enter a 100- meter dash competition. The track has 6 lanes, so only 6 sprinters can compete at a time. At the end of each race, the five non-winners are eliminated, and the winner will compete again in a later race. How many races are needed to determine the champion sprinter?",
+    "choices": [
+      "36",
+      "42",
+      "43",
+      "60",
+      "72"
+    ],
+    "answer": 2,
+    "page": "AMC8_2016_18.html"
+  },
+  {
+    "year": 2016,
+    "num": 19,
+    "question": "The sum of 25 consecutive even integers is 10,000 . What is the largest of these 25 consecutive integers?",
+    "choices": [
+      "360",
+      "388",
+      "412",
+      "416",
+      "424"
+    ],
+    "answer": 3,
+    "page": "AMC8_2016_19.html"
+  },
+  {
+    "year": 2016,
+    "num": 2,
+    "question": "In rectangle ABCD , AB=6 and AD=8 . Point M is the midpoint of AD . What is the area of AMC ?",
+    "choices": [
+      "12",
+      "15",
+      "18",
+      "20",
+      "24"
+    ],
+    "answer": 2,
+    "page": "AMC8_2016_2.html",
+    "image": "images/AMC8_2016_2_diagram.png"
+  },
+  {
+    "year": 2016,
+    "num": 20,
+    "question": "The least common multiple of a and b is 12 , and the least common multiple of b and c is 15 . What is the least possible value of the least common multiple of a and c ?",
+    "choices": [
+      "20",
+      "30",
+      "60",
+      "120",
+      "180"
+    ],
+    "answer": 0,
+    "page": "AMC8_2016_20.html"
+  },
+  {
+    "year": 2016,
+    "num": 21,
+    "question": "A top hat contains 3 red chips and 2 green chips. Chips are drawn randomly, one at a time without replacement, until all 3 of the reds are drawn or until both green chips are drawn. What is the probability that the 3 reds are drawn?",
+    "choices": [
+      "3/10",
+      "2/5",
+      "1/2",
+      "3/5",
+      "7/10"
+    ],
+    "answer": 1,
+    "page": "AMC8_2016_21.html"
+  },
+  {
+    "year": 2016,
+    "num": 22,
+    "question": "Rectangle DEFA below is a 3 4 rectangle with DC=CB=BA=1 . The area of the \"bat wings\" (shaded area) is",
+    "choices": [
+      "2",
+      "2.5",
+      "3",
+      "3.5",
+      "4"
+    ],
+    "answer": 2,
+    "page": "AMC8_2016_22.html",
+    "image": "images/AMC8_2016_22_diagram.png"
+  },
+  {
+    "year": 2016,
+    "num": 23,
+    "question": "Two congruent circles centered at points A and B each pass through the other circle's center. The line containing both A and B is extended to intersect the circles at points C and D . The circles intersect at two points, one of which is E . What is the degree measure of CED ?",
+    "choices": [
+      "90",
+      "105",
+      "120",
+      "135",
+      "150"
+    ],
+    "answer": 2,
+    "page": "AMC8_2016_23.html"
+  },
+  {
+    "year": 2016,
+    "num": 24,
+    "question": "The digits 1 , 2 , 3 , 4 , and 5 are each used once to write a five-digit number PQRST . The three-digit number PQR is divisible by 4 , the three-digit number QRS is divisible by 5 , and the three-digit number RST is divisible by 3 . What is P ?",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "answer": 0,
+    "page": "AMC8_2016_24.html"
+  },
+  {
+    "year": 2016,
+    "num": 25,
+    "question": "A semicircle is inscribed in an isosceles triangle with base 16 and height 15 so that the diameter of the semicircle is contained in the base of the triangle as shown. What is the radius of the semicircle?",
+    "choices": [
+      "4*sqrt(3)",
+      "120/17",
+      "10",
+      "17*sqrt(2)/2",
+      "17*sqrt(3)/2"
+    ],
+    "answer": 1,
+    "page": "AMC8_2016_25.html",
+    "image": "images/AMC8_2016_25_diagram.png"
+  },
+  {
+    "year": 2016,
+    "num": 3,
+    "question": "Four students take an exam. Three of their scores are 70, 80, and 90 . If the average of their four scores is 70 , then what is the remaining score?",
+    "choices": [
+      "40",
+      "50",
+      "55",
+      "60",
+      "70"
+    ],
+    "answer": 0,
+    "page": "AMC8_2016_3.html"
+  },
+  {
+    "year": 2016,
+    "num": 4,
+    "question": "When Cheenu was a boy, he could run 15 miles in 3 hours and 30 minutes. As an old man, he can now walk 10 miles in 4 hours. How many minutes longer does it take for him to walk a mile now compared to when he was a boy?",
+    "choices": [
+      "6",
+      "10",
+      "15",
+      "18",
+      "30"
+    ],
+    "answer": 3,
+    "page": "AMC8_2016_4.html"
+  },
+  {
+    "year": 2016,
+    "num": 5,
+    "question": "The number N is a two-digit number. \u2022 When N is divided by 9 , the remainder is 1 . \u2022 When N is divided by 10 , the remainder is 3 . What is the remainder when N is divided by 11 ?",
+    "choices": [
+      "0",
+      "2",
+      "4",
+      "5",
+      "7"
+    ],
+    "answer": 3,
+    "page": "AMC8_2016_5.html"
+  },
+  {
+    "year": 2016,
+    "num": 6,
+    "question": "The following bar graph represents the length (in letters) of the names of 19 people. What is the median length of these names?",
+    "choices": [
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "answer": 0,
+    "page": "AMC8_2016_6.html",
+    "image": "images/AMC8_2016_6_diagram.png"
+  },
+  {
+    "year": 2016,
+    "num": 7,
+    "question": "Which of the following numbers is not a perfect square?",
+    "choices": [
+      "1^2016",
+      "2^2017",
+      "3^2018",
+      "4^2019",
+      "5^2020"
+    ],
+    "answer": 1,
+    "page": "AMC8_2016_7.html"
+  },
+  {
+    "year": 2016,
+    "num": 8,
+    "question": "Find the value of the expression \\[100-98+96-94+92-90+ +8-6+4-2.\\]",
+    "choices": [
+      "20",
+      "40",
+      "50",
+      "80",
+      "100"
+    ],
+    "answer": 2,
+    "page": "AMC8_2016_8.html"
+  },
+  {
+    "year": 2016,
+    "num": 9,
+    "question": "What is the sum of the distinct prime integer divisors of 2016 ?",
+    "choices": [
+      "9",
+      "12",
+      "16",
+      "49",
+      "63"
+    ],
+    "answer": 1,
+    "page": "AMC8_2016_9.html"
+  },
+  {
+    "year": 2017,
+    "num": 1,
+    "question": "Which of the following values is largest?",
+    "choices": [
+      "10",
+      "8",
+      "9",
+      "9",
+      "0"
+    ],
+    "answer": 4,
+    "page": "AMC8_2017_1.html"
+  },
+  {
+    "year": 2017,
+    "num": 10,
+    "question": "A box contains five cards, numbered 1, 2, 3, 4, and 5. Three cards are selected randomly without replacement from the box. What is the probability that 4 is the largest value selected?",
+    "choices": [
+      "frac{1}{10}",
+      "frac{1}{5}",
+      "frac{3}{10}",
+      "frac{2}{5}",
+      "frac{1}{2}"
+    ],
+    "answer": 2,
+    "page": "AMC8_2017_10.html"
+  },
+  {
+    "year": 2017,
+    "num": 11,
+    "question": "A square-shaped floor is covered with congruent square tiles. If the total number of tiles that lie on the two diagonals is 37, how many tiles cover the floor?",
+    "choices": [
+      "148",
+      "324",
+      "361",
+      "1296",
+      "1369"
+    ],
+    "answer": 3,
+    "page": "AMC8_2017_11.html"
+  },
+  {
+    "year": 2017,
+    "num": 12,
+    "question": "The smallest positive integer greater than 1 that leaves a remainder of 1 when divided by 4, 5, and 6 lies between which of the following pairs of numbers?",
+    "choices": [
+      "7",
+      "9",
+      "11",
+      "13",
+      "15"
+    ],
+    "answer": 0,
+    "page": "AMC8_2017_12.html"
+  },
+  {
+    "year": 2017,
+    "num": 13,
+    "question": "Peter, Emma, and Kyler played chess with each other. Peter won 4 games and lost 2 games. Emma won 3 games and lost 3 games. If Kyler lost 3 games, how many games did he win?",
+    "choices": [
+      "14",
+      "17",
+      "21",
+      "23",
+      "26"
+    ],
+    "answer": 2,
+    "page": "AMC8_2017_13.html"
+  },
+  {
+    "year": 2017,
+    "num": 14,
+    "question": "Chloe and Zoe are both students in Ms. Demeanor's math class. Last night, they each solved half of the problems in their homework assignment alone and then solved the other half together. Chloe had correct answers to only 80\\% of the problems she solved alone, but overall 88\\% of her answers were correct. Zoe had correct answers to 90\\% of the prob",
+    "choices": [
+      "89",
+      "92",
+      "93",
+      "96",
+      "98"
+    ],
+    "answer": 2,
+    "page": "AMC8_2017_14.html"
+  },
+  {
+    "year": 2017,
+    "num": 15,
+    "question": "In the arrangement of letters and numerals below, by how many different paths can one spell AMC8? Beginning at the A in the middle, a path only allows moves from one letter to an adjacent (above, below, left, or right, but not diagonal) letter. One example of such a path is traced in the picture.",
+    "choices": [
+      "8",
+      "9",
+      "12",
+      "24",
+      "36"
+    ],
+    "answer": 3,
+    "page": "AMC8_2017_15.html",
+    "image": "images/AMC8_2017_15_diagram.png"
+  },
+  {
+    "year": 2017,
+    "num": 16,
+    "question": "In the figure below, choose point D on BC so that ACD and ABD have equal perimeters. What is the area of ABD ?",
+    "choices": [
+      "frac{3}{4}",
+      "frac{3}{2}",
+      "2",
+      "frac{12}{5}",
+      "frac{5}{2}"
+    ],
+    "answer": 1,
+    "page": "AMC8_2017_16.html",
+    "image": "images/AMC8_2017_16_diagram.png"
+  },
+  {
+    "year": 2017,
+    "num": 17,
+    "question": "Starting with some gold coins and some empty treasure chests, I tried to put 9 gold coins in each treasure chest, but that left 2 treasure chests empty. So instead I put 6 gold coins in each treasure chest, but then I had 3 gold coins left over. How many gold coins did I have?",
+    "choices": [
+      "9",
+      "27",
+      "45",
+      "63",
+      "81"
+    ],
+    "answer": 3,
+    "page": "AMC8_2017_17.html"
+  },
+  {
+    "year": 2017,
+    "num": 18,
+    "question": "In the non-convex quadrilateral ABCD shown below, BCD is a right angle, AB=12 , BC=4 , CD=3 , and AD=13 . What is the area of quadrilateral ABCD ?",
+    "choices": [
+      "12",
+      "24",
+      "26",
+      "30",
+      "36"
+    ],
+    "answer": 1,
+    "page": "AMC8_2017_18.html",
+    "image": "images/AMC8_2017_18_diagram.png"
+  },
+  {
+    "year": 2017,
+    "num": 19,
+    "question": "For any positive integer M , the notation M! denotes the product of the integers 1 through M . What is the largest integer n for which 5^n is a factor of the sum 98!+99!+100! ?",
+    "choices": [
+      "23",
+      "24",
+      "25",
+      "26",
+      "27"
+    ],
+    "answer": 2,
+    "page": "AMC8_2017_19.html"
+  },
+  {
+    "year": 2017,
+    "num": 2,
+    "question": "Alicia, Brenda, and Colby were the candidates in a recent election for student president. The pie chart below shows how the votes were distributed among the three candidates. If Brenda received 36 votes, then how many votes were cast all together?",
+    "choices": [
+      "70",
+      "84",
+      "100",
+      "106",
+      "120"
+    ],
+    "answer": 1,
+    "page": "AMC8_2017_2.html",
+    "image": "images/AMC8_2017_2_diagram.png"
+  },
+  {
+    "year": 2017,
+    "num": 20,
+    "question": "An integer between 1000 and 9999, inclusive, is chosen at random. What is the probability that it is an odd integer whose digits are all distinct?",
+    "choices": [
+      "frac{14}{75}",
+      "frac{56}{225}",
+      "frac{107}{400}",
+      "frac{7}{25}",
+      "frac{9}{25}"
+    ],
+    "answer": 1,
+    "page": "AMC8_2017_20.html"
+  },
+  {
+    "year": 2017,
+    "num": 21,
+    "question": "Suppose a , b , and c are nonzero real numbers, and a+b+c=0 . What are the possible value(s) for a|a|+b|b|+c|c|+abc|abc| ?",
+    "choices": [
+      "-1",
+      "0",
+      "1",
+      "-1 and 1",
+      "0 and 1"
+    ],
+    "answer": 0,
+    "page": "AMC8_2017_21.html"
+  },
+  {
+    "year": 2017,
+    "num": 22,
+    "question": "In the right triangle ABC , AC=12 , BC=5 , and angle C is a right angle. A semicircle is inscribed in the triangle as shown. What is the radius of the semicircle?",
+    "choices": [
+      "frac{7}{6}",
+      "frac{13}{5}",
+      "frac{59}{18}",
+      "frac{10}{3}",
+      "frac{60}{13}"
+    ],
+    "answer": 3,
+    "page": "AMC8_2017_22.html",
+    "image": "images/AMC8_2017_22_diagram.png"
+  },
+  {
+    "year": 2017,
+    "num": 23,
+    "question": "Each day for four days, Linda traveled for one hour at a speed that resulted in her traveling one mile in an integer number of minutes. Each day after the first, her speed decreased so that the number of minutes to travel one mile increased by 5 minutes over the preceding day. Each of the four days, her distance traveled was also an integer number ",
+    "choices": [
+      "10",
+      "15",
+      "25",
+      "50",
+      "82"
+    ],
+    "answer": 1,
+    "page": "AMC8_2017_23.html"
+  },
+  {
+    "year": 2017,
+    "num": 24,
+    "question": "Mrs. Sanders has three grandchildren, who call her regularly. One calls her every three days, one calls her every four days, and one calls her every five days. All three called her on December 31, 2016. On how many days during the next year did she not receive a phone call from any of her grandchildren?",
+    "choices": [
+      "78",
+      "80",
+      "144",
+      "146",
+      "152"
+    ],
+    "answer": 3,
+    "page": "AMC8_2017_24.html",
+    "image": "images/AMC8_2017_24_diagram.png"
+  },
+  {
+    "year": 2017,
+    "num": 25,
+    "question": "In the figure shown, US and UT are line segments each of length 2, and m TUS = 60^ . Arcs TR and SR are each one-sixth of a circle with radius 2. What is the area of the region shown?",
+    "choices": [
+      "sqrt(2)",
+      "pi/2",
+      "2",
+      "pi",
+      "sqrt(2)+pi/4"
+    ],
+    "answer": 2,
+    "page": "AMC8_2017_25.html",
+    "image": "images/AMC8_2017_25_diagram.png"
+  },
+  {
+    "year": 2017,
+    "num": 3,
+    "question": "What is the value of the expression 16 8 4 ?",
+    "choices": [
+      "14",
+      "15",
+      "16",
+      "17",
+      "18"
+    ],
+    "answer": 2,
+    "page": "AMC8_2017_3.html"
+  },
+  {
+    "year": 2017,
+    "num": 4,
+    "question": "When 0.000315 is multiplied by 7,928,564 the product is closest to which of the following?",
+    "choices": [
+      "210",
+      "240",
+      "2100",
+      "2400",
+      "24000"
+    ],
+    "answer": 1,
+    "page": "AMC8_2017_4.html"
+  },
+  {
+    "year": 2017,
+    "num": 5,
+    "question": "What is the value of the expression 1 2 3 4 5 6 7 81+2+3+4+5+6+7+8 ?",
+    "choices": [
+      "1020",
+      "1120",
+      "1220",
+      "2240",
+      "3360"
+    ],
+    "answer": 0,
+    "page": "AMC8_2017_5.html"
+  },
+  {
+    "year": 2017,
+    "num": 6,
+    "question": "If the degree measures of the angles of a triangle are in the ratio 3:3:4 , what is the degree measure of the largest angle of the triangle?",
+    "choices": [
+      "18",
+      "36",
+      "60",
+      "72",
+      "90"
+    ],
+    "answer": 2,
+    "page": "AMC8_2017_6.html"
+  },
+  {
+    "year": 2017,
+    "num": 7,
+    "question": "Let Z be a 6-digit positive integer, such as 247247, whose first three digits are the same as its last three digits taken in the same order. Which of the following numbers must also be a factor of Z ?",
+    "choices": [
+      "11",
+      "19",
+      "101",
+      "111",
+      "1111"
+    ],
+    "answer": 3,
+    "page": "AMC8_2017_7.html"
+  },
+  {
+    "year": 2017,
+    "num": 8,
+    "question": "Malcolm wants to visit Isabella after school today and knows the street where she lives but doesn't know her house number. She tells him, \"My house number has two digits, and exactly three of the following four statements about it are true.\" (1) It is prime. (2) It is even. (3) It is divisible by 7. (4) One of its digits is 9. This information allo",
+    "choices": [
+      "4",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "answer": 3,
+    "page": "AMC8_2017_8.html"
+  },
+  {
+    "year": 2017,
+    "num": 9,
+    "question": "All of Marcy's marbles are blue, red, green, or yellow. One third of her marbles are blue, one fourth of them are red, and six of them are green. What is the smallest number of yellow marbles that Marcy could have?",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "answer": 1,
+    "page": "AMC8_2017_9.html"
+  },
+  {
+    "year": 2018,
+    "num": 1,
+    "question": "An amusement park has a collection of scale models, with a ratio of 1: 20 , of buildings and other sights from around the country. The height of the United States Capitol is 289 feet. What is the height in feet of its duplicate to the nearest whole number?",
+    "choices": [
+      "14",
+      "15",
+      "16",
+      "18",
+      "20"
+    ],
+    "answer": 0,
+    "page": "AMC8_2018_1.html"
+  },
+  {
+    "year": 2018,
+    "num": 10,
+    "question": "The harmonic mean of a set of non-zero numbers is the reciprocal of the average of the reciprocals of the numbers. What is the harmonic mean of 1, 2, and 4?",
+    "choices": [
+      "frac{3}{7}",
+      "frac{7}{12}",
+      "frac{12}{7}",
+      "frac{7}{4}",
+      "frac{7}{3}"
+    ],
+    "answer": 2,
+    "page": "AMC8_2018_10.html"
+  },
+  {
+    "year": 2018,
+    "num": 11,
+    "question": "Abby, Bridget, and four of their classmates will be seated in two rows of three for a group picture, as shown. eqnarray* X& &X \\\\ X& &X eqnarray* If the seating positions are assigned randomly, what is the probability that Abby and Bridget are adjacent to each other in the same row or the same column?",
+    "choices": [
+      "frac{1}{3}",
+      "frac{2}{5}",
+      "frac{7}{15}",
+      "frac{1}{2}",
+      "frac{2}{3}"
+    ],
+    "answer": 4,
+    "page": "AMC8_2018_11.html"
+  },
+  {
+    "year": 2018,
+    "num": 2,
+    "question": "What is the value of the product \\[ (1+11 ) (1+12 ) (1+13 ) (1+14 ) (1+15 ) (1+16 )?\\]",
+    "choices": [
+      "frac{7}{6}",
+      "frac{4}{3}",
+      "frac{7}{2}",
+      "7",
+      "8"
+    ],
+    "answer": 4,
+    "page": "AMC8_2018_2.html"
+  },
+  {
+    "year": 2018,
+    "num": 25,
+    "question": "How many perfect cubes lie between 2^8+1 and 2^18+1 , inclusive?",
+    "choices": [
+      "4",
+      "9",
+      "10",
+      "57",
+      "58"
+    ],
+    "answer": 4,
+    "page": "AMC8_2018_25.html"
+  },
+  {
+    "year": 2018,
+    "num": 3,
+    "question": "Students Arn, Bob, Cyd, Dan, Eve, and Fon are arranged in that order in a circle. They start counting: Arn first, then Bob, and so forth. When the number contains a 7 as a digit (such as 47) or is a multiple of 7 that person leaves the circle and the counting continues. Who is the last one present in the circle?",
+    "choices": [
+      "Arn",
+      "Bob",
+      "Cyd",
+      "Dan",
+      "Eve"
+    ],
+    "answer": 2,
+    "page": "AMC8_2018_3.html"
+  },
+  {
+    "year": 2018,
+    "num": 4,
+    "question": "The twelve-sided figure shown has been drawn on 1 cm 1 cm graph paper. What is the area of the figure in cm^2 ?",
+    "choices": [
+      "12",
+      "12.5",
+      "13",
+      "13.5",
+      "14"
+    ],
+    "answer": 4,
+    "page": "AMC8_2018_4.html",
+    "image": "images/AMC8_2018_4_diagram.png"
+  },
+  {
+    "year": 2018,
+    "num": 5,
+    "question": "What is the value of 1+3+5+ +2017+2019-2-4-6- -2016-2018 ?",
+    "choices": [
+      "-1010",
+      "-1009",
+      "1008",
+      "1009",
+      "1010"
+    ],
+    "answer": 1,
+    "page": "AMC8_2018_5.html"
+  },
+  {
+    "year": 2018,
+    "num": 6,
+    "question": "On a trip to the beach, Anh traveled 50 miles on the highway and 10 miles on a coastal access road. He drove three times as fast on the highway as on the coastal road. If Anh spent 30 minutes driving on the coastal road, how many minutes did his entire trip take?",
+    "choices": [
+      "50",
+      "70",
+      "80",
+      "90",
+      "100"
+    ],
+    "answer": 3,
+    "page": "AMC8_2018_6.html"
+  },
+  {
+    "year": 2018,
+    "num": 7,
+    "question": "The 5 -digit number 2 0 1 8 U is divisible by 9 . What is the remainder when this number is divided by 8 ?",
+    "choices": [
+      "1",
+      "3",
+      "5",
+      "6",
+      "7"
+    ],
+    "answer": 2,
+    "page": "AMC8_2018_7.html"
+  },
+  {
+    "year": 2018,
+    "num": 8,
+    "question": "John Pork asked the members of his health class how many days last week they exercised for at least 30 minutes. The results are summarized in the following bar graph, where the heights of the bars represent the number of students. What was the mean number of days of exercise last week, rounded to the nearest hundredth, reported by the students in J",
+    "choices": [
+      "3.50",
+      "3.57",
+      "4.36",
+      "4.50",
+      "5.00"
+    ],
+    "answer": 1,
+    "page": "AMC8_2018_8.html",
+    "image": "images/AMC8_2018_8_diagram.png"
+  },
+  {
+    "year": 2018,
+    "num": 9,
+    "question": "Tyler is tiling the floor of his 12-foot by 16-foot living room. He plans to place one-foot by one-foot square tiles to form a border along the edges of the room and to fill in the rest of the floor with two-foot by two-foot square tiles. How many tiles will he use?",
+    "choices": [
+      "48",
+      "87",
+      "89",
+      "96",
+      "120"
+    ],
+    "answer": 3,
+    "page": "AMC8_2018_9.html"
+  },
+  {
+    "year": 2024,
+    "num": 11,
+    "question": "The coordinates of ABC are A(5,7) , B(11,7) , and C(3,y) , with y>7 . The area of ABC is 12. What is the value of y ?",
+    "choices": [
+      "11/25",
+      "2/5",
+      "12/25",
+      "1/2",
+      "13/25"
+    ],
+    "answer": 3,
+    "page": "AMC8_2024_11.html",
+    "image": "images/AMC8_2024_11_diagram.png"
+  },
+  {
+    "year": 2024,
+    "num": 13,
+    "question": "Buzz Bunny is hopping up and down a set of stairs, one step at a time. In how many ways can Buzz Bunny start on the ground, make a sequence of 6 hops, and end up back on the ground? (For example, one sequence of hops is up-up-down-down-up-down.)",
+    "choices": [
+      "1/4",
+      "1/3",
+      "1/2",
+      "2/3",
+      "3/4"
+    ],
+    "answer": 1,
+    "page": "AMC8_2024_13.html"
+  },
+  {
+    "year": 2024,
+    "num": 14,
+    "question": "The one-way routes connecting towns A,M,C,X,Y, and Z are shown in the figure below(not drawn to scale).The distances in kilometers along each route are marked. Traveling along these routes, what is the shortest distance from A to Z in kilometers?",
+    "choices": [
+      "20",
+      "24",
+      "28",
+      "32",
+      "36"
+    ],
+    "answer": 0,
+    "page": "AMC8_2024_14.html",
+    "image": "images/AMC8_2024_14_diagram.png"
+  },
+  {
+    "year": 2024,
+    "num": 15,
+    "question": "Let the letters F , L , Y , B , U , G represent distinct digits. Suppose F~L~Y~F~L~Y is the greatest number that satisfies the equation \\[8 ~L~Y~F~L~Y=B~U~G~B~U~G.\\] What is the value of F~L~Y+B~U~G ?",
+    "choices": [
+      "52,800",
+      "105,600",
+      "158,400",
+      "211,200",
+      "264,000"
+    ],
+    "answer": 3,
+    "page": "AMC8_2024_15.html"
+  },
+  {
+    "year": 2024,
+    "num": 16,
+    "question": "Minh enters the numbers 1 through 81 into the cells of a 9 9 grid in some order. She calculates the product of the numbers in each row and column. What is the least number of rows and columns that could have a product divisible by 3 ?",
+    "choices": [
+      "4",
+      "6",
+      "8",
+      "10",
+      "12"
+    ],
+    "answer": 4,
+    "page": "AMC8_2024_16.html"
+  },
+  {
+    "year": 2024,
+    "num": 17,
+    "question": "A chess king is said to attack all the squares one step away from it, horizontally, vertically, or diagonally. For instance, a king on the center square of a 3 x 3 grid attacks all 8 other squares, as shown below. Suppose a white king and a black king are placed on different squares of a 3 x 3 grid so that they do not attack each other (in other wo",
+    "choices": [
+      "3",
+      "4",
+      "6",
+      "8",
+      "16"
+    ],
+    "answer": 2,
+    "page": "AMC8_2024_17.html",
+    "image": "images/AMC8_2024_17_diagram.png"
+  },
+  {
+    "year": 2024,
+    "num": 18,
+    "question": "Three concentric circles centered at O have radii of 1 , 2 , and 3 . Points B and C lie on the largest circle. The region between the two smaller circles is shaded, as is the portion of the region between the two larger circles bounded by central angles BOC , as shown in the figure below. Suppose the shaded and unshaded regions are equal in area. W",
+    "choices": [
+      "1:3",
+      "1:2",
+      "3:8",
+      "2:5",
+      "3:5"
+    ],
+    "answer": 2,
+    "page": "AMC8_2024_18.html",
+    "image": "images/AMC8_2024_18_diagram.png"
+  },
+  {
+    "year": 2024,
+    "num": 19,
+    "question": "Jordan owns 15 pairs of sneakers. Three fifths of the pairs are red and the rest are white. Two thirds of the pairs are high-top and the rest are low-top. The red high-top sneakers make up a fraction of the collection. What is the least possible value of this fraction?",
+    "choices": [
+      "1/9",
+      "2/9",
+      "4/9",
+      "1/3",
+      "5/9"
+    ],
+    "answer": 4,
+    "page": "AMC8_2024_19.html"
+  },
+  {
+    "year": 2024,
+    "num": 2,
+    "question": "What is the value of this expression in decimal form? \\[4411 + 11044 + 441100\\]",
+    "choices": [
+      "6.4",
+      "6.504",
+      "6.54",
+      "6.9",
+      "6.94"
+    ],
+    "answer": 2,
+    "page": "AMC8_2024_2.html"
+  },
+  {
+    "year": 2024,
+    "num": 20,
+    "question": "Any three vertices of the cube PQRSTUVW , shown in the figure below, can be connected to form a triangle. (For example, vertices P , Q , and R can be connected to form isosceles PQR .) How many of these triangles are equilateral and contain P as a vertex?",
+    "choices": [
+      "12",
+      "14",
+      "16",
+      "18",
+      "20"
+    ],
+    "answer": 2,
+    "page": "AMC8_2024_20.html",
+    "image": "images/AMC8_2024_20_diagram.png"
+  },
+  {
+    "year": 2024,
+    "num": 22,
+    "question": "A roll of tape is 4 inches in diameter and is wrapped around a ring that is 2 inches in diameter. A cross section of the tape is shown in the figure below. The tape is 0.015 inches thick. If the tape is completely unrolled, approximately how long would it be? Round your answer to the nearest 100 inches.",
+    "choices": [
+      "10",
+      "12",
+      "14",
+      "16",
+      "18"
+    ],
+    "answer": 1,
+    "page": "AMC8_2024_22.html",
+    "image": "images/AMC8_2024_22_diagram.png"
+  },
+  {
+    "year": 2024,
+    "num": 23,
+    "question": "Rodrigo has a very large sheet of graph paper. First he draws a line segment connecting point (0,4) to point (2,0) and colors the 4 cells whose interiors intersect the segment, as shown below. Next Rodrigo draws a line segment connecting point (2000,3000) to point (5000,8000) . How many cells will he color this time?",
+    "choices": [
+      "3",
+      "2*sqrt(3)",
+      "3*sqrt(3)",
+      "4*sqrt(3)",
+      "6"
+    ],
+    "answer": 2,
+    "page": "AMC8_2024_23.html",
+    "image": "images/AMC8_2024_23_diagram.png"
+  },
+  {
+    "year": 2024,
+    "num": 24,
+    "question": "Jean has made a piece of stained glass art in the shape of two mountains, as shown in the figure below. One mountain peak is 8 feet high while the other peak is 12 feet high. Each peak forms a 90^ angle, and the straight sides form a 45^ angle with the ground. The artwork has an area of 183 square feet. The sides of the mountain meet at an intersec",
+    "choices": [
+      "sqrt(40)",
+      "sqrt(45)",
+      "sqrt(50)",
+      "sqrt(52)",
+      "sqrt(61)"
+    ],
+    "answer": 3,
+    "page": "AMC8_2024_24.html",
+    "image": "images/AMC8_2024_24_diagram.png"
+  },
+  {
+    "year": 2024,
+    "num": 25,
+    "question": "A small airplane has 4 rows of seats with 3 seats in each row. Eight passengers have boarded the plane and are distributed randomly among the seats. A married couple is next to board. What is the probability there will be 2 adjacent seats in the same row for the couple?",
+    "choices": [
+      "9",
+      "10",
+      "11",
+      "12",
+      "13"
+    ],
+    "answer": 3,
+    "page": "AMC8_2024_25.html",
+    "image": "images/AMC8_2024_25_diagram.png"
+  },
+  {
+    "year": 2024,
+    "num": 5,
+    "question": "Aaliyah rolls two standard 6-sided dice. She notices that the product of the two numbers rolled is a multiple of 6 . Which of the following integers cannot be the sum of the two numbers?",
+    "choices": [
+      "16",
+      "17",
+      "18",
+      "19",
+      "20"
+    ],
+    "answer": 2,
+    "page": "AMC8_2024_5.html"
+  },
+  {
+    "year": 2024,
+    "num": 6,
+    "question": "Sergai skated around an ice rink, gliding along different paths. The gray lines in the figures below show four of the paths labeled P, Q, R, and S. What is the sorted order of the four paths from shortest to longest?",
+    "choices": [
+      "12",
+      "14",
+      "16",
+      "18",
+      "20"
+    ],
+    "answer": 0,
+    "page": "AMC8_2024_6.html"
+  },
+  {
+    "year": 2024,
+    "num": 7,
+    "question": "A 3 7 rectangle is covered without overlap by 3 shapes of tiles: 2 2 , 1 4 , and 1 1 , shown below. What is the minimum possible number of 1 1 tiles used?",
+    "choices": [
+      "59 cm",
+      "89 cm",
+      "119 cm",
+      "1.19 m",
+      "1.78 m"
+    ],
+    "answer": 1,
+    "page": "AMC8_2024_7.html"
+  },
+  {
+    "year": 2025,
+    "num": 1,
+    "question": "The eight-pointed star, shown in the figure below, is a popular quilting pattern. What percent of the entire 4 4 grid is covered by the star?",
+    "choices": [
+      "40",
+      "50",
+      "60",
+      "75",
+      "80"
+    ],
+    "answer": 1,
+    "page": "AMC8_2025_1.html",
+    "image": "images/AMC8_2025_1_diagram.png"
+  },
+  {
+    "year": 2025,
+    "num": 10,
+    "question": "In the figure below, ABCD is a rectangle with sides of length AB = 5 inches and AD = 3 inches. Rectangle ABCD is rotated 90^ clockwise around the midpoint of side DC to give a second rectangle. What is the total area, in square inches, covered by the two overlapping rectangles?",
+    "choices": [
+      "3/8",
+      "7/16",
+      "1/2",
+      "9/16",
+      "5/8"
+    ],
+    "answer": 3,
+    "page": "AMC8_2025_10.html"
+  },
+  {
+    "year": 2025,
+    "num": 11,
+    "question": "A tetromino consists of four squares connected along their edges. There are five possible tetromino shapes, I , O , L , T , and S , shown below, which can be rotated or flipped over. Three tetrominoes are used to completely cover a 3 4 rectangle. At least one of the tiles is an S tile. What are the other two tiles? and L (B) I and T (C) L and L (D)",
+    "choices": [
+      "10",
+      "12",
+      "14",
+      "15",
+      "18"
+    ],
+    "answer": 2,
+    "page": "AMC8_2025_11.html",
+    "image": "images/AMC8_2025_11_diagram.png"
+  },
+  {
+    "year": 2025,
+    "num": 12,
+    "question": "The region shown below consists of 24 squares, each with side length 1 centimeter. What is the area, in square centimeters, of the largest circle that can fit inside the region, possibly touching the boundaries?",
+    "choices": [
+      "12",
+      "15",
+      "18",
+      "20",
+      "24"
+    ],
+    "answer": 2,
+    "page": "AMC8_2025_12.html",
+    "image": "images/AMC8_2025_12_diagram.png"
+  },
+  {
+    "year": 2025,
+    "num": 15,
+    "question": "Kei draws a 6 -by- 6 grid. He colors 13 of the unit squares silver and the remaining squares gold. Kei then folds the grid in half vertically, forming pairs of overlapping unit squares. Let m and M equal the least and greatest possible number of gold-on-gold pairs, respectively. What is the value of m+M ?",
+    "choices": [
+      "6",
+      "8",
+      "9",
+      "10",
+      "12"
+    ],
+    "answer": 2,
+    "page": "AMC8_2025_15.html",
+    "image": "images/AMC8_2025_15_diagram.png"
+  },
+  {
+    "year": 2025,
+    "num": 17,
+    "question": "In the land of Markovia, there are three cities: A , B , and C . There are 100 people who live in A , 120 who live in B , and 160 who live in C . Everyone works in one of the three cities, and a person may work in the same city where they live. In the figure below, an arrow pointing from one city to another is labeled with the fraction of people li",
+    "choices": [
+      "8",
+      "9",
+      "10",
+      "12",
+      "15"
+    ],
+    "answer": 2,
+    "page": "AMC8_2025_17.html",
+    "image": "images/AMC8_2025_17_diagram.png"
+  },
+  {
+    "year": 2025,
+    "num": 18,
+    "question": "The circle shown below on the left has a radius of 1 unit. The region between the circle and the inscribed square is shaded. In the circle shown on the right, one quarter of the region between the circle and the inscribed square is shaded. The shaded regions in the two circles have the same area. What is the radius R , in units, of the circle on th",
+    "choices": [
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "answer": 1,
+    "page": "AMC8_2025_18.html",
+    "image": "images/AMC8_2025_18_diagram.png"
+  },
+  {
+    "year": 2025,
+    "num": 2,
+    "question": "The table below shows the ancient Egyptian hieroglyphs that were used to represent different numbers. For example, the number 32 was represented by the hieroglyphs || . What number is represented by the following combination of hieroglyphs?",
+    "choices": [
+      "12",
+      "14",
+      "16",
+      "18",
+      "20"
+    ],
+    "answer": 1,
+    "page": "AMC8_2025_2.html"
+  },
+  {
+    "year": 2025,
+    "num": 21,
+    "question": "The Konigsberg School has assigned grades 1 through 7 to pods A through G , one grade per pod. Some of the pods are connected by walkways, as shown in the figure below. The school noticed that each pair of connected pods has been assigned grades differing by 1 or more grade levels. (For example, grades 1 and 2 will not be in pods directly connected",
+    "choices": [
+      "4",
+      "6",
+      "8",
+      "10",
+      "12"
+    ],
+    "answer": 0,
+    "page": "AMC8_2025_21.html",
+    "image": "images/AMC8_2025_21_diagram.png"
+  },
+  {
+    "year": 2025,
+    "num": 24,
+    "question": "The figure shows a cube with some faces shaded. How many faces are shaded?",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "answer": 3,
+    "page": "AMC8_2025_24.html",
+    "image": "images/AMC8_2025_24_diagram.png"
+  },
+  {
+    "year": 2025,
+    "num": 25,
+    "question": "Makayla finds all the possible ways to draw a path in a 5 5 diamond-shaped grid. Each path starts at the bottom of the grid and ends at the top, always moving one unit northeast or northwest. She computes the area of the region between each path and the right side of the grid. Two examples are shown in the figures below. What is the sum of the area",
+    "choices": [
+      "126",
+      "168",
+      "210",
+      "252",
+      "336"
+    ],
+    "answer": 3,
+    "page": "AMC8_2025_25.html",
+    "image": "images/AMC8_2025_25_diagram.png"
+  },
+  {
+    "year": 2025,
+    "num": 3,
+    "question": "Buffalo Shuffle-o is a card game in which all the cards are distributed evenly among all players at the start of the game. When Annika and 3 of her friends play Buffalo Shuffle-o, each player is dealt 15 cards. Suppose 2 more friends join the next game. How many cards will be dealt to each player?",
+    "choices": [
+      "16",
+      "18",
+      "20",
+      "22",
+      "24"
+    ],
+    "answer": 2,
+    "page": "AMC8_2025_3.html"
+  },
+  {
+    "year": 2025,
+    "num": 4,
+    "question": "Lucius is counting backward by 7 s. His first three numbers are 100 , 93 , and 86 . What is his 10 th number?",
+    "choices": [
+      "3",
+      "4",
+      "5",
+      "6",
+      "8"
+    ],
+    "answer": 1,
+    "page": "AMC8_2025_4.html"
+  },
+  {
+    "year": 2025,
+    "num": 5,
+    "question": "Betty drives a truck to deliver packages in a neighborhood whose street map is shown below. Betty starts at the factory (labled F ) and drives to location A , then B , then C , before returning to F . What is the shortest distance, in blocks, she can drive to complete the route?",
+    "choices": [
+      "1/5",
+      "2/5",
+      "1/2",
+      "3/5",
+      "4/5"
+    ],
+    "answer": 2,
+    "page": "AMC8_2025_5.html",
+    "image": "images/AMC8_2025_5_diagram.png"
+  },
+  {
+    "year": 2025,
+    "num": 8,
+    "question": "Isaiah cuts open a cardboard cube along some of its edges to form the flat shape shown on the right, which has an area of 18 square centimeters. What is the volume of the cube in cubic centimeters?",
+    "choices": [
+      "1/4",
+      "1/3",
+      "2/5",
+      "1/2",
+      "3/4"
+    ],
+    "answer": 0,
+    "page": "AMC8_2025_8.html"
+  },
+  {
+    "year": 2026,
+    "num": 1,
+    "question": "What is the value of the following expression? 1+2-3+4+5-6+7+8-9+10+11-12",
+    "choices": [
+      "'18'",
+      "'21'",
+      "'24'",
+      "'27'",
+      "'30'"
+    ],
+    "answer": 0,
+    "page": "AMC8_2026_1.html"
+  },
+  {
+    "year": 2026,
+    "num": 10,
+    "question": "Five runners completed the grueling Xmarathon: Luke, Melina, Nico, Olympia, and Pedro. Nico finished 11 minutes behind Pedro. Olympia finished 2 minutes ahead of Melina, but 3 minutes behind Pedro. Olympia finished 6 minutes ahead of Luke. Which runner finished fourth?",
+    "choices": [
+      "'Luke'",
+      "'Melina'",
+      "'Nico'",
+      "'Olympia'",
+      "'Pedro'"
+    ],
+    "answer": 0,
+    "page": "AMC8_2026_10.html",
+    "image": "images/AMC8_2026_10_diagram.png"
+  },
+  {
+    "year": 2026,
+    "num": 11,
+    "question": "Squares of side length 1, 1, 2, 3, and 5 are arranged to form the rectangle shown below. A curve is drawn by inscribing a quarter circle in each square and joining the quarter circles in order, from shortest to longest. What is the length of the curve?",
+    "choices": [
+      "20",
+      "25",
+      "30",
+      "35",
+      "40"
+    ],
+    "answer": 1,
+    "page": "AMC8_2026_11.html"
+  },
+  {
+    "year": 2026,
+    "num": 12,
+    "question": "In the figure below, each circle will be filled with a digit from 1 to 6. Each digit must appear exactly once. The sum of the digits in neighboring circles is shown in the box between them. What digit must be placed in the top circle?",
+    "choices": [
+      "12",
+      "14",
+      "16",
+      "18",
+      "20"
+    ],
+    "answer": 3,
+    "page": "AMC8_2026_12.html"
+  },
+  {
+    "year": 2026,
+    "num": 13,
+    "question": "The figure below shows a tiling of 1 1 unit squares. Each row of unit squares is shifted horizontally by half a unit relative to the row above it. A shaded square is drawn on top of the tiling. Each vertex of the shaded square is a vertex of one of the unit squares. In square units, what is the area of the shaded square? \\[A. 10 B. 212 C. 323 D. 11",
+    "choices": [
+      "4",
+      "6",
+      "8",
+      "10",
+      "12"
+    ],
+    "answer": 0,
+    "page": "AMC8_2026_13.html"
+  },
+  {
+    "year": 2026,
+    "num": 14,
+    "question": "Jami picked three equally spaced integer numbers on the number line. The sum of the first and the second numbers is 40, while the sum of the second and third numbers is 60. What is the sum of all three numbers?",
+    "choices": [
+      "'70'",
+      "'75'",
+      "'80'",
+      "'85'",
+      "'90'"
+    ],
+    "answer": 1,
+    "page": "AMC8_2026_14.html"
+  },
+  {
+    "year": 2026,
+    "num": 15,
+    "question": "Elijah has a large collection of identical wooden cubes which are white on 4 faces and gray on 2 faces that share an edge. He glues some cubes together face-to-face. The figure below shows 2 cubes being glued together, leaving 3 gray faces visible. What is the fewest number of cubes that he could glue together to ensure that no gray faces are visib",
+    "choices": [
+      "1/12",
+      "5/12",
+      "7/12",
+      "1/2",
+      "1/6"
+    ],
+    "answer": 0,
+    "page": "AMC8_2026_15.html"
+  },
+  {
+    "year": 2026,
+    "num": 16,
+    "question": "Consider all positive four-digit integers consisting of only even digits. What fraction of these integers are divisible by 4 ?",
+    "choices": [
+      "'1/4'",
+      "'2/5'",
+      "'1/2'",
+      "'3/5'",
+      "'3/4'"
+    ],
+    "answer": 3,
+    "page": "AMC8_2026_16.html"
+  },
+  {
+    "year": 2026,
+    "num": 17,
+    "question": "Four students are seated in a row. They chat with the people sitting next to them, then rearrange themselves so that they are no longer seated next to any of the same people. How many rearrangements are possible?",
+    "choices": [
+      "'2'",
+      "'4'",
+      "'9'",
+      "'12'",
+      "'24'"
+    ],
+    "answer": 0,
+    "page": "AMC8_2026_17.html"
+  },
+  {
+    "year": 2026,
+    "num": 18,
+    "question": "In how many ways can 60 be written as the sum of two or more consecutive odd positive integers that are arranged in increasing order?",
+    "choices": [
+      "'1'",
+      "'2'",
+      "'3'",
+      "'4'",
+      "'5'"
+    ],
+    "answer": 1,
+    "page": "AMC8_2026_18.html"
+  },
+  {
+    "year": 2026,
+    "num": 19,
+    "question": "Miguel is walking with his dog, Luna. When they reach the entrance to a park, Miguel throws a ball straight ahead and continues to walk at a steady pace. Luna sprints toward the ball, which stops by a tree. As soon as the dog reaches the ball, she brings it back to Miguel. Luna runs 5 times faster than Miguel walks. What fraction of the distance be",
+    "choices": [
+      "24",
+      "28",
+      "32",
+      "36",
+      "40"
+    ],
+    "answer": 3,
+    "page": "AMC8_2026_19.html"
+  },
+  {
+    "year": 2026,
+    "num": 2,
+    "question": "In the array shown below, three 3s are surrounded by 2s, which are in turn surrounded by a border of 1s. What is the sum of the numbers in the array? \\[arrayccccccc 1 & 1 & 1 & 1 & 1 & 1 & 1 \\\\ 1 & 2 & 2 & 2 & 2 & 2 & 1 \\\\ 1 & 2 & 3 & 3 & 3 & 2 & 1 \\\\ 1 & 2 & 2 & 2 & 2 & 2 & 1 \\\\ 1 & 1 & 1 & 1 & 1 & 1 & 1 array\\]",
+    "choices": [
+      "'49'",
+      "'51'",
+      "'53'",
+      "'55'",
+      "'57'"
+    ],
+    "answer": 2,
+    "page": "AMC8_2026_2.html"
+  },
+  {
+    "year": 2026,
+    "num": 20,
+    "question": "The land of Catania uses gold coins and silver coins. Gold coins are 1 mm thick and silver coins are 3 mm thick. In how many ways can Taylor make a stack of coins that is 8 mm tall using any arrangement of gold and silver coins, assuming order matters?",
+    "choices": [
+      "'3'",
+      "'7'",
+      "'10'",
+      "'13'",
+      "'16'"
+    ],
+    "answer": 3,
+    "page": "AMC8_2026_20.html"
+  },
+  {
+    "year": 2026,
+    "num": 21,
+    "question": "Charlotte the spider is walking along a web shaped like a 5 -pointed star, shown in the figure below. The web has 5 outer points and 5 inner points. Each time Charlotte reaches a point, she randomly chooses a neighboring point and moves to that point. Charlotte starts at one of the outer points and makes 3 moves (re-visiting points is allowed). Wha",
+    "choices": [
+      "4",
+      "6",
+      "8",
+      "10",
+      "12"
+    ],
+    "answer": 1,
+    "page": "AMC8_2026_21.html"
+  },
+  {
+    "year": 2026,
+    "num": 22,
+    "question": "The integers from 1 through 25 are arbitrarily separated into five groups of 5 numbers each. The median of each group is identified. Let M equal the median of the five medians. What is the least possible value of M ?",
+    "choices": [
+      "'9'",
+      "'10'",
+      "'12'",
+      "'13'",
+      "'14'"
+    ],
+    "answer": 0,
+    "page": "AMC8_2026_22.html",
+    "image": "images/AMC8_2026_22_diagram.png"
+  },
+  {
+    "year": 2026,
+    "num": 23,
+    "question": "Lakshmi has 5 round coins of diameter 4 centimeters. She arranges the coins in 2 rows on a table top, as shown below, and wraps an elastic band tightly around them. In centimeters, what will be the length of the band?",
+    "choices": [
+      "12/7",
+      "60/37",
+      "12/5",
+      "5/3",
+      "2"
+    ],
+    "answer": 2,
+    "page": "AMC8_2026_23.html",
+    "image": "images/AMC8_2026_23_diagram.png"
+  },
+  {
+    "year": 2026,
+    "num": 24,
+    "question": "The notation n! (read \"n factorial\") is defined as the product of the first n positive integers. (For example, 3!=1 2 3 = 6 ). Define the superfactorial of a positive integer, denoted by n^! , to be the product of the factorials of the first n integers. (For example, 3^!=1! 2! 3! = 12 ). How many factors of 7 appear in the prime factorization of 51",
+    "choices": [
+      "'147'",
+      "'150'",
+      "'156'",
+      "'168'",
+      "'171'"
+    ],
+    "answer": 4,
+    "page": "AMC8_2026_24.html"
+  },
+  {
+    "year": 2026,
+    "num": 25,
+    "question": "In an equiangular hexagon, all interior angles measure 120^ . An example of such a hexagon with side lengths 2 , 3 , 1 , 3 , 2 , and 2 is shown below, inscribed in equilateral triangle ABC . Consider all equiangular hexagons with positive integer side lengths that can be inscribed in ABC , with all six vertices on the sides of the triangle. What is",
+    "choices": [
+      "45",
+      "55",
+      "65",
+      "75",
+      "85"
+    ],
+    "answer": 4,
+    "page": "AMC8_2026_25.html",
+    "image": "images/AMC8_2026_25_diagram.png"
+  },
+  {
+    "year": 2026,
+    "num": 3,
+    "question": "Haruki has a piece of wire that is 24 centimeters long. He wants to bend it to form each of the following shapes, one at a time: A regular hexagon with side length 5 cm. A square with area 36 3pt cm^2 . A right triangle whose legs are 6 and 8 cm long. Which of the shapes can Haruki make?",
+    "choices": [
+      "'Triangle only'",
+      "'Hexagon and square only'",
+      "'Hexagon and triangle only'",
+      "'Square and triangle only'",
+      "'Hexagon, triangle, and square'"
+    ],
+    "answer": 3,
+    "page": "AMC8_2026_3.html"
+  },
+  {
+    "year": 2026,
+    "num": 4,
+    "question": "Brynn's savings decreased by 20 \\% in July, then increased by 50 \\% in August. Brynn's savings are now what percent of the original amount?",
+    "choices": [
+      "'80'",
+      "'90'",
+      "'100'",
+      "'110'",
+      "'120'"
+    ],
+    "answer": 4,
+    "page": "AMC8_2026_4.html"
+  },
+  {
+    "year": 2026,
+    "num": 5,
+    "question": "Casey went on a road trip that covered 100 miles, stopping only for a lunch break along the way. The trip took 3 hours in total and her average speed while driving was 40 miles per hour. In minutes, how long was the lunch break?",
+    "choices": [
+      "'15'",
+      "'30'",
+      "'40'",
+      "'45'",
+      "'60'"
+    ],
+    "answer": 1,
+    "page": "AMC8_2026_5.html"
+  },
+  {
+    "year": 2026,
+    "num": 6,
+    "question": "Peter lives near a rectangular field that is filled with blackberry bushes. The field is 10 meters long and 8 meters wide, and Peter can reach any blackberries that are within 1 meter of an edge of the field. The portion of the field he can reach is shaded in the figure below. What fraction of the area of the field can Peter reach?",
+    "choices": [
+      "4.5",
+      "5",
+      "5.5",
+      "6",
+      "6.5"
+    ],
+    "answer": 4,
+    "page": "AMC8_2026_6.html"
+  },
+  {
+    "year": 2026,
+    "num": 7,
+    "question": "Mika would like to estimate how far she can ride a new model of electric bike on a fully charged battery. She completed two trips totaling 40 miles. The first trip used 12 of the total battery power, while the second trip used 310 of the total battery power. How many miles can this electric bike go on a fully charged battery?",
+    "choices": [
+      "'45'",
+      "'48'",
+      "'50'",
+      "'52'",
+      "'55'"
+    ],
+    "answer": 2,
+    "page": "AMC8_2026_7.html"
+  },
+  {
+    "year": 2026,
+    "num": 8,
+    "question": "A poll asked a number of people if they liked solving mathematics problems. Exactly 74\\% answered \"yes.\" What is the fewest possible number of people who could have been asked the question?",
+    "choices": [
+      "'10'",
+      "'20'",
+      "'25'",
+      "'50'",
+      "'100'"
+    ],
+    "answer": 3,
+    "page": "AMC8_2026_8.html"
+  },
+  {
+    "year": 2026,
+    "num": 9,
+    "question": "What is the value of this expression? \\[ 16 8181 16\\]",
+    "choices": [
+      "4",
+      "6",
+      "8",
+      "10",
+      "12"
+    ],
+    "answer": 1,
+    "page": "AMC8_2026_9.html"
+  }
+]

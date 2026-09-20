@@ -1,0 +1,286 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link rel="canonical" href="https://www.mathalready.com/AMC8_practice_pdf.html" />
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-N0YL0FX070"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N0YL0FX070');</script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1337506067911632" crossorigin="anonymous"></script>
+<title>AMC 8 Practice Test PDF - 40 Random Questions - MathAlready</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="description" content="Download a free AMC 8 practice test PDF with 40 random questions. Perfect for AMC 8 math competition preparation." />
+<meta name="robots" content="index, follow" />
+<link href="styleV0303.css" rel="stylesheet" type="text/css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<style>
+  .pdf-btn {
+    background-color: #1a73e8;
+    color: white;
+    border: none;
+    padding: 14px 32px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 10px 5px;
+  }
+  .pdf-btn:hover { background-color: #1558b0; }
+  .pdf-btn:disabled { background-color: #aaa; cursor: not-allowed; }
+  .options { margin: 20px 0; }
+  .options label { margin-right: 16px; font-weight: bold; }
+  #status { margin-top: 12px; color: #555; font-style: italic; }
+  .preview-box { margin-top: 20px; border: 1px solid #ddd; padding: 16px; border-radius: 4px; background: #f9f9f9; max-height: 400px; overflow-y: auto; }
+  .q-item { margin-bottom: 12px; padding-bottom: 12px; border-bottom: 1px solid #eee; }
+  .q-num { font-weight: bold; color: #1a73e8; }
+</style>
+</head>
+<body>
+<div class="main">
+  <div class="header"><div class="header_resize">
+    <div class="logo"><h1><a href="index.html">Math<span>Already</span> <small>the calculator for everyone</small></a></h1></div>
+    <div class="menu_nav"><ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="Geometry.html">Geometry</a></li>
+      <li><a href="Physics.html">Physics</a></li>
+      <li><a href="finance.html">Finance</a></li>
+      <li><a href="Algebra.html">Algebra</a></li>
+      <li><a href="about.html">About us</a></li>
+      <li><a href="contact.html">Contact us</a></li>
+    </ul></div>
+    <div class="clr"></div>
+  </div></div>
+
+  <div class="content"><div class="content_resize"><div class="mainbar">
+    <div class="article">
+      <h2>AMC 8 Practice Test PDF</h2>
+      <div class="clr"></div>
+      <p>Generate a free printable PDF with 40 random AMC 8 practice questions. Each PDF is unique — questions are randomly selected from our pool of 100+ problems from 2016 to 2026.</p>
+
+      <div class="options">
+        <label><input type="checkbox" id="showAnswers" /> Include Answer Key</label>
+        <label><input type="checkbox" id="shuffleChoices" checked /> Shuffle Answer Choices</label>
+      </div>
+
+      
+      <p style="margin-top:10px;">
+        <a href="AMC8_sample_practice.pdf" target="_blank" 
+           style="color:#1a73e8; font-weight:bold; text-decoration:underline;">
+          &#8595; Download Sample PDF (preview before generating your own)
+        </a>
+      </p>
+      <button class="pdf-btn" id="generateBtn" onclick="generatePDF()">Generate PDF (40 Questions)</button>
+      <button class="pdf-btn" onclick="previewQuestions()" style="background:#34a853;">Preview Questions</button>
+      <div id="status"></div>
+      <div id="preview"></div>
+    </div>
+  </div>
+
+  <div class="sidebar"><div class="gadget">
+    <h2 class="star"><span>App</span> Menu</h2><div class="clr"></div>
+    <ul class="sb_menu">
+      <li><a href="AnalyticSolution.html">Analytic Solutions</a></li>
+      <li><a href="AMC_8_daily.html">AMC 8 Daily Question</a></li>
+      <li><a href="AMC_8_random.html">AMC 8 Random Question</a></li>
+      <li><a href="AMC8_test.html">AMC 8 Free test</a></li>
+      <li><a href="AMC8_challenge.html">AMC 8 Challenge</a></li>
+      <li><a href="AMC8_practice_pdf.html"><b>Download PDF</b></a></li>
+    </ul>
+  </div></div>
+  <div class="clr"></div>
+  </div></div>
+
+  <div class="fbg"><div class="fbg_resize">
+    <div class="col c2"><h2><span>Why this website?</span></h2>
+      <p>MathAlready helps students understand formulas and practice for AMC 8 and SAT.</p>
+    </div>
+    <div class="col c3"><h2><span>Contact</span></h2>
+      <p><a href="mailto:ma@mathalready.com">ma@mathalready.com</a></p>
+    </div>
+    <div class="clr"></div>
+  </div></div>
+</div>
+
+<script>
+var allQuestions = null;
+var selectedQuestions = null;
+
+function loadQuestions(callback) {
+  if (allQuestions) { callback(); return; }
+  fetch('questions.json')
+    .then(r => r.json())
+    .then(data => { allQuestions = data; callback(); })
+    .catch(e => { document.getElementById('status').textContent = 'Error loading questions: ' + e; });
+}
+
+function shuffle(arr) {
+  var a = arr.slice();
+  for (var i = a.length - 1; i > 0; i--) {
+    var j = Math.floor(Math.random() * (i + 1));
+    var t = a[i]; a[i] = a[j]; a[j] = t;
+  }
+  return a;
+}
+
+function pickQuestions() {
+  var pool = shuffle(allQuestions);
+  return pool.slice(0, 40);
+}
+
+function previewQuestions() {
+  loadQuestions(function() {
+    selectedQuestions = pickQuestions();
+    var html = '<div class="preview-box">';
+    selectedQuestions.forEach(function(q, i) {
+      var letters = ['A','B','C','D','E'];
+      var choices = document.getElementById('shuffleChoices').checked ? shuffle(q.choices) : q.choices;
+      html += '<div class="q-item"><span class="q-num">Q' + (i+1) + ' (AMC 8 ' + q.year + ' #' + q.num + ')</span><br/>';
+      html += '<b>' + q.question + '</b><br/>';
+      choices.forEach(function(c, ci) { html += '(' + letters[ci] + ') ' + c + '&nbsp;&nbsp;'; });
+      html += '</div>';
+    });
+    html += '</div>';
+    document.getElementById('preview').innerHTML = html;
+  });
+}
+
+function loadImageAsDataURL(url, callback) {
+  var img = new Image();
+  img.crossOrigin = 'anonymous';
+  img.onload = function() {
+    var canvas = document.createElement('canvas');
+    canvas.width = img.width;
+    canvas.height = img.height;
+    canvas.getContext('2d').drawImage(img, 0, 0);
+    callback(canvas.toDataURL('image/png'));
+  };
+  img.onerror = function() { callback(null); };
+  img.src = url;
+}
+
+function generatePDF() {
+  var btn = document.getElementById('generateBtn');
+  btn.disabled = true;
+  document.getElementById('status').textContent = 'Loading questions and images...';
+
+  loadQuestions(function() {
+    selectedQuestions = pickQuestions();
+    var showAnswers = document.getElementById('showAnswers').checked;
+    var doShuffle = document.getElementById('shuffleChoices').checked;
+    var letters = ['A','B','C','D','E'];
+
+    // Pre-load all images first
+    var imageCache = {};
+    var toLoad = selectedQuestions.filter(function(q){ return q.image; });
+    var loaded = 0;
+
+    function afterImagesLoaded() {
+      document.getElementById('status').textContent = 'Building PDF...';
+      var { jsPDF } = window.jspdf;
+      var doc = new jsPDF({ orientation: 'portrait', unit: 'mm', format: 'letter' });
+
+      var margin = 15;
+      var pageW = 216;
+      var contentW = pageW - margin * 2;
+      var y = margin;
+      doc.setFont('helvetica');
+
+      // Title
+      doc.setFontSize(15);
+      doc.setFont('helvetica','bold');
+      doc.text('AMC 8 Practice Test', pageW / 2, y, { align: 'center' });
+      y += 7;
+      doc.setFontSize(9);
+      doc.setFont('helvetica','normal');
+      doc.text('40 Random Questions  |  mathalready.com  |  ' + new Date().toLocaleDateString(), pageW / 2, y, { align: 'center' });
+      y += 7;
+      doc.setDrawColor(150,150,150);
+      doc.line(margin, y, pageW - margin, y);
+      y += 6;
+
+      var answers = [];
+
+      selectedQuestions.forEach(function(q, i) {
+        var qNum = i + 1;
+        var choices = doShuffle ? q.choices.slice().sort(function(){return Math.random()-0.5;}) : q.choices.slice();
+        var correctVal = q.choices[q.answer];
+        var newCorrectIdx = choices.indexOf(correctVal);
+        answers.push(letters[newCorrectIdx >= 0 ? newCorrectIdx : q.answer]);
+
+        doc.setFontSize(9.5);
+        var imgData = q.image ? imageCache[q.image] : null;
+        var imgH = imgData ? 35 : 0;
+
+        var qText = qNum + '. [AMC 8 ' + q.year + ' #' + q.num + ']  ' + q.question;
+        var qLines = doc.splitTextToSize(qText, contentW);
+        var choiceH = choices.length * 5 + 4;
+        var needed = qLines.length * 5 + imgH + choiceH + 6;
+
+        if (y + needed > 270) {
+          doc.addPage();
+          y = margin;
+        }
+
+        // Question
+        doc.setFont('helvetica','bold');
+        doc.text(qLines, margin, y);
+        y += qLines.length * 5 + 2;
+
+        // Diagram image
+        if (imgData) {
+          try {
+            doc.addImage(imgData, 'PNG', margin + 10, y, 60, 0);
+            y += 37;
+          } catch(e) {}
+        }
+
+        // Choices
+        doc.setFont('helvetica','normal');
+        choices.forEach(function(c, ci) {
+          var cText = '(' + letters[ci] + ') ' + c;
+          var cLines = doc.splitTextToSize(cText, contentW - 6);
+          doc.text(cLines, margin + 4, y);
+          y += cLines.length * 5;
+        });
+        y += 4;
+      });
+
+      // Answer key
+      if (showAnswers) {
+        doc.addPage();
+        y = margin;
+        doc.setFontSize(13);
+        doc.setFont('helvetica','bold');
+        doc.text('Answer Key', pageW / 2, y, { align: 'center' });
+        y += 10;
+        doc.setFontSize(10);
+        doc.setFont('helvetica','normal');
+        var colW = contentW / 5;
+        answers.forEach(function(a, i) {
+          var col = i % 5;
+          var row = Math.floor(i / 5);
+          doc.text((i+1) + '. ' + a, margin + col * colW, y + row * 7);
+        });
+      }
+
+      doc.save('AMC8_Practice_Test.pdf');
+      document.getElementById('status').textContent = 'PDF downloaded!';
+      btn.disabled = false;
+    }
+
+    if (toLoad.length === 0) {
+      afterImagesLoaded();
+      return;
+    }
+
+    toLoad.forEach(function(q) {
+      loadImageAsDataURL(q.image, function(dataURL) {
+        if (dataURL) imageCache[q.image] = dataURL;
+        loaded++;
+        document.getElementById('status').textContent = 'Loading images ' + loaded + '/' + toLoad.length + '...';
+        if (loaded === toLoad.length) afterImagesLoaded();
+      });
+    });
+  });
+}
+</script>
+<div style="text-align:center">Copyright 2022-2026 MathAlready</div>
+</body>
+</html>

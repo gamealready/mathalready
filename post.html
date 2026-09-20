@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>AJAX and PHP</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+	<h1>Store Variables on Server</h1>
+	<form id="myForm" method="post">
+		<label for="name">Name:</label>
+		<input type="text" name="name" id="name"><br><br>
+		<label for="score">Score:</label>
+		<input type="text" name="score" id="score"><br><br>
+		<button type="submit" id="submitBtn">Submit</button>
+	</form>
+	<div id="result"></div>
+	<script>
+		$(document).ready(function(){
+			$("#myForm").submit(function(event){
+				event.preventDefault();
+				var name = $("#name").val();
+				var score = $("#score").val();
+				$.ajax({
+					url: "store_variables.php",
+					type: "POST",
+					data: {name: name, score: score},
+					success: function(response){
+						$("#result").html(response);
+					}
+				});
+			});
+		});
+	</script>
+
+	<h1>Read Data Using AJAX and PHP</h1>
+		<table id="mytable" border="1">
+			<tr>
+				<th>Name</th>
+				<th>Score</th>
+				<th>Date</th>
+			</tr>
+		</table>
+		<button id="mybutton">Load Data</button>
+	<script>
+		$(document).ready(function() {
+			// handle button click event
+			$('#mybutton').click(function() {
+				// send AJAX request to the PHP file
+				$.ajax({
+					url: 'read_data.php',
+					type: 'GET',
+					dataType: 'json',
+					success: function(data) {
+						// update HTML page with retrieved data
+						$.each(data, function(index, value) {
+							$('#mytable').append('<tr><td>'+value.user_name+'</td><td>'+value.score+'</td><td>'+value.date_game+'</td></tr>');
+						});
+					}
+				});
+			});
+		});
+	</script>
+</body>
+</html>

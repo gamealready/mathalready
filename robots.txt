@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+Disallow: /php/
+Disallow: /signup.php
+Disallow: /config.php
+Disallow: /read_data.php
+Disallow: /store_variables.php
+
+Sitemap: https://www.mathalready.com/sitemap.xml
