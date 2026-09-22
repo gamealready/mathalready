@@ -159,8 +159,7 @@ document.onmousedown=IE;document.onmouseup=NS;document.oncontextmenu=new Functio
         url: "store_variables.php",
         type: "POST",
         data: {name: name, score: score},
-        success: function(response){
-          $("#result").text(response);
+        success: function(){
           window.location="AMC8_leader_board.html";
         },
         error: function(){
