@@ -151,7 +151,11 @@ $(document).ready(function() {
       success: function(data) {
         // update HTML page with retrieved data
         $.each(data, function(index, value) {
-          $('#mytable').append('<tr><td>'+value.user_name+'</td><td>'+value.score+'</td><td>'+value.date_game+'</td></tr>');
+          var row = $('<tr>');
+          $('<td>').text(value.user_name).appendTo(row);
+          $('<td>').text(value.score).appendTo(row);
+          $('<td>').text(value.date_game).appendTo(row);
+          $('#mytable').append(row);
         });
       }
     });
