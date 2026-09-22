@@ -162,6 +162,9 @@ document.onmousedown=IE;document.onmouseup=NS;document.oncontextmenu=new Functio
         success: function(response){
           $("#result").text(response);
           window.location="AMC8_leader_board.html";
+        },
+        error: function(){
+          $("#result").text("Unable to save your score right now. Please try again.");
         }
       });
     });
