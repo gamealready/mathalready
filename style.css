@@ -6,6 +6,7 @@ Released for free under a Creative Commons Attribution 3.0 License
 body { margin:0; padding:0; width:100%; color:#959595; font:normal 12px/1.8em Arial, Helvetica, sans-serif; background:url(images/2.jpg) no-repeat center 85px;}
 html, .main { padding:0; margin:0;}
 .main { }
+* { box-sizing:border-box;}
 .clr { clear:both; padding:0; margin:0; width:100%; font-size:0px; line-height:0px;}
 .logo { margin:0; padding:0; float:left; width:auto;}
 h1 { margin:0; padding:0; color:#1ab8c5; font:normal 42px/1.2em Arial, Helvetica, sans-serif; letter-spacing:-3px;}
@@ -104,3 +105,26 @@ img{border:0;}
     margin-right: auto;
     height:25px;
   }
+
+img, table, iframe {max-width:100%;}
+img {height:auto;}
+table {display:block; overflow-x:auto;}
+input, select, textarea {max-width:100%;}
+
+@media (max-width: 980px) {
+  body {background-position:center top;}
+  .header_resize, .content_resize, .fbg_resize, .footer_resize {width:auto; padding-left:16px; padding-right:16px;}
+  .logo, .menu_nav, .content .mainbar, .content .sidebar, .fbg .col {float:none; width:auto;}
+  .menu_nav {padding:12px 0 0; height:auto;}
+  .menu_nav ul li {margin:0 16px 8px 0;}
+  .content .mainbar .article, .content .sidebar .gadget, .content p.pages {padding-left:0; padding-right:0;}
+  .content .sidebar {margin-top:16px;}
+  .fbg .c1, .fbg .c2, .fbg .c3 {width:auto; padding:0 0 16px;}
+}
+
+@media (max-width: 640px) {
+  h1 {font-size:32px; letter-spacing:-1px;}
+  h1 small {padding-left:0;}
+  .logo, .menu_nav {text-align:center;}
+  .menu_nav ul li {float:none; display:inline-block; margin:0 8px 8px 0;}
+}
