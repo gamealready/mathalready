@@ -10,10 +10,6 @@ body {
   color: #333; /* Darker text for readability */
 }
 
-* {
-  box-sizing: border-box;
-}
-
 /* --- General Elements --- */
 
 .main {
@@ -244,88 +240,4 @@ p {
   color: #4B0082;
   background-color: #F0F8FF;
   border-top: 1px solid #ADD8E6;
-}
-
-img,
-table,
-iframe {
-  max-width: 100%;
-}
-
-img {
-  height: auto;
-}
-
-table {
-  display: block;
-  overflow-x: auto;
-}
-
-input,
-select,
-textarea {
-  max-width: 100%;
-}
-
-@media (max-width: 900px) {
-  .main {
-    width: 94%;
-  }
-
-  .logo,
-  .menu_nav,
-  .mainbar,
-  .sidebar,
-  .fbg .col {
-    float: none;
-    width: 100%;
-  }
-
-  .menu_nav {
-    padding-top: 10px;
-  }
-
-  .menu_nav ul {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
-  }
-
-  .menu_nav ul li {
-    float: none;
-    margin: 0;
-  }
-
-  .mainbar {
-    padding-right: 0;
-  }
-
-  .sidebar {
-    margin-top: 20px;
-  }
-
-  .fbg .col {
-    padding: 0;
-    margin-bottom: 16px;
-  }
-}
-
-@media (max-width: 600px) {
-  .logo,
-  .menu_nav {
-    text-align: center;
-  }
-
-  .logo h1 {
-    font-size: 28px;
-  }
-
-  .article,
-  .gadget {
-    padding: 12px;
-  }
-
-  .menu_nav ul {
-    justify-content: center;
-  }
 }
