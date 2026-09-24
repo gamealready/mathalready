@@ -160,3 +160,28 @@ function NextF()
     }
     randomlink();*/
 }
+
+(function loadTestPageStructuredData() {
+  if (typeof window === 'undefined' || typeof document === 'undefined') {
+    return;
+  }
+
+  if (typeof window.mathAlreadyAddTestPageSchema === 'function') {
+    window.mathAlreadyAddTestPageSchema();
+    return;
+  }
+
+  if (document.getElementById('mathalready-structured-data-loader')) {
+    return;
+  }
+
+  var script = document.createElement('script');
+  script.id = 'mathalready-structured-data-loader';
+  script.src = '/js/structuredDataTestPages.js';
+  script.onload = function () {
+    if (typeof window.mathAlreadyAddTestPageSchema === 'function') {
+      window.mathAlreadyAddTestPageSchema();
+    }
+  };
+  (document.head || document.documentElement).appendChild(script);
+})();
