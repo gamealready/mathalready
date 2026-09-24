@@ -179,13 +179,17 @@ function NextF()
     return '';
   }
 
-  function addJsonLd(schema) {
-    if (!schema || document.getElementById('mathalready-schema')) {
+  function addJsonLd(schema, schemaKey) {
+    if (!schema) {
+      return;
+    }
+    var existingSelector = 'script[type="application/ld+json"][data-mathalready-schema="' + schemaKey + '"]';
+    if (document.querySelector(existingSelector)) {
       return;
     }
     var script = document.createElement('script');
     script.type = 'application/ld+json';
-    script.id = 'mathalready-schema';
+    script.setAttribute('data-mathalready-schema', schemaKey);
     script.text = JSON.stringify(schema);
     document.head.appendChild(script);
   }
@@ -217,7 +221,7 @@ function NextF()
     }
 
     var isAmcQuestion = /^amc8_\d{4}_\d+\.html$/.test(pageLower);
-    var isSatQuestion = /^sat_(?:oos|p1)_\d+(?:_ca)?\.html$/.test(pageLower);
+    var isSatQuestion = /^sat_.*\.html$/.test(pageLower);
     if (!isAmcQuestion && !isSatQuestion) {
       return null;
     }
@@ -249,9 +253,15 @@ function NextF()
 
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', function () {
-      addJsonLd(buildSchema());
+      var schema = buildSchema();
+      var page = window.location.pathname.split('/').pop().toLowerCase();
+      var schemaType = schema && schema['@type'] ? schema['@type'] : 'none';
+      addJsonLd(schema, page + ':' + schemaType);
     });
   } else {
-    addJsonLd(buildSchema());
+    var schema = buildSchema();
+    var page = window.location.pathname.split('/').pop().toLowerCase();
+    var schemaType = schema && schema['@type'] ? schema['@type'] : 'none';
+    addJsonLd(schema, page + ':' + schemaType);
   }
 })();
