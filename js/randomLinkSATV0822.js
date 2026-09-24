@@ -177,7 +177,7 @@ function NextF()
 
   var script = document.createElement('script');
   script.id = 'mathalready-structured-data-loader';
-  script.src = 'js/structuredDataTestPages.js';
+  script.src = '/js/structuredDataTestPages.js';
   script.onload = function () {
     if (typeof window.mathAlreadyAddTestPageSchema === 'function') {
       window.mathAlreadyAddTestPageSchema();
