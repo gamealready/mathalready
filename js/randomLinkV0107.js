@@ -374,107 +374,27 @@ randomlinks[247]="AMC8_2016_23.html"
 randomlinks[248]="AMC8_2016_24.html"
 randomlinks[249]="AMC8_2016_25.html"
 
-(function addStructuredDataForTestPages() {
+(function loadTestPageStructuredData() {
   if (typeof window === 'undefined' || typeof document === 'undefined') {
     return;
   }
 
-  function firstText(selectors) {
-    for (var i = 0; i < selectors.length; i++) {
-      var el = document.querySelector(selectors[i]);
-      if (el && el.textContent) {
-        var text = el.textContent.trim().replace(/\s+/g, ' ');
-        if (text) {
-          return text;
-        }
-      }
-    }
-    return '';
+  if (typeof window.mathAlreadyAddTestPageSchema === 'function') {
+    window.mathAlreadyAddTestPageSchema();
+    return;
   }
 
-  function addJsonLd(schema, schemaKey) {
-    if (!schema) {
-      return;
-    }
-    var existingSelector = 'script[type="application/ld+json"][data-mathalready-schema="' + schemaKey + '"]';
-    if (document.querySelector(existingSelector)) {
-      return;
-    }
-    var script = document.createElement('script');
-    script.type = 'application/ld+json';
-    script.setAttribute('data-mathalready-schema', schemaKey);
-    script.text = JSON.stringify(schema);
-    document.head.appendChild(script);
+  if (document.getElementById('mathalready-structured-data-loader')) {
+    return;
   }
 
-  function buildSchema() {
-    var page = window.location.pathname.split('/').pop() || '';
-    var pageLower = page.toLowerCase();
-    var canonical = document.querySelector('link[rel="canonical"]');
-    var url = canonical ? canonical.href : window.location.href;
-    var title = firstText(['h1', 'h2']) || document.title;
-    var descriptionMeta = document.querySelector('meta[name="description"]');
-    var description = descriptionMeta ? descriptionMeta.getAttribute('content') : '';
-
-    if (pageLower === 'amc8_test.html') {
-      return {
-        '@context': 'https://schema.org',
-        '@type': 'Course',
-        name: title || 'AMC 8 Practice Test',
-        description: description || 'Free AMC 8 practice test with multiple AMC 8-style questions.',
-        provider: {
-          '@type': 'Organization',
-          name: 'MathAlready',
-          url: 'https://www.mathalready.com/'
-        },
-        educationalLevel: 'Middle school',
-        inLanguage: 'en',
-        url: url
-      };
+  var script = document.createElement('script');
+  script.id = 'mathalready-structured-data-loader';
+  script.src = 'js/structuredDataTestPages.js';
+  script.onload = function () {
+    if (typeof window.mathAlreadyAddTestPageSchema === 'function') {
+      window.mathAlreadyAddTestPageSchema();
     }
-
-    var isAmcQuestion = /^amc8_\d{4}_\d+\.html$/.test(pageLower);
-    var isSatQuestion = /^sat_.*\.html$/.test(pageLower);
-    if (!isAmcQuestion && !isSatQuestion) {
-      return null;
-    }
-
-    var schema = {
-      '@context': 'https://schema.org',
-      '@type': 'Quiz',
-      name: title || document.title,
-      description: description || ('Practice question on ' + (isAmcQuestion ? 'AMC 8' : 'SAT Math') + '.'),
-      isAccessibleForFree: true,
-      inLanguage: 'en',
-      educationalLevel: isAmcQuestion ? 'Middle school' : 'High school',
-      about: {
-        '@type': 'Thing',
-        name: isAmcQuestion ? 'AMC 8 mathematics' : 'SAT math'
-      },
-      url: url
-    };
-
-    var questionText = firstText(['form p b', '.article p b', 'form p', '.article p']);
-    if (questionText) {
-      schema.hasPart = {
-        '@type': 'Question',
-        text: questionText
-      };
-    }
-    return schema;
-  }
-
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', function () {
-      var schema = buildSchema();
-      var page = window.location.pathname.split('/').pop().toLowerCase();
-      var schemaType = schema && schema['@type'] ? schema['@type'] : 'none';
-      addJsonLd(schema, page + ':' + schemaType);
-    });
-  } else {
-    var schema = buildSchema();
-    var page = window.location.pathname.split('/').pop().toLowerCase();
-    var schemaType = schema && schema['@type'] ? schema['@type'] : 'none';
-    addJsonLd(schema, page + ':' + schemaType);
-  }
+  };
+  document.head.appendChild(script);
 })();
