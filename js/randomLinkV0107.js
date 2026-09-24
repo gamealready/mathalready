@@ -396,5 +396,5 @@ randomlinks[249]="AMC8_2016_25.html"
       window.mathAlreadyAddTestPageSchema();
     }
   };
-  document.head.appendChild(script);
+  (document.head || document.documentElement).appendChild(script);
 })();

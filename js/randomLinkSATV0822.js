@@ -183,5 +183,5 @@ function NextF()
       window.mathAlreadyAddTestPageSchema();
     }
   };
-  document.head.appendChild(script);
+  (document.head || document.documentElement).appendChild(script);
 })();
