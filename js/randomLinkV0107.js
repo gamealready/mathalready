@@ -196,7 +196,7 @@ function dailyLink(){
 
 function randomlink(){
   if (localStorage.getItem("testMode") === null) {
-    let randIndex= Math.floor((Math.random() * randomlinks.size()));
+    let randIndex= Math.floor((Math.random() * randomlinks.length));
     window.location=randomlinks[randIndex];
   }
   if(localStorage.getItem('testMode')==='1'){//test mode
@@ -372,7 +372,7 @@ randomlinks[245]="AMC8_2016_21.html"
 randomlinks[246]="AMC8_2016_22.html"
 randomlinks[247]="AMC8_2016_23.html"
 randomlinks[248]="AMC8_2016_24.html"
-randomlinks[249]="AMC8_2016_25.html"
+randomlinks[249]="AMC8_2016_25.html";
 
 (function loadTestPageStructuredData() {
   if (typeof window === 'undefined' || typeof document === 'undefined') {
