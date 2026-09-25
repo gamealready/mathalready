@@ -58,6 +58,7 @@
     localStorage.setItem('rightAnsLocation',String(rightAnsLocation));
   }
 </script>
+  <script src="js/tts.js" type="text/javascript"></script>
 </head>
 <body >
 <div class="main">
@@ -82,6 +83,17 @@
     <div class="content_resize">
       <div class="mainbar">
         <div class="article">
+      <div style="margin:10px 0 14px 0;">
+        <button onclick="mathReadAloud(this.getAttribute('data-text'))" 
+                data-text="Bella begins to walk from her house toward her friend Ella&#39;s house. At the same time, Ella begins to ride her bicycle toward Bella&#39;s house. They each maintain a constant speed, and Ella rides 5 times as fast as Bella walks. The distance between their houses is 10,560 feet, and Bella covers 2.5 feet with each step. How many steps will Bella take by the time she meets Ella? The answer choices are: A, 704. B, 845. C, 1056. D, 1760. E, 3520."
+                style="background:#2d6aa0;color:#fff;border:none;padding:8px 18px;font-size:14px;border-radius:4px;cursor:pointer;margin-right:8px;">
+          &#9654; Read Aloud
+        </button>
+        <button onclick="mathStopSpeech()"
+                style="background:#888;color:#fff;border:none;padding:8px 14px;font-size:14px;border-radius:4px;cursor:pointer;">
+          &#9646;&#9646; Stop
+        </button>
+      </div>
           <h2>AMC 8 Question</h2><div class="clr"></div>
      
       

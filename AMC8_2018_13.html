@@ -67,6 +67,7 @@
     localStorage.setItem('rightAnsLocation',String(rightAnsLocation));
   }
 </script>
+  <script src="js/tts.js" type="text/javascript"></script>
 </head>
 <body >
 <div class="main">
@@ -91,6 +92,17 @@
     <div class="content_resize">
       <div class="mainbar">
         <div class="article">
+      <div style="margin:10px 0 14px 0;">
+        <button onclick="mathReadAloud(this.getAttribute('data-text'))" 
+                data-text="Laila took five math tests, each worth a maximum of 100 points. Laila&#39;s score on each test was an integer between 0 and 100, inclusive. Laila received the same score on the first four tests, and she received a higher score on the last test. Her average score on the five tests was 82. How many values are possible for Laila&#39;s score on the last test? The answer choices are: A, 4. B, 8. C, 9. D, 10. E, 18."
+                style="background:#2d6aa0;color:#fff;border:none;padding:8px 18px;font-size:14px;border-radius:4px;cursor:pointer;margin-right:8px;">
+          &#9654; Read Aloud
+        </button>
+        <button onclick="mathStopSpeech()"
+                style="background:#888;color:#fff;border:none;padding:8px 14px;font-size:14px;border-radius:4px;cursor:pointer;">
+          &#9646;&#9646; Stop
+        </button>
+      </div>
           <h2>AMC 8 Question</h2><div class="clr"></div>
      
       

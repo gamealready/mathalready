@@ -58,6 +58,7 @@
     localStorage.setItem('rightAnsLocation',String(rightAnsLocation));
   }
 </script>
+  <script src="js/tts.js" type="text/javascript"></script>
 </head>
 <body >
 <div class="main">
@@ -82,6 +83,17 @@
     <div class="content_resize">
       <div class="mainbar">
         <div class="article">
+      <div style="margin:10px 0 14px 0;">
+        <button onclick="mathReadAloud(this.getAttribute('data-text'))" 
+                data-text="From a regular octagon, a triangle is formed by connecting three randomly chosen vertices of the octagon. What is the probability that at least one of the sides of the triangle is also a side of the octagon? The answer choices are: A, 2 over 7. B, 5 over 42. C, 11 over 14. D, 5 over 7. E, 6 over 7."
+                style="background:#2d6aa0;color:#fff;border:none;padding:8px 18px;font-size:14px;border-radius:4px;cursor:pointer;margin-right:8px;">
+          &#9654; Read Aloud
+        </button>
+        <button onclick="mathStopSpeech()"
+                style="background:#888;color:#fff;border:none;padding:8px 14px;font-size:14px;border-radius:4px;cursor:pointer;">
+          &#9646;&#9646; Stop
+        </button>
+      </div>
           <h2>AMC 8 Question</h2><div class="clr"></div>
      
       
