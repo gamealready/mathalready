@@ -25,7 +25,6 @@ function setUpAnswers(){
 function CalculateL(){document.isForm.correctOrNot.value=(document.isForm.answer.value===localStorage.getItem('rightAnswer'))?"Correct":"Not Correct";}
 function NextFL(){randomlink();}
 </script>
-  <script src="js/tts.js" type="text/javascript"></script>
 </head>
 <body>
 <div class="main">
@@ -42,17 +41,6 @@ function NextFL(){randomlink();}
     <div class="article">
       <h2>AMC 8 2018 - Problem 6</h2><div class="clr"></div>
       <script>setUpAnswers();</script>
-      <div style="margin:10px 0 14px 0;">
-        <button onclick="mathReadAloud(this.getAttribute('data-text'))" 
-                data-text="On a trip to the beach, Anh traveled 50 miles on the highway and 10 miles on a coastal access road. He drove three times as fast on the highway as on the coastal road. If Anh spent 30 minutes driving on the coastal road, how many minutes did his entire trip take? The answer choices are: A, 50. B, 70. C, 80. D, 90. E, 100."
-                style="background:#2d6aa0;color:#fff;border:none;padding:8px 18px;font-size:14px;border-radius:4px;cursor:pointer;margin-right:8px;">
-          &#9654; Read Aloud
-        </button>
-        <button onclick="mathStopSpeech()"
-                style="background:#888;color:#fff;border:none;padding:8px 14px;font-size:14px;border-radius:4px;cursor:pointer;">
-          &#9646;&#9646; Stop
-        </button>
-      </div>
       <form name="isForm">
       <p><b>On a trip to the beach, Anh traveled 50 miles on the highway and 10 miles on a coastal access road. He drove three times as fast on the highway as on the coastal road. If Anh spent 30 minutes driving on the coastal road, how many minutes did his entire trip take?</b></p>
       
