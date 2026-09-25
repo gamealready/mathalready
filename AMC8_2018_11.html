@@ -14,7 +14,7 @@
 <link href="styleV0303.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript">
 var allAnswers=["frac{1}{3}","frac{2}{5}","frac{7}{15}","frac{1}{2}","frac{2}{3}"];
-var correctIdx=4;
+var correctIdx=2;
 function setUpAnswers(){
   var pos=[0,1,2,3,4];
   for(var i=4;i>0;i--){var j=Math.floor(Math.random()*(i+1));var t=pos[i];pos[i]=pos[j];pos[j]=t;}
@@ -43,7 +43,7 @@ function NextFL(){randomlink();}
       <script>setUpAnswers();</script>
       <form name="isForm">
       <p><b>Abby, Bridget, and four of their classmates will be seated in two rows of three for a group picture, as shown. If the seating positions are assigned randomly, what is the probability that Abby and Bridget are adjacent to each other in the same row or the same column?</b></p>
-      <div style="text-align:center;margin:16px 0;"><img src="images/AMC8_2018_11_diagram.png" alt="2018 AMC 8 Problem 11" style="max-width:300px;" /></div>
+      <div style="text-align:center;margin:16px 0;"><img src="images/AMC8_2018_11.png" alt="2018 AMC 8 Problem 11" style="max-width:300px;" /></div>
       <table border=0>
       <tr><td><b>(A)</b></td><td><b><span id="answerA"></span><script>document.getElementById("answerA").innerHTML=localStorage.getItem('answerA');</script></b></td></tr>
       <tr><td><b>(B)</b></td><td><b><span id="answerB"></span><script>document.getElementById("answerB").innerHTML=localStorage.getItem('answerB');</script></b></td></tr>

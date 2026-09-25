@@ -14,7 +14,7 @@
 <link href="styleV0303.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript">
 var allAnswers=["frac{7}{6}","frac{4}{3}","frac{7}{2}","7","8"];
-var correctIdx=4;
+var correctIdx=3;
 function setUpAnswers(){
   var pos=[0,1,2,3,4];
   for(var i=4;i>0;i--){var j=Math.floor(Math.random()*(i+1));var t=pos[i];pos[i]=pos[j];pos[j]=t;}
@@ -43,7 +43,7 @@ function NextFL(){randomlink();}
       <script>setUpAnswers();</script>
       <form name="isForm">
       <p><b>What is the value of the product</b></p>
-      <div style="text-align:center;margin:16px 0;"><img src="images/AMC8_2018_2_diagram.png" alt="2018 AMC 8 Problem 2" style="max-width:300px;" /></div>
+      <div style="text-align:center;margin:16px 0;"><img src="images/AMC8_2018_2.png" alt="2018 AMC 8 Problem 2" style="max-width:300px;" /></div>
       <table border=0>
       <tr><td><b>(A)</b></td><td><b><span id="answerA"></span><script>document.getElementById("answerA").innerHTML=localStorage.getItem('answerA');</script></b></td></tr>
       <tr><td><b>(B)</b></td><td><b><span id="answerB"></span><script>document.getElementById("answerB").innerHTML=localStorage.getItem('answerB');</script></b></td></tr>
