@@ -741,7 +741,7 @@
   {
     "year": 2018,
     "num": 11,
-    "question": "Abby, Bridget, and four of their classmates will be seated in two rows of three for a group picture, as shown. eqnarray* X& &X \\\\ X& &X eqnarray* If the seating positions are assigned randomly, what is the probability that Abby and Bridget are adjacent to each other in the same row or the same column?",
+    "question": "Abby, Bridget, and four of their classmates will be seated in two rows of three for a group picture. If the seating positions are assigned randomly, what is the probability that Abby and Bridget are adjacent to each other in the same row or the same column?",
     "choices": [
       "frac{1}{3}",
       "frac{2}{5}",
@@ -749,9 +749,8 @@
       "frac{1}{2}",
       "frac{2}{3}"
     ],
-    "answer": 4,
-    "page": "AMC8_2018_11.html",
-    "image": "images/AMC8_2018_11_diagram.png"
+    "answer": 2,
+    "page": "AMC8_2018_11.html"
   },
   {
     "year": 2018,
