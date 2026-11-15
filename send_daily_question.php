@@ -16,8 +16,8 @@ if (php_sapi_name() !== 'cli') {
 define('SUBSCRIBERS_FILE', __DIR__ . '/subscribers.txt');
 define('LOG_FILE',         __DIR__ . '/mailer.log');
 define('FROM_NAME', 'MathAlready Daily');
-define('FROM_ADDR', 'emmapaige314@gmail.com');
-define('REPLY_TO',  'ma@mathalready.com');
+define('FROM_ADDR', 'gapa314159@gmail.com');
+define('REPLY_TO',  'gapa314159@gmail.com');
 define('SITE_BASE', 'https://www.mathalready.com');
 
 // Only questions with parseable text + answer choices (not image-only pages)

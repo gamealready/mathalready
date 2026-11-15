@@ -15,11 +15,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 
     // Notify Bob and Gary
-    $to = "emmapaige314@gmail.com";
-    $cc = "garypai314@gmail.com";
+    $to = "gapa314159@gmail.com";
+    $cc = "gapa314159@gmail.com";
     $subject = "New MathAlready Signup: " . $email;
     $message = "New email signup on MathAlready.com\n\nEmail: " . $email . "\nTime: " . date("Y-m-d H:i:s") . " UTC";
-    $headers = "From: ma@mathalready.com\r\n";
+    $headers = "From: gapa314159@gmail.com\r\n";
     $headers .= "Cc: " . $cc . "\r\n";
     $headers .= "Reply-To: " . $email . "\r\n";
 
