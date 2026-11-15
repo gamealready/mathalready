@@ -14,7 +14,7 @@
 <link href="styleV0303.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript">
 var allAnswers=["frac{3}{4}","frac{3}{2}","2","frac{12}{5}","frac{5}{2}"];
-var correctIdx=1;
+var correctIdx=3;
 function setUpAnswers(){
   var pos=[0,1,2,3,4];
   for(var i=4;i>0;i--){var j=Math.floor(Math.random()*(i+1));var t=pos[i];pos[i]=pos[j];pos[j]=t;}
@@ -42,7 +42,7 @@ function NextFL(){randomlink();}
       <h2>AMC 8 2017 - Problem 16</h2><div class="clr"></div>
       <script>setUpAnswers();</script>
       <form name="isForm">
-      <p><b>In the figure below, choose point on so that and have equal perimeters. What is the area of ?</b></p>
+      <p><b>In the figure below, choose point D on segment BC so that triangles ABD and ACD have equal perimeters. What is the area of triangle ABD?</b></p>
       <div style="text-align:center;margin:16px 0;"><img src="images/AMC8_2017_16_diagram.png" alt="2017 AMC 8 Problem 16" style="max-width:300px;" /></div>
       <table border=0>
       <tr><td><b>(A)</b></td><td><b><span id="answerA"></span><script>document.getElementById("answerA").innerHTML=localStorage.getItem('answerA');</script></b></td></tr>
