@@ -285,7 +285,7 @@
   {
     "year": 2016,
     "num": 5,
-    "question": "The number N is a two-digit number. \u2022 When N is divided by 9 , the remainder is 1 . \u2022 When N is divided by 10 , the remainder is 3 . What is the remainder when N is divided by 11 ?",
+    "question": "The number N is a two-digit number. • When N is divided by 9 , the remainder is 1 . • When N is divided by 10 , the remainder is 3 . What is the remainder when N is divided by 11 ?",
     "choices": [
       "0",
       "2",
@@ -1354,11 +1354,11 @@
     "num": 1,
     "question": "What is the value of the following expression? 1+2-3+4+5-6+7+8-9+10+11-12",
     "choices": [
-      "'18'",
-      "'21'",
-      "'24'",
-      "'27'",
-      "'30'"
+      "18",
+      "21",
+      "24",
+      "27",
+      "30"
     ],
     "answer": 0,
     "page": "AMC8_2026_1.html"
@@ -1368,11 +1368,11 @@
     "num": 10,
     "question": "Five runners completed the grueling Xmarathon: Luke, Melina, Nico, Olympia, and Pedro. Nico finished 11 minutes behind Pedro. Olympia finished 2 minutes ahead of Melina, but 3 minutes behind Pedro. Olympia finished 6 minutes ahead of Luke. Which runner finished fourth?",
     "choices": [
-      "'Luke'",
-      "'Melina'",
-      "'Nico'",
-      "'Olympia'",
-      "'Pedro'"
+      "Luke",
+      "Melina",
+      "Nico",
+      "Olympia",
+      "Pedro"
     ],
     "answer": 0,
     "page": "AMC8_2026_10.html",
@@ -1383,11 +1383,11 @@
     "num": 11,
     "question": "Squares of side length 1, 1, 2, 3, and 5 are arranged to form the rectangle shown below. A curve is drawn by inscribing a quarter circle in each square and joining the quarter circles in order, from shortest to longest. What is the length of the curve?",
     "choices": [
-      "20",
-      "25",
-      "30",
-      "35",
-      "40"
+      "4pi",
+      "6pi",
+      "8pi",
+      "9pi",
+      "12pi"
     ],
     "answer": 1,
     "page": "AMC8_2026_11.html"
@@ -1397,11 +1397,11 @@
     "num": 12,
     "question": "In the figure below, each circle will be filled with a digit from 1 to 6. Each digit must appear exactly once. The sum of the digits in neighboring circles is shown in the box between them. What digit must be placed in the top circle?",
     "choices": [
-      "12",
-      "14",
-      "16",
-      "18",
-      "20"
+      "2",
+      "3",
+      "4",
+      "5",
+      "it is impossible to fill the circles"
     ],
     "answer": 3,
     "page": "AMC8_2026_12.html"
@@ -1409,13 +1409,13 @@
   {
     "year": 2026,
     "num": 13,
-    "question": "The figure below shows a tiling of 1 1 unit squares. Each row of unit squares is shifted horizontally by half a unit relative to the row above it. A shaded square is drawn on top of the tiling. Each vertex of the shaded square is a vertex of one of the unit squares. In square units, what is the area of the shaded square? \\[A. 10 B. 212 C. 323 D. 11",
+    "question": "The figure below shows a tiling of 1x1 unit squares. Each row of unit squares is shifted horizontally by half a unit relative to the row above it. A shaded square is drawn on top of the tiling. Each vertex of the shaded square is a vertex of one of the unit squares. In square units, what is the area of the shaded square?",
     "choices": [
-      "4",
-      "6",
-      "8",
       "10",
-      "12"
+      "21/2",
+      "32/3",
+      "11",
+      "34/3"
     ],
     "answer": 0,
     "page": "AMC8_2026_13.html"
@@ -1425,11 +1425,11 @@
     "num": 14,
     "question": "Jami picked three equally spaced integer numbers on the number line. The sum of the first and the second numbers is 40, while the sum of the second and third numbers is 60. What is the sum of all three numbers?",
     "choices": [
-      "'70'",
-      "'75'",
-      "'80'",
-      "'85'",
-      "'90'"
+      "70",
+      "75",
+      "80",
+      "85",
+      "90"
     ],
     "answer": 1,
     "page": "AMC8_2026_14.html"
@@ -1437,13 +1437,13 @@
   {
     "year": 2026,
     "num": 15,
-    "question": "Elijah has a large collection of identical wooden cubes which are white on 4 faces and gray on 2 faces that share an edge. He glues some cubes together face-to-face. The figure below shows 2 cubes being glued together, leaving 3 gray faces visible. What is the fewest number of cubes that he could glue together to ensure that no gray faces are visib",
+    "question": "Elijah has a large collection of identical wooden cubes which are white on 4 faces and gray on 2 faces that share an edge. He glues some cubes together face-to-face. The figure below shows 2 cubes being glued together, leaving 3 gray faces visible. What is the fewest number of cubes that he could glue together to ensure that no gray faces are visible, no matter how he rotates the figure?",
     "choices": [
-      "1/12",
-      "5/12",
-      "7/12",
-      "1/2",
-      "1/6"
+      "4",
+      "6",
+      "8",
+      "9",
+      "27"
     ],
     "answer": 0,
     "page": "AMC8_2026_15.html"
@@ -1451,13 +1451,13 @@
   {
     "year": 2026,
     "num": 16,
-    "question": "Consider all positive four-digit integers consisting of only even digits. What fraction of these integers are divisible by 4 ?",
+    "question": "Consider all positive four-digit integers consisting of only even digits. What fraction of these integers are divisible by 4?",
     "choices": [
-      "'1/4'",
-      "'2/5'",
-      "'1/2'",
-      "'3/5'",
-      "'3/4'"
+      "1/4",
+      "2/5",
+      "1/2",
+      "3/5",
+      "3/4"
     ],
     "answer": 3,
     "page": "AMC8_2026_16.html"
@@ -1467,11 +1467,11 @@
     "num": 17,
     "question": "Four students are seated in a row. They chat with the people sitting next to them, then rearrange themselves so that they are no longer seated next to any of the same people. How many rearrangements are possible?",
     "choices": [
-      "'2'",
-      "'4'",
-      "'9'",
-      "'12'",
-      "'24'"
+      "2",
+      "4",
+      "9",
+      "12",
+      "24"
     ],
     "answer": 0,
     "page": "AMC8_2026_17.html"
@@ -1481,11 +1481,11 @@
     "num": 18,
     "question": "In how many ways can 60 be written as the sum of two or more consecutive odd positive integers that are arranged in increasing order?",
     "choices": [
-      "'1'",
-      "'2'",
-      "'3'",
-      "'4'",
-      "'5'"
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
     ],
     "answer": 1,
     "page": "AMC8_2026_18.html"
@@ -1493,13 +1493,13 @@
   {
     "year": 2026,
     "num": 19,
-    "question": "Miguel is walking with his dog, Luna. When they reach the entrance to a park, Miguel throws a ball straight ahead and continues to walk at a steady pace. Luna sprints toward the ball, which stops by a tree. As soon as the dog reaches the ball, she brings it back to Miguel. Luna runs 5 times faster than Miguel walks. What fraction of the distance be",
+    "question": "Miguel is walking with his dog, Luna. When they reach the entrance to a park, Miguel throws a ball straight ahead and continues to walk at a steady pace. Luna sprints toward the ball, which stops by a tree. As soon as the dog reaches the ball, she brings it back to Miguel. Luna runs 5 times faster than Miguel walks. What fraction of the distance between the entrance and the tree does Miguel cover by the time Luna brings him the ball?",
     "choices": [
-      "24",
-      "28",
-      "32",
-      "36",
-      "40"
+      "1/6",
+      "1/5",
+      "1/4",
+      "1/3",
+      "2/5"
     ],
     "answer": 3,
     "page": "AMC8_2026_19.html"
@@ -1507,13 +1507,13 @@
   {
     "year": 2026,
     "num": 2,
-    "question": "In the array shown below, three 3s are surrounded by 2s, which are in turn surrounded by a border of 1s. What is the sum of the numbers in the array? \\[arrayccccccc 1 & 1 & 1 & 1 & 1 & 1 & 1 \\\\ 1 & 2 & 2 & 2 & 2 & 2 & 1 \\\\ 1 & 2 & 3 & 3 & 3 & 2 & 1 \\\\ 1 & 2 & 2 & 2 & 2 & 2 & 1 \\\\ 1 & 1 & 1 & 1 & 1 & 1 & 1 array\\]",
+    "question": "In the array shown below, three 3s are surrounded by 2s, which are in turn surrounded by a border of twenty 1s. What is the sum of the numbers in the array? Rows: 1 1 1 1 1 1 1 / 1 2 2 2 2 2 1 / 1 2 3 3 3 2 1 / 1 2 2 2 2 2 1 / 1 1 1 1 1 1 1",
     "choices": [
-      "'49'",
-      "'51'",
-      "'53'",
-      "'55'",
-      "'57'"
+      "49",
+      "51",
+      "53",
+      "55",
+      "57"
     ],
     "answer": 2,
     "page": "AMC8_2026_2.html"
@@ -1523,11 +1523,11 @@
     "num": 20,
     "question": "The land of Catania uses gold coins and silver coins. Gold coins are 1 mm thick and silver coins are 3 mm thick. In how many ways can Taylor make a stack of coins that is 8 mm tall using any arrangement of gold and silver coins, assuming order matters?",
     "choices": [
-      "'3'",
-      "'7'",
-      "'10'",
-      "'13'",
-      "'16'"
+      "3",
+      "7",
+      "10",
+      "13",
+      "16"
     ],
     "answer": 3,
     "page": "AMC8_2026_20.html"
@@ -1535,13 +1535,13 @@
   {
     "year": 2026,
     "num": 21,
-    "question": "Charlotte the spider is walking along a web shaped like a 5 -pointed star, shown in the figure below. The web has 5 outer points and 5 inner points. Each time Charlotte reaches a point, she randomly chooses a neighboring point and moves to that point. Charlotte starts at one of the outer points and makes 3 moves (re-visiting points is allowed). Wha",
+    "question": "Charlotte the spider is walking along a web shaped like a 5-pointed star. The web has 5 outer points and 5 inner points. Each time Charlotte reaches a point, she randomly chooses a neighboring point and moves to that point. Charlotte starts at one of the outer points and makes 3 moves (re-visiting points is allowed). What is the probability she is now at one of the outer points of the star?",
     "choices": [
-      "4",
-      "6",
-      "8",
-      "10",
-      "12"
+      "1/5",
+      "1/4",
+      "2/5",
+      "1/2",
+      "3/5"
     ],
     "answer": 1,
     "page": "AMC8_2026_21.html"
@@ -1549,13 +1549,13 @@
   {
     "year": 2026,
     "num": 22,
-    "question": "The integers from 1 through 25 are arbitrarily separated into five groups of 5 numbers each. The median of each group is identified. Let M equal the median of the five medians. What is the least possible value of M ?",
+    "question": "The integers from 1 through 25 are arbitrarily separated into five groups of 5 numbers each. The median of each group is identified. Let M equal the median of the five medians. What is the least possible value of M?",
     "choices": [
-      "'9'",
-      "'10'",
-      "'12'",
-      "'13'",
-      "'14'"
+      "9",
+      "10",
+      "12",
+      "13",
+      "14"
     ],
     "answer": 0,
     "page": "AMC8_2026_22.html",
@@ -1566,11 +1566,11 @@
     "num": 23,
     "question": "Lakshmi has 5 round coins of diameter 4 centimeters. She arranges the coins in 2 rows on a table top, as shown below, and wraps an elastic band tightly around them. In centimeters, what will be the length of the band?",
     "choices": [
-      "12/7",
-      "60/37",
-      "12/5",
-      "5/3",
-      "2"
+      "2pi+20",
+      "5pi/2+20",
+      "4pi+20",
+      "9pi/2+20",
+      "5pi+20"
     ],
     "answer": 2,
     "page": "AMC8_2026_23.html",
@@ -1579,13 +1579,13 @@
   {
     "year": 2026,
     "num": 24,
-    "question": "The notation n! (read \"n factorial\") is defined as the product of the first n positive integers. (For example, 3!=1 2 3 = 6 ). Define the superfactorial of a positive integer, denoted by n^! , to be the product of the factorials of the first n integers. (For example, 3^!=1! 2! 3! = 12 ). How many factors of 7 appear in the prime factorization of 51",
+    "question": "The notation n! (read n factorial) is defined as the product of the first n positive integers. Define the superfactorial of a positive integer, denoted n^!, to be the product of the factorials of the first n integers. How many factors of 7 appear in the prime factorization of 51^!, the superfactorial of 51?",
     "choices": [
-      "'147'",
-      "'150'",
-      "'156'",
-      "'168'",
-      "'171'"
+      "147",
+      "150",
+      "156",
+      "168",
+      "171"
     ],
     "answer": 4,
     "page": "AMC8_2026_24.html"
@@ -1593,13 +1593,13 @@
   {
     "year": 2026,
     "num": 25,
-    "question": "In an equiangular hexagon, all interior angles measure 120^ . An example of such a hexagon with side lengths 2 , 3 , 1 , 3 , 2 , and 2 is shown below, inscribed in equilateral triangle ABC . Consider all equiangular hexagons with positive integer side lengths that can be inscribed in ABC , with all six vertices on the sides of the triangle. What is",
+    "question": "In an equiangular hexagon, all interior angles measure 120 degrees. Consider all equiangular hexagons with positive integer side lengths that can be inscribed in triangle ABC, with all six vertices on the sides of the triangle. What is the total number of such hexagons? Hexagons that differ only by a rotation or a reflection are considered the same.",
     "choices": [
-      "45",
-      "55",
-      "65",
-      "75",
-      "85"
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
     ],
     "answer": 4,
     "page": "AMC8_2026_25.html",
@@ -1608,13 +1608,13 @@
   {
     "year": 2026,
     "num": 3,
-    "question": "Haruki has a piece of wire that is 24 centimeters long. He wants to bend it to form each of the following shapes, one at a time: A regular hexagon with side length 5 cm. A square with area 36 3pt cm^2 . A right triangle whose legs are 6 and 8 cm long. Which of the shapes can Haruki make?",
+    "question": "Haruki has a piece of wire that is 24 centimeters long. He wants to bend it to form each of the following shapes, one at a time: A regular hexagon with side length 5 cm. A square with area 36 cm^2. A right triangle whose legs are 6 and 8 cm long. Which of the shapes can Haruki make?",
     "choices": [
-      "'Triangle only'",
-      "'Hexagon and square only'",
-      "'Hexagon and triangle only'",
-      "'Square and triangle only'",
-      "'Hexagon, triangle, and square'"
+      "Triangle only",
+      "Hexagon and square only",
+      "Hexagon and triangle only",
+      "Square and triangle only",
+      "Hexagon, triangle, and square"
     ],
     "answer": 3,
     "page": "AMC8_2026_3.html"
@@ -1622,13 +1622,13 @@
   {
     "year": 2026,
     "num": 4,
-    "question": "Brynn's savings decreased by 20 \\% in July, then increased by 50 \\% in August. Brynn's savings are now what percent of the original amount?",
+    "question": "Brynn's savings decreased by 20% in July, then increased by 50% in August. Brynn's savings are now what percent of the original amount?",
     "choices": [
-      "'80'",
-      "'90'",
-      "'100'",
-      "'110'",
-      "'120'"
+      "80",
+      "90",
+      "100",
+      "110",
+      "120"
     ],
     "answer": 4,
     "page": "AMC8_2026_4.html"
@@ -1638,11 +1638,11 @@
     "num": 5,
     "question": "Casey went on a road trip that covered 100 miles, stopping only for a lunch break along the way. The trip took 3 hours in total and her average speed while driving was 40 miles per hour. In minutes, how long was the lunch break?",
     "choices": [
-      "'15'",
-      "'30'",
-      "'40'",
-      "'45'",
-      "'60'"
+      "15",
+      "30",
+      "40",
+      "45",
+      "60"
     ],
     "answer": 1,
     "page": "AMC8_2026_5.html"
@@ -1652,11 +1652,11 @@
     "num": 6,
     "question": "Peter lives near a rectangular field that is filled with blackberry bushes. The field is 10 meters long and 8 meters wide, and Peter can reach any blackberries that are within 1 meter of an edge of the field. The portion of the field he can reach is shaded in the figure below. What fraction of the area of the field can Peter reach?",
     "choices": [
-      "4.5",
-      "5",
-      "5.5",
-      "6",
-      "6.5"
+      "1/6",
+      "1/4",
+      "1/3",
+      "3/8",
+      "2/5"
     ],
     "answer": 4,
     "page": "AMC8_2026_6.html"
@@ -1664,13 +1664,13 @@
   {
     "year": 2026,
     "num": 7,
-    "question": "Mika would like to estimate how far she can ride a new model of electric bike on a fully charged battery. She completed two trips totaling 40 miles. The first trip used 12 of the total battery power, while the second trip used 310 of the total battery power. How many miles can this electric bike go on a fully charged battery?",
+    "question": "Mika would like to estimate how far she can ride a new model of electric bike on a fully charged battery. She completed two trips totaling 40 miles. The first trip used 1/2 of the total battery power, while the second trip used 3/10 of the total battery power. How many miles can this electric bike go on a fully charged battery?",
     "choices": [
-      "'45'",
-      "'48'",
-      "'50'",
-      "'52'",
-      "'55'"
+      "45",
+      "48",
+      "50",
+      "52",
+      "55"
     ],
     "answer": 2,
     "page": "AMC8_2026_7.html"
@@ -1678,13 +1678,13 @@
   {
     "year": 2026,
     "num": 8,
-    "question": "A poll asked a number of people if they liked solving mathematics problems. Exactly 74\\% answered \"yes.\" What is the fewest possible number of people who could have been asked the question?",
+    "question": "A poll asked a number of people if they liked solving mathematics problems. Exactly 74% answered yes. What is the fewest possible number of people who could have been asked the question?",
     "choices": [
-      "'10'",
-      "'20'",
-      "'25'",
-      "'50'",
-      "'100'"
+      "10",
+      "20",
+      "25",
+      "50",
+      "100"
     ],
     "answer": 3,
     "page": "AMC8_2026_8.html"
@@ -1692,13 +1692,13 @@
   {
     "year": 2026,
     "num": 9,
-    "question": "What is the value of this expression? \\[ 16 8181 16\\]",
+    "question": "What is the value of this expression? sqrt(16*sqrt(81)) / sqrt(81*sqrt(16))",
     "choices": [
-      "4",
-      "6",
-      "8",
-      "10",
-      "12"
+      "4/9",
+      "2/3",
+      "1",
+      "3/2",
+      "9/4"
     ],
     "answer": 1,
     "page": "AMC8_2026_9.html"
