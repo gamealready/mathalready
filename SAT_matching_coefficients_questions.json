@@ -1,0 +1,139 @@
+{
+  "type_name": "Matching Coefficients (Polynomial Identity with Sum of Unknowns)",
+  "description": "Two binomials with unknown coefficients multiply to a given quadratic that holds for all x. Equate coefficients of like terms to get ab, use a + b to find a and b (two orderings), then compute the unknown middle coefficient c for each.",
+  "source": "SAT_p1_15.html (question text read from images/SAT_p1_15.png)",
+  "example": {
+    "id": 0,
+    "question": "If (ax + 2)(bx + 7) = 15x² + cx + 14 for all values of x, and a + b = 8, what are the two possible values for c?",
+    "choices": {
+      "A": "3 and 5",
+      "B": "6 and 35",
+      "C": "10 and 21",
+      "D": "31 and 41"
+    },
+    "answer": "D",
+    "solution": "Expanding gives abx² + (7a + 2b)x + 14. Matching coefficients: ab = 15, so with a + b = 8, {a, b} = {3, 5}. Then c = 7a + 2b: a=3, b=5 gives 31; a=5, b=3 gives 41."
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "If (ax + 3)(bx + 4) = 10x² + cx + 12 for all values of x, and a + b = 7, what are the two possible values for c?",
+      "choices": {
+        "A": "23 and 26",
+        "B": "25 and 28",
+        "C": "20 and 29",
+        "D": "14 and 22"
+      },
+      "answer": "A",
+      "solution": "Expanding gives abx² + (4a + 3b)x + 12. Matching coefficients: ab = 10, so with a + b = 7, {a, b} = {2, 5}. Then c = 4a + 3b: a=2, b=5 gives 23; a=5, b=2 gives 26."
+    },
+    {
+      "id": 2,
+      "question": "If (ax + 2)(bx + 5) = 12x² + cx + 10 for all values of x, and a + b = 7, what are the two possible values for c?",
+      "choices": {
+        "A": "25 and 28",
+        "B": "23 and 26",
+        "C": "20 and 29",
+        "D": "14 and 22"
+      },
+      "answer": "B",
+      "solution": "Expanding gives abx² + (5a + 2b)x + 10. Matching coefficients: ab = 12, so with a + b = 7, {a, b} = {3, 4}. Then c = 5a + 2b: a=3, b=4 gives 23; a=4, b=3 gives 26."
+    },
+    {
+      "id": 3,
+      "question": "If (ax + 3)(bx + 5) = 14x² + cx + 15 for all values of x, and a + b = 9, what are the two possible values for c?",
+      "choices": {
+        "A": "33 and 43",
+        "B": "28 and 44",
+        "C": "31 and 41",
+        "D": "17 and 29"
+      },
+      "answer": "C",
+      "solution": "Expanding gives abx² + (5a + 3b)x + 15. Matching coefficients: ab = 14, so with a + b = 9, {a, b} = {2, 7}. Then c = 5a + 3b: a=2, b=7 gives 31; a=7, b=2 gives 41."
+    },
+    {
+      "id": 4,
+      "question": "If (ax + 1)(bx + 6) = 20x² + cx + 6 for all values of x, and a + b = 9, what are the two possible values for c?",
+      "choices": {
+        "A": "31 and 36",
+        "B": "26 and 37",
+        "C": "16 and 26",
+        "D": "29 and 34"
+      },
+      "answer": "D",
+      "solution": "Expanding gives abx² + (6a + 1b)x + 6. Matching coefficients: ab = 20, so with a + b = 9, {a, b} = {4, 5}. Then c = 6a + 1b: a=4, b=5 gives 29; a=5, b=4 gives 34."
+    },
+    {
+      "id": 5,
+      "question": "If (ax + 2)(bx + 3) = 21x² + cx + 6 for all values of x, and a + b = 10, what are the two possible values for c?",
+      "choices": {
+        "A": "23 and 27",
+        "B": "25 and 29",
+        "C": "20 and 30",
+        "D": "15 and 27"
+      },
+      "answer": "A",
+      "solution": "Expanding gives abx² + (3a + 2b)x + 6. Matching coefficients: ab = 21, so with a + b = 10, {a, b} = {3, 7}. Then c = 3a + 2b: a=3, b=7 gives 23; a=7, b=3 gives 27."
+    },
+    {
+      "id": 6,
+      "question": "If (ax + 4)(bx + 5) = 18x² + cx + 20 for all values of x, and a + b = 11, what are the two possible values for c?",
+      "choices": {
+        "A": "48 and 55",
+        "B": "46 and 53",
+        "C": "43 and 56",
+        "D": "20 and 38"
+      },
+      "answer": "B",
+      "solution": "Expanding gives abx² + (5a + 4b)x + 20. Matching coefficients: ab = 18, so with a + b = 11, {a, b} = {2, 9}. Then c = 5a + 4b: a=2, b=9 gives 46; a=9, b=2 gives 53."
+    },
+    {
+      "id": 7,
+      "question": "If (ax + 2)(bx + 3) = 30x² + cx + 6 for all values of x, and a + b = 11, what are the two possible values for c?",
+      "choices": {
+        "A": "29 and 30",
+        "B": "24 and 31",
+        "C": "27 and 28",
+        "D": "16 and 36"
+      },
+      "answer": "C",
+      "solution": "Expanding gives abx² + (3a + 2b)x + 6. Matching coefficients: ab = 30, so with a + b = 11, {a, b} = {5, 6}. Then c = 3a + 2b: a=5, b=6 gives 27; a=6, b=5 gives 28."
+    },
+    {
+      "id": 8,
+      "question": "If (ax + 1)(bx + 7) = 24x² + cx + 7 for all values of x, and a + b = 11, what are the two possible values for c?",
+      "choices": {
+        "A": "31 and 61",
+        "B": "26 and 62",
+        "C": "19 and 31",
+        "D": "29 and 59"
+      },
+      "answer": "D",
+      "solution": "Expanding gives abx² + (7a + 1b)x + 7. Matching coefficients: ab = 24, so with a + b = 11, {a, b} = {3, 8}. Then c = 7a + 1b: a=3, b=8 gives 29; a=8, b=3 gives 59."
+    },
+    {
+      "id": 9,
+      "question": "If (ax + 2)(bx + 5) = 36x² + cx + 10 for all values of x, and a + b = 13, what are the two possible values for c?",
+      "choices": {
+        "A": "38 and 53",
+        "B": "40 and 55",
+        "C": "35 and 56",
+        "D": "20 and 46"
+      },
+      "answer": "A",
+      "solution": "Expanding gives abx² + (5a + 2b)x + 10. Matching coefficients: ab = 36, so with a + b = 13, {a, b} = {4, 9}. Then c = 5a + 2b: a=4, b=9 gives 38; a=9, b=4 gives 53."
+    },
+    {
+      "id": 10,
+      "question": "If (ax + 3)(bx + 4) = 22x² + cx + 12 for all values of x, and a + b = 13, what are the two possible values for c?",
+      "choices": {
+        "A": "43 and 52",
+        "B": "41 and 50",
+        "C": "38 and 53",
+        "D": "20 and 34"
+      },
+      "answer": "B",
+      "solution": "Expanding gives abx² + (4a + 3b)x + 12. Matching coefficients: ab = 22, so with a + b = 13, {a, b} = {2, 11}. Then c = 4a + 3b: a=2, b=11 gives 41; a=11, b=2 gives 50."
+    }
+  ]
+}
