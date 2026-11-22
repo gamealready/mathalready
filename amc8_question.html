@@ -14,10 +14,11 @@
 <div class="main"><div class="content"><div class="content_resize"><div class="mainbar"><div class="article">
   <p><a href="index.html">Home</a></p>
   <h1 id="title">AMC 8 Question</h1>
+  <p><label for="number">Question:</label> <select id="number" disabled></select></p>
   <p><b id="question"></b></p>
   <p><img id="figure" alt="Figure" style="display:none;max-width:100%" /></p>
   <table id="choices" border="0"></table>
-  <p><button id="check" type="button">Submit</button> <b id="result"></b></p>
+  <p><button id="check" type="button" disabled>Submit</button> <b id="result" aria-live="polite"></b></p>
   <p id="solution" style="display:none"></p>
   <p><a id="next" href="#">Next question</a></p>
   <font size="-1">The problems on this page are copyrighted by the <a href="https://www.maa.org/math-competitions">American Mathematics Competitions.</a></font>
@@ -29,7 +30,7 @@
   var params = new URLSearchParams(location.search);
   var year = (params.get('y') || '2026').replace(/\D/g, '');
   var L = ['A', 'B', 'C', 'D', 'E'];
-  var q, order, chosen = null;
+  var q, order;
 
   function typeset() {
     if (window.renderMathInElement) {
@@ -55,7 +56,12 @@
     document.getElementById('question').textContent = q.question;
     var fig = document.getElementById('figure');
     fig.style.display = q.figure ? '' : 'none';
-    if (q.figure) fig.src = q.figure;
+    if (q.figure) {
+      fig.src = q.figure;
+      fig.alt = 'AMC 8 ' + year + ' Problem ' + q.num + ' diagram';
+    } else {
+      fig.removeAttribute('src');
+    }
     var html = '';
     order.forEach(function (idx, k) {
       html += '<tr><td><label><input type="radio" name="c" value="' + k + '"> <b>(' + L[k] + ')</b></label></td><td class="choice"></td></tr>';
@@ -68,6 +74,8 @@
     var sol = document.getElementById('solution');
     sol.style.display = 'none';
     sol.textContent = q.solution || '';
+    document.getElementById('number').value = q.num;
+    document.getElementById('check').disabled = false;
     typeset();
   }
 
@@ -80,13 +88,35 @@
   };
 
   fetch('data/amc8_' + year + '.json')
-    .then(function (r) { return r.json(); })
+    .then(function (r) {
+      if (!r.ok) throw new Error('HTTP ' + r.status);
+      return r.json();
+    })
     .then(function (data) {
-      var n = parseInt(params.get('n'), 10);
-      q = data.filter(function (e) { return e.num === n; })[0] || data[Math.floor(Math.random() * data.length)];
+      if (!data.length) throw new Error('No questions found');
+      var number = document.getElementById('number');
+      data.forEach(function (item) {
+        var option = document.createElement('option');
+        option.value = item.num;
+        option.textContent = item.num;
+        number.appendChild(option);
+      });
+      var requested = params.get('n');
+      q = requested === null ? data[Math.floor(Math.random() * data.length)] :
+        data.filter(function (e) { return String(e.num) === requested; })[0];
+      if (!q) throw new Error('Question not found');
+      number.disabled = false;
+      number.onchange = function () {
+        q = data.filter(function (e) { return String(e.num) === number.value; })[0];
+        history.replaceState(null, '', '?y=' + year + '&n=' + q.num);
+        show();
+      };
       document.getElementById('next').href = 'amc8_question.html?y=' + year;
-      window.addEventListener('load', show);
-      if (document.readyState === 'complete') show();
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', show);
+      } else {
+        show();
+      }
     })
     .catch(function (e) { document.getElementById('question').textContent = 'Error loading questions: ' + e; });
 })();
