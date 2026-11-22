@@ -1,0 +1,16 @@
+{
+  "id": "SAT_p1_8",
+  "source_page": "SAT_p1_8.html",
+  "source_image": "images/SAT_p1_8.png",
+  "question": "If a/b = 2, what is the value of 4b/a?",
+  "choices": {
+    "A": "0",
+    "B": "1",
+    "C": "2",
+    "D": "4"
+  },
+  "answer": "C",
+  "explanation": "4b/a = 4·(b/a) = 4·(1/2) = 2.",
+  "diagram": null,
+  "status": "ok"
+}

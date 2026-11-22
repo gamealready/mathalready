@@ -1,0 +1,16 @@
+{
+  "id": "SAT_p1_2",
+  "source_page": "SAT_p1_2.html",
+  "source_image": "images/SAT_p1_2.png",
+  "question": "For i = √−1, what is the sum (7 + 3i) + (−8 + 9i)?",
+  "choices": {
+    "A": "−1 + 12i",
+    "B": "−1 − 6i",
+    "C": "15 + 12i",
+    "D": "15 − 6i"
+  },
+  "answer": "A",
+  "explanation": "Add real parts: 7 − 8 = −1. Add imaginary parts: 3i + 9i = 12i.",
+  "diagram": null,
+  "status": "ok"
+}

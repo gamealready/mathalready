@@ -1,0 +1,16 @@
+{
+  "id": "SAT_p1_6",
+  "source_page": "SAT_p1_6.html",
+  "source_image": "images/SAT_p1_6.png",
+  "question": "h = 3a + 28.6. A pediatrician uses the model above to estimate the height h of a boy, in inches, in terms of the boy's age a, in years, between the ages of 2 and 5. Based on the model, what is the estimated increase, in inches, of a boy's height each year?",
+  "choices": {
+    "A": "3",
+    "B": "5.7",
+    "C": "9.5",
+    "D": "14.3"
+  },
+  "answer": "A",
+  "explanation": "The slope of the linear model is 3, so height increases 3 inches per year.",
+  "diagram": null,
+  "status": "ok"
+}

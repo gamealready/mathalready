@@ -1,0 +1,16 @@
+{
+  "id": "SAT_p1_1",
+  "source_page": "SAT_p1_1.html",
+  "source_image": "images/SAT_p1_1.png",
+  "question": "If (x − 1)/3 = k and k = 3, what is the value of x?",
+  "choices": {
+    "A": "2",
+    "B": "4",
+    "C": "9",
+    "D": "10"
+  },
+  "answer": "D",
+  "explanation": "Substitute k = 3: (x − 1)/3 = 3, so x − 1 = 9 and x = 10.",
+  "diagram": null,
+  "status": "ok"
+}

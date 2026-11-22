@@ -1,0 +1,16 @@
+{
+  "id": "SAT_p1_4",
+  "source_page": "SAT_p1_4.html",
+  "source_image": "images/SAT_p1_4.png",
+  "question": "Kathy is a repair technician for a phone company. Each week, she receives a batch of phones that need repairs. The number of phones that she has left to fix at the end of each day can be estimated with the equation P = 108 − 23d, where P is the number of phones left and d is the number of days she has worked that week. What is the meaning of the value 108 in this equation?",
+  "choices": {
+    "A": "Kathy will complete the repairs within 108 days.",
+    "B": "Kathy starts each week with 108 phones to fix.",
+    "C": "Kathy repairs phones at a rate of 108 per hour.",
+    "D": "Kathy repairs phones at a rate of 108 per day."
+  },
+  "answer": "B",
+  "explanation": "At d = 0 (start of the week), P = 108, so 108 is the initial number of phones. The rate is 23 per day.",
+  "diagram": null,
+  "status": "ok"
+}
