@@ -136,12 +136,12 @@
     var q = qs[Math.floor(Math.random() * qs.length)];
     return { type: d.type_name || "SAT", q: q };
   }
-  function hasDiagram(q) { return !!(q.source_image && /\[Diagram:/.test(q.question)); }
+  function hasDiagram(q) { return !!(q.diagram_image && /\[Diagram:/.test(q.question)); }
   function stem(q) { return hasDiagram(q) ? q.question.replace(/\s*\[Diagram:[^\]]*\]/, "") : q.question; }
   function addDiagram(q) {
     if (!hasDiagram(q)) return;
     var img = document.createElement("img");
-    img.src = q.source_image; img.alt = q.question.match(/\[Diagram:([^\]]*)\]/)[1].trim();
+    img.src = q.diagram_image; img.alt = q.question.match(/\[Diagram:([^\]]*)\]/)[1].trim();
     img.style.maxWidth = "100%";
     app.appendChild(img);
   }
