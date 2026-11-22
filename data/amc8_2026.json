@@ -3,7 +3,7 @@
     "id": "AMC8_2026_1",
     "num": 1,
     "question": "What is the value of the following expression? 1+2-3+4+5-6+7+8-9+10+11-12",
-    "figure": null,
+    "figure": "images/AMC8_2026_1_diagram.png",
     "choices": [
       "18",
       "21",
@@ -18,7 +18,7 @@
     "id": "AMC8_2026_2",
     "num": 2,
     "question": "In the array shown below, three 3s are surrounded by 2s, which are in turn surrounded by a border of twenty 1s. What is the sum of the numbers in the array? $$\\begin{array}{ccccccc}1&1&1&1&1&1&1\\\\1&2&2&2&2&2&1\\\\1&2&3&3&3&2&1\\\\1&2&2&2&2&2&1\\\\1&1&1&1&1&1&1\\end{array}$$",
-    "figure": null,
+    "figure": "images/AMC8_2026_2_diagram.png",
     "choices": [
       "49",
       "51",
@@ -33,7 +33,7 @@
     "id": "AMC8_2026_3",
     "num": 3,
     "question": "Haruki has a piece of wire that is 24 centimeters long. He wants to bend it to form each of the following shapes, one at a time: A regular hexagon with side length 5 cm. A square with area 36 cm^2. A right triangle whose legs are 6 and 8 cm long. Which of the shapes can Haruki make?",
-    "figure": null,
+    "figure": "images/AMC8_2026_3_diagram.png",
     "choices": [
       "Triangle only",
       "Hexagon and square only",
@@ -48,7 +48,7 @@
     "id": "AMC8_2026_4",
     "num": 4,
     "question": "Brynn's savings decreased by 20% in July, then increased by 50% in August. Brynn's savings are now what percent of the original amount?",
-    "figure": null,
+    "figure": "images/AMC8_2026_4_diagram.png",
     "choices": [
       "80",
       "90",
@@ -63,7 +63,7 @@
     "id": "AMC8_2026_5",
     "num": 5,
     "question": "Casey went on a road trip that covered 100 miles, stopping only for a lunch break along the way. The trip took 3 hours in total and her average speed while driving was 40 miles per hour. In minutes, how long was the lunch break?",
-    "figure": null,
+    "figure": "images/AMC8_2026_5_diagram.png",
     "choices": [
       "15",
       "30",
@@ -78,7 +78,7 @@
     "id": "AMC8_2026_6",
     "num": 6,
     "question": "Peter lives near a rectangular field that is filled with blackberry bushes. The field is 10 meters long and 8 meters wide, and Peter can reach any blackberries that are within 1 meter of an edge of the field. The portion of the field he can reach is shaded in the figure below. What fraction of the area of the field can Peter reach?",
-    "figure": null,
+    "figure": "images/AMC8_2026_6_diagram.png",
     "choices": [
       "1/6",
       "1/4",
@@ -93,7 +93,7 @@
     "id": "AMC8_2026_7",
     "num": 7,
     "question": "Mika would like to estimate how far she can ride a new model of electric bike on a fully charged battery. She completed two trips totaling 40 miles. The first trip used 1/2 of the total battery power, while the second trip used 3/10 of the total battery power. How many miles can this electric bike go on a fully charged battery?",
-    "figure": null,
+    "figure": "images/AMC8_2026_7_diagram.png",
     "choices": [
       "45",
       "48",
@@ -108,7 +108,7 @@
     "id": "AMC8_2026_8",
     "num": 8,
     "question": "A poll asked a number of people if they liked solving mathematics problems. Exactly 74% answered yes. What is the fewest possible number of people who could have been asked the question?",
-    "figure": null,
+    "figure": "images/AMC8_2026_8_diagram.png",
     "choices": [
       "10",
       "20",
@@ -123,7 +123,7 @@
     "id": "AMC8_2026_9",
     "num": 9,
     "question": "What is the value of this expression? $\\dfrac{\\sqrt{16\\sqrt{81}}}{\\sqrt{81\\sqrt{16}}}$",
-    "figure": null,
+    "figure": "images/AMC8_2026_9_diagram.png",
     "choices": [
       "4/9",
       "2/3",
@@ -153,7 +153,7 @@
     "id": "AMC8_2026_11",
     "num": 11,
     "question": "Squares of side length 1, 1, 2, 3, and 5 are arranged to form the rectangle shown below. A curve is drawn by inscribing a quarter circle in each square and joining the quarter circles in order, from shortest to longest. What is the length of the curve?",
-    "figure": null,
+    "figure": "images/AMC8_2026_11_diagram.png",
     "choices": [
       "4pi",
       "6pi",
@@ -168,7 +168,7 @@
     "id": "AMC8_2026_12",
     "num": 12,
     "question": "In the figure below, each circle will be filled with a digit from 1 to 6. Each digit must appear exactly once. The sum of the digits in neighboring circles is shown in the box between them. What digit must be placed in the top circle?",
-    "figure": null,
+    "figure": "images/AMC8_2026_12_diagram.png",
     "choices": [
       "2",
       "3",
@@ -183,7 +183,7 @@
     "id": "AMC8_2026_13",
     "num": 13,
     "question": "The figure below shows a tiling of 1x1 unit squares. Each row of unit squares is shifted horizontally by half a unit relative to the row above it. A shaded square is drawn on top of the tiling. Each vertex of the shaded square is a vertex of one of the unit squares. In square units, what is the area of the shaded square?",
-    "figure": null,
+    "figure": "images/AMC8_2026_13_diagram.png",
     "choices": [
       "10",
       "21/2",
@@ -198,7 +198,7 @@
     "id": "AMC8_2026_14",
     "num": 14,
     "question": "Jami picked three equally spaced integer numbers on the number line. The sum of the first and the second numbers is 40, while the sum of the second and third numbers is 60. What is the sum of all three numbers?",
-    "figure": null,
+    "figure": "images/AMC8_2026_14_diagram.png",
     "choices": [
       "70",
       "75",
@@ -213,7 +213,7 @@
     "id": "AMC8_2026_15",
     "num": 15,
     "question": "Elijah has a large collection of identical wooden cubes which are white on 4 faces and gray on 2 faces that share an edge. He glues some cubes together face-to-face. The figure below shows 2 cubes being glued together, leaving 3 gray faces visible. What is the fewest number of cubes that he could glue together to ensure that no gray faces are visible, no matter how he rotates the figure?",
-    "figure": null,
+    "figure": "images/AMC8_2026_15_diagram.png",
     "choices": [
       "4",
       "6",
@@ -228,7 +228,7 @@
     "id": "AMC8_2026_16",
     "num": 16,
     "question": "Consider all positive four-digit integers consisting of only even digits. What fraction of these integers are divisible by 4?",
-    "figure": null,
+    "figure": "images/AMC8_2026_16_diagram.png",
     "choices": [
       "1/4",
       "2/5",
@@ -243,7 +243,7 @@
     "id": "AMC8_2026_17",
     "num": 17,
     "question": "Four students are seated in a row. They chat with the people sitting next to them, then rearrange themselves so that they are no longer seated next to any of the same people. How many rearrangements are possible?",
-    "figure": null,
+    "figure": "images/AMC8_2026_17_diagram.png",
     "choices": [
       "2",
       "4",
@@ -258,7 +258,7 @@
     "id": "AMC8_2026_18",
     "num": 18,
     "question": "In how many ways can 60 be written as the sum of two or more consecutive odd positive integers that are arranged in increasing order?",
-    "figure": null,
+    "figure": "images/AMC8_2026_18_diagram.png",
     "choices": [
       "1",
       "2",
@@ -273,7 +273,7 @@
     "id": "AMC8_2026_19",
     "num": 19,
     "question": "Miguel is walking with his dog, Luna. When they reach the entrance to a park, Miguel throws a ball straight ahead and continues to walk at a steady pace. Luna sprints toward the ball, which stops by a tree. As soon as the dog reaches the ball, she brings it back to Miguel. Luna runs 5 times faster than Miguel walks. What fraction of the distance between the entrance and the tree does Miguel cover by the time Luna brings him the ball?",
-    "figure": null,
+    "figure": "images/AMC8_2026_19_diagram.png",
     "choices": [
       "1/6",
       "1/5",
@@ -288,7 +288,7 @@
     "id": "AMC8_2026_20",
     "num": 20,
     "question": "The land of Catania uses gold coins and silver coins. Gold coins are 1 mm thick and silver coins are 3 mm thick. In how many ways can Taylor make a stack of coins that is 8 mm tall using any arrangement of gold and silver coins, assuming order matters?",
-    "figure": null,
+    "figure": "images/AMC8_2026_20_diagram.png",
     "choices": [
       "3",
       "7",
@@ -303,7 +303,7 @@
     "id": "AMC8_2026_21",
     "num": 21,
     "question": "Charlotte the spider is walking along a web shaped like a 5-pointed star. The web has 5 outer points and 5 inner points. Each time Charlotte reaches a point, she randomly chooses a neighboring point and moves to that point. Charlotte starts at one of the outer points and makes 3 moves (re-visiting points is allowed). What is the probability she is now at one of the outer points of the star?",
-    "figure": null,
+    "figure": "images/AMC8_2026_21_diagram.png",
     "choices": [
       "1/5",
       "1/4",
@@ -348,7 +348,7 @@
     "id": "AMC8_2026_24",
     "num": 24,
     "question": "The notation n! (read n factorial) is defined as the product of the first n positive integers. Define the superfactorial of a positive integer, denoted n^!, to be the product of the factorials of the first n integers. How many factors of 7 appear in the prime factorization of 51^!, the superfactorial of 51?",
-    "figure": null,
+    "figure": "images/AMC8_2026_24_diagram.png",
     "choices": [
       "147",
       "150",
