@@ -1,0 +1,138 @@
+{
+  "source": "SAT_p1_19",
+  "source_page": "SAT_p1_19.html",
+  "source_image": "images/SAT_p1_19.png",
+  "type": "trig_complementary_angles",
+  "questions": [
+    {
+      "id": "SAT_p1_19_S01",
+      "type": "trig_complementary_angles",
+      "question": "In a right triangle, one angle measures x°, where sin x° = 3/5. What is cos(90° − x°)?",
+      "choices": {
+        "A": "3/5",
+        "B": "4/5",
+        "C": "3/4",
+        "D": "5/3"
+      },
+      "answer": "A",
+      "explanation": "cos(90° − x°) = sin x° because the acute angles x° and 90° − x° are complementary. So the value is 3/5."
+    },
+    {
+      "id": "SAT_p1_19_S02",
+      "type": "trig_complementary_angles",
+      "question": "In a right triangle, one angle measures x°, where cos x° = 5/13. What is sin(90° − x°)?",
+      "choices": {
+        "A": "12/13",
+        "B": "5/12",
+        "C": "13/5",
+        "D": "5/13"
+      },
+      "answer": "D",
+      "explanation": "sin(90° − x°) = cos x° because the acute angles x° and 90° − x° are complementary. So the value is 5/13."
+    },
+    {
+      "id": "SAT_p1_19_S03",
+      "type": "trig_complementary_angles",
+      "question": "In a right triangle, one angle measures x°, where sin x° = 8/17. What is cos(90° − x°)?",
+      "choices": {
+        "A": "15/17",
+        "B": "8/15",
+        "C": "8/17",
+        "D": "17/8"
+      },
+      "answer": "C",
+      "explanation": "cos(90° − x°) = sin x° because the acute angles x° and 90° − x° are complementary. So the value is 8/17."
+    },
+    {
+      "id": "SAT_p1_19_S04",
+      "type": "trig_complementary_angles",
+      "question": "In a right triangle, one angle measures x°, where cos x° = 7/25. What is sin(90° − x°)?",
+      "choices": {
+        "A": "24/25",
+        "B": "7/25",
+        "C": "7/24",
+        "D": "25/7"
+      },
+      "answer": "B",
+      "explanation": "sin(90° − x°) = cos x° because the acute angles x° and 90° − x° are complementary. So the value is 7/25."
+    },
+    {
+      "id": "SAT_p1_19_S05",
+      "type": "trig_complementary_angles",
+      "question": "In a right triangle, one angle measures x°, where sin x° = 20/29. What is cos(90° − x°)?",
+      "choices": {
+        "A": "20/29",
+        "B": "21/29",
+        "C": "20/21",
+        "D": "29/20"
+      },
+      "answer": "A",
+      "explanation": "cos(90° − x°) = sin x° because the acute angles x° and 90° − x° are complementary. So the value is 20/29."
+    },
+    {
+      "id": "SAT_p1_19_S06",
+      "type": "trig_complementary_angles",
+      "question": "In a right triangle, one angle measures x°, where cos x° = 9/41. What is sin(90° − x°)?",
+      "choices": {
+        "A": "40/41",
+        "B": "9/40",
+        "C": "41/9",
+        "D": "9/41"
+      },
+      "answer": "D",
+      "explanation": "sin(90° − x°) = cos x° because the acute angles x° and 90° − x° are complementary. So the value is 9/41."
+    },
+    {
+      "id": "SAT_p1_19_S07",
+      "type": "trig_complementary_angles",
+      "question": "In a right triangle, one angle measures x°, where sin x° = 6/10. What is cos(90° − x°)?",
+      "choices": {
+        "A": "4/5",
+        "B": "8/10",
+        "C": "6/10",
+        "D": "5/3"
+      },
+      "answer": "C",
+      "explanation": "cos(90° − x°) = sin x° because the acute angles x° and 90° − x° are complementary. So the value is 6/10."
+    },
+    {
+      "id": "SAT_p1_19_S08",
+      "type": "trig_complementary_angles",
+      "question": "In a right triangle, one angle measures x°, where cos x° = 12/37. What is sin(90° − x°)?",
+      "choices": {
+        "A": "35/37",
+        "B": "12/37",
+        "C": "12/35",
+        "D": "37/12"
+      },
+      "answer": "B",
+      "explanation": "sin(90° − x°) = cos x° because the acute angles x° and 90° − x° are complementary. So the value is 12/37."
+    },
+    {
+      "id": "SAT_p1_19_S09",
+      "type": "trig_complementary_angles",
+      "question": "In a right triangle, one angle measures x°, where sin x° = 11/61. What is cos(90° − x°)?",
+      "choices": {
+        "A": "11/61",
+        "B": "60/61",
+        "C": "11/60",
+        "D": "61/11"
+      },
+      "answer": "A",
+      "explanation": "cos(90° − x°) = sin x° because the acute angles x° and 90° − x° are complementary. So the value is 11/61."
+    },
+    {
+      "id": "SAT_p1_19_S10",
+      "type": "trig_complementary_angles",
+      "question": "In a right triangle, one angle measures x°, where cos x° = 28/53. What is sin(90° − x°)?",
+      "choices": {
+        "A": "45/53",
+        "B": "28/45",
+        "C": "53/28",
+        "D": "28/53"
+      },
+      "answer": "D",
+      "explanation": "sin(90° − x°) = cos x° because the acute angles x° and 90° − x° are complementary. So the value is 28/53."
+    }
+  ]
+}

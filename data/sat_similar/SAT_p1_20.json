@@ -1,0 +1,138 @@
+{
+  "source": "SAT_p1_20",
+  "source_page": "SAT_p1_20.html",
+  "source_image": "images/SAT_p1_20.png",
+  "type": "radical_equation_substitution",
+  "questions": [
+    {
+      "id": "SAT_p1_20_S01",
+      "type": "radical_equation_substitution",
+      "question": "If a = 5√2 and 2a = √(2x), what is the value of x?",
+      "choices": {
+        "A": "100",
+        "B": "50",
+        "C": "200",
+        "D": "110"
+      },
+      "answer": "A",
+      "explanation": "Square both sides of 2a = √(2x): 4a² = 2x. Since a² = 25·2 = 50, 4(50) = 2x, so x = 200/2 = 100."
+    },
+    {
+      "id": "SAT_p1_20_S02",
+      "type": "radical_equation_substitution",
+      "question": "If a = 3√5 and 2a = √(2x), what is the value of x?",
+      "choices": {
+        "A": "45",
+        "B": "180",
+        "C": "100",
+        "D": "90"
+      },
+      "answer": "D",
+      "explanation": "Square both sides of 2a = √(2x): 4a² = 2x. Since a² = 9·5 = 45, 4(45) = 2x, so x = 180/2 = 90."
+    },
+    {
+      "id": "SAT_p1_20_S03",
+      "type": "radical_equation_substitution",
+      "question": "If a = 4√3 and 2a = √(2x), what is the value of x?",
+      "choices": {
+        "A": "48",
+        "B": "192",
+        "C": "96",
+        "D": "106"
+      },
+      "answer": "C",
+      "explanation": "Square both sides of 2a = √(2x): 4a² = 2x. Since a² = 16·3 = 48, 4(48) = 2x, so x = 192/2 = 96."
+    },
+    {
+      "id": "SAT_p1_20_S04",
+      "type": "radical_equation_substitution",
+      "question": "If a = 2√7 and 3a = √(3x), what is the value of x?",
+      "choices": {
+        "A": "42",
+        "B": "84",
+        "C": "252",
+        "D": "94"
+      },
+      "answer": "B",
+      "explanation": "Square both sides of 3a = √(3x): 9a² = 3x. Since a² = 4·7 = 28, 9(28) = 3x, so x = 252/3 = 84."
+    },
+    {
+      "id": "SAT_p1_20_S05",
+      "type": "radical_equation_substitution",
+      "question": "If a = 6√2 and 2a = √(4x), what is the value of x?",
+      "choices": {
+        "A": "72",
+        "B": "36",
+        "C": "144",
+        "D": "82"
+      },
+      "answer": "A",
+      "explanation": "Square both sides of 2a = √(4x): 4a² = 4x. Since a² = 36·2 = 72, 4(72) = 4x, so x = 288/4 = 72."
+    },
+    {
+      "id": "SAT_p1_20_S06",
+      "type": "radical_equation_substitution",
+      "question": "If a = 3√2 and 4a = √(8x), what is the value of x?",
+      "choices": {
+        "A": "18",
+        "B": "72",
+        "C": "144",
+        "D": "36"
+      },
+      "answer": "D",
+      "explanation": "Square both sides of 4a = √(8x): 16a² = 8x. Since a² = 9·2 = 18, 16(18) = 8x, so x = 288/8 = 36."
+    },
+    {
+      "id": "SAT_p1_20_S07",
+      "type": "radical_equation_substitution",
+      "question": "If a = 5√3 and 3a = √(3x), what is the value of x?",
+      "choices": {
+        "A": "226",
+        "B": "675",
+        "C": "225",
+        "D": "235"
+      },
+      "answer": "C",
+      "explanation": "Square both sides of 3a = √(3x): 9a² = 3x. Since a² = 25·3 = 75, 9(75) = 3x, so x = 675/3 = 225."
+    },
+    {
+      "id": "SAT_p1_20_S08",
+      "type": "radical_equation_substitution",
+      "question": "If a = 2√5 and 2a = √(5x), what is the value of x?",
+      "choices": {
+        "A": "8",
+        "B": "16",
+        "C": "40",
+        "D": "32"
+      },
+      "answer": "B",
+      "explanation": "Square both sides of 2a = √(5x): 4a² = 5x. Since a² = 4·5 = 20, 4(20) = 5x, so x = 80/5 = 16."
+    },
+    {
+      "id": "SAT_p1_20_S09",
+      "type": "radical_equation_substitution",
+      "question": "If a = 4√2 and 5a = √(10x), what is the value of x?",
+      "choices": {
+        "A": "80",
+        "B": "40",
+        "C": "160",
+        "D": "400"
+      },
+      "answer": "A",
+      "explanation": "Square both sides of 5a = √(10x): 25a² = 10x. Since a² = 16·2 = 32, 25(32) = 10x, so x = 800/10 = 80."
+    },
+    {
+      "id": "SAT_p1_20_S10",
+      "type": "radical_equation_substitution",
+      "question": "If a = 7√2 and 2a = √(1x), what is the value of x?",
+      "choices": {
+        "A": "196",
+        "B": "784",
+        "C": "402",
+        "D": "392"
+      },
+      "answer": "D",
+      "explanation": "Square both sides of 2a = √(1x): 4a² = 1x. Since a² = 49·2 = 98, 4(98) = 1x, so x = 392/1 = 392."
+    }
+  ]
+}

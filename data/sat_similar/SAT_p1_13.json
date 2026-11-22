@@ -1,0 +1,138 @@
+{
+  "source": "SAT_p1_13",
+  "source_page": "SAT_p1_13.html",
+  "source_image": "images/SAT_p1_13.png",
+  "type": "rational_expression_equivalence",
+  "questions": [
+    {
+      "id": "SAT_p1_13_S01",
+      "type": "rational_expression_equivalence",
+      "question": "If x > 3, which of the following is equivalent to 1 / (1/(x + 2) + 1/(x + 3))?",
+      "choices": {
+        "A": "(x² + 5x + 6)/(2x + 5)",
+        "B": "(2x + 5)/(x² + 5x + 6)",
+        "C": "(x² + 5x + 6)/(x + 5)",
+        "D": "2x + 5"
+      },
+      "answer": "A",
+      "explanation": "Combine: 1/(x+2) + 1/(x+3) = (2x + 5)/((x+2)(x+3)) = (2x + 5)/(x² + 5x + 6). The reciprocal is (x² + 5x + 6)/(2x + 5)."
+    },
+    {
+      "id": "SAT_p1_13_S02",
+      "type": "rational_expression_equivalence",
+      "question": "If x > 4, which of the following is equivalent to 1 / (1/(x + 1) + 1/(x + 4))?",
+      "choices": {
+        "A": "(2x + 5)/(x² + 5x + 4)",
+        "B": "(x² + 5x + 4)/(x + 5)",
+        "C": "2x + 5",
+        "D": "(x² + 5x + 4)/(2x + 5)"
+      },
+      "answer": "D",
+      "explanation": "Combine: 1/(x+1) + 1/(x+4) = (2x + 5)/((x+1)(x+4)) = (2x + 5)/(x² + 5x + 4). The reciprocal is (x² + 5x + 4)/(2x + 5)."
+    },
+    {
+      "id": "SAT_p1_13_S03",
+      "type": "rational_expression_equivalence",
+      "question": "If x > 5, which of the following is equivalent to 1 / (1/(x + 3) + 1/(x + 5))?",
+      "choices": {
+        "A": "(2x + 8)/(x² + 8x + 15)",
+        "B": "(x² + 8x + 15)/(x + 8)",
+        "C": "(x² + 8x + 15)/(2x + 8)",
+        "D": "2x + 8"
+      },
+      "answer": "C",
+      "explanation": "Combine: 1/(x+3) + 1/(x+5) = (2x + 8)/((x+3)(x+5)) = (2x + 8)/(x² + 8x + 15). The reciprocal is (x² + 8x + 15)/(2x + 8)."
+    },
+    {
+      "id": "SAT_p1_13_S04",
+      "type": "rational_expression_equivalence",
+      "question": "If x > 5, which of the following is equivalent to 1 / (1/(x + 2) + 1/(x + 5))?",
+      "choices": {
+        "A": "(2x + 7)/(x² + 7x + 10)",
+        "B": "(x² + 7x + 10)/(2x + 7)",
+        "C": "(x² + 7x + 10)/(x + 7)",
+        "D": "2x + 7"
+      },
+      "answer": "B",
+      "explanation": "Combine: 1/(x+2) + 1/(x+5) = (2x + 7)/((x+2)(x+5)) = (2x + 7)/(x² + 7x + 10). The reciprocal is (x² + 7x + 10)/(2x + 7)."
+    },
+    {
+      "id": "SAT_p1_13_S05",
+      "type": "rational_expression_equivalence",
+      "question": "If x > 2, which of the following is equivalent to 1 / (1/(x + 1) + 1/(x + 2))?",
+      "choices": {
+        "A": "(x² + 3x + 2)/(2x + 3)",
+        "B": "(2x + 3)/(x² + 3x + 2)",
+        "C": "(x² + 3x + 2)/(x + 3)",
+        "D": "2x + 3"
+      },
+      "answer": "A",
+      "explanation": "Combine: 1/(x+1) + 1/(x+2) = (2x + 3)/((x+1)(x+2)) = (2x + 3)/(x² + 3x + 2). The reciprocal is (x² + 3x + 2)/(2x + 3)."
+    },
+    {
+      "id": "SAT_p1_13_S06",
+      "type": "rational_expression_equivalence",
+      "question": "If x > 5, which of the following is equivalent to 1 / (1/(x + 4) + 1/(x + 5))?",
+      "choices": {
+        "A": "(2x + 9)/(x² + 9x + 20)",
+        "B": "(x² + 9x + 20)/(x + 9)",
+        "C": "2x + 9",
+        "D": "(x² + 9x + 20)/(2x + 9)"
+      },
+      "answer": "D",
+      "explanation": "Combine: 1/(x+4) + 1/(x+5) = (2x + 9)/((x+4)(x+5)) = (2x + 9)/(x² + 9x + 20). The reciprocal is (x² + 9x + 20)/(2x + 9)."
+    },
+    {
+      "id": "SAT_p1_13_S07",
+      "type": "rational_expression_equivalence",
+      "question": "If x > 6, which of the following is equivalent to 1 / (1/(x + 1) + 1/(x + 6))?",
+      "choices": {
+        "A": "(2x + 7)/(x² + 7x + 6)",
+        "B": "(x² + 7x + 6)/(x + 7)",
+        "C": "(x² + 7x + 6)/(2x + 7)",
+        "D": "2x + 7"
+      },
+      "answer": "C",
+      "explanation": "Combine: 1/(x+1) + 1/(x+6) = (2x + 7)/((x+1)(x+6)) = (2x + 7)/(x² + 7x + 6). The reciprocal is (x² + 7x + 6)/(2x + 7)."
+    },
+    {
+      "id": "SAT_p1_13_S08",
+      "type": "rational_expression_equivalence",
+      "question": "If x > 4, which of the following is equivalent to 1 / (1/(x + 3) + 1/(x + 4))?",
+      "choices": {
+        "A": "(2x + 7)/(x² + 7x + 12)",
+        "B": "(x² + 7x + 12)/(2x + 7)",
+        "C": "(x² + 7x + 12)/(x + 7)",
+        "D": "2x + 7"
+      },
+      "answer": "B",
+      "explanation": "Combine: 1/(x+3) + 1/(x+4) = (2x + 7)/((x+3)(x+4)) = (2x + 7)/(x² + 7x + 12). The reciprocal is (x² + 7x + 12)/(2x + 7)."
+    },
+    {
+      "id": "SAT_p1_13_S09",
+      "type": "rational_expression_equivalence",
+      "question": "If x > 7, which of the following is equivalent to 1 / (1/(x + 2) + 1/(x + 7))?",
+      "choices": {
+        "A": "(x² + 9x + 14)/(2x + 9)",
+        "B": "(2x + 9)/(x² + 9x + 14)",
+        "C": "(x² + 9x + 14)/(x + 9)",
+        "D": "2x + 9"
+      },
+      "answer": "A",
+      "explanation": "Combine: 1/(x+2) + 1/(x+7) = (2x + 9)/((x+2)(x+7)) = (2x + 9)/(x² + 9x + 14). The reciprocal is (x² + 9x + 14)/(2x + 9)."
+    },
+    {
+      "id": "SAT_p1_13_S10",
+      "type": "rational_expression_equivalence",
+      "question": "If x > 5, which of the following is equivalent to 1 / (1/(x + 1) + 1/(x + 5))?",
+      "choices": {
+        "A": "(2x + 6)/(x² + 6x + 5)",
+        "B": "(x² + 6x + 5)/(x + 6)",
+        "C": "2x + 6",
+        "D": "(x² + 6x + 5)/(2x + 6)"
+      },
+      "answer": "D",
+      "explanation": "Combine: 1/(x+1) + 1/(x+5) = (2x + 6)/((x+1)(x+5)) = (2x + 6)/(x² + 6x + 5). The reciprocal is (x² + 6x + 5)/(2x + 6)."
+    }
+  ]
+}

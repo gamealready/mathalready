@@ -1,0 +1,138 @@
+{
+  "source": "SAT_p1_15",
+  "source_page": "SAT_p1_15.html",
+  "source_image": "images/SAT_p1_15.png",
+  "type": "expanding_binomials_matching_coefficients",
+  "questions": [
+    {
+      "id": "SAT_p1_15_S01",
+      "type": "expanding_binomials_matching_coefficients",
+      "question": "If (ax + 2)(bx + 7) = 15x² + cx + 14 for all values of x, and a + b = 8, what are the two possible values for c?",
+      "choices": {
+        "A": "31 and 41",
+        "B": "3 and 5",
+        "C": "8 and 15",
+        "D": "9 and 29"
+      },
+      "answer": "A",
+      "explanation": "Expanding gives ab = 15, mn = 14, and c = 7a + 2b. With a + b = 8 and ab = 15, (a, b) is (3, 5) or (5, 3). So c = 31 or c = 41."
+    },
+    {
+      "id": "SAT_p1_15_S02",
+      "type": "expanding_binomials_matching_coefficients",
+      "question": "If (ax + 3)(bx + 5) = 14x² + cx + 15 for all values of x, and a + b = 9, what are the two possible values for c?",
+      "choices": {
+        "A": "2 and 7",
+        "B": "9 and 14",
+        "C": "8 and 29",
+        "D": "31 and 41"
+      },
+      "answer": "D",
+      "explanation": "Expanding gives ab = 14, mn = 15, and c = 5a + 3b. With a + b = 9 and ab = 14, (a, b) is (2, 7) or (7, 2). So c = 31 or c = 41."
+    },
+    {
+      "id": "SAT_p1_15_S03",
+      "type": "expanding_binomials_matching_coefficients",
+      "question": "If (ax + 1)(bx + 6) = 12x² + cx + 6 for all values of x, and a + b = 7, what are the two possible values for c?",
+      "choices": {
+        "A": "3 and 4",
+        "B": "7 and 12",
+        "C": "22 and 27",
+        "D": "7 and 18"
+      },
+      "answer": "C",
+      "explanation": "Expanding gives ab = 12, mn = 6, and c = 6a + 1b. With a + b = 7 and ab = 12, (a, b) is (3, 4) or (4, 3). So c = 22 or c = 27."
+    },
+    {
+      "id": "SAT_p1_15_S04",
+      "type": "expanding_binomials_matching_coefficients",
+      "question": "If (ax + 4)(bx + 3) = 20x² + cx + 12 for all values of x, and a + b = 9, what are the two possible values for c?",
+      "choices": {
+        "A": "4 and 5",
+        "B": "31 and 32",
+        "C": "9 and 20",
+        "D": "7 and 32"
+      },
+      "answer": "B",
+      "explanation": "Expanding gives ab = 20, mn = 12, and c = 3a + 4b. With a + b = 9 and ab = 20, (a, b) is (4, 5) or (5, 4). So c = 32 or c = 31."
+    },
+    {
+      "id": "SAT_p1_15_S05",
+      "type": "expanding_binomials_matching_coefficients",
+      "question": "If (ax + 2)(bx + 9) = 24x² + cx + 18 for all values of x, and a + b = 10, what are the two possible values for c?",
+      "choices": {
+        "A": "48 and 62",
+        "B": "4 and 6",
+        "C": "10 and 24",
+        "D": "11 and 42"
+      },
+      "answer": "A",
+      "explanation": "Expanding gives ab = 24, mn = 18, and c = 9a + 2b. With a + b = 10 and ab = 24, (a, b) is (4, 6) or (6, 4). So c = 48 or c = 62."
+    },
+    {
+      "id": "SAT_p1_15_S06",
+      "type": "expanding_binomials_matching_coefficients",
+      "question": "If (ax + 5)(bx + 2) = 8x² + cx + 10 for all values of x, and a + b = 6, what are the two possible values for c?",
+      "choices": {
+        "A": "2 and 4",
+        "B": "6 and 8",
+        "C": "7 and 18",
+        "D": "18 and 24"
+      },
+      "answer": "D",
+      "explanation": "Expanding gives ab = 8, mn = 10, and c = 2a + 5b. With a + b = 6 and ab = 8, (a, b) is (2, 4) or (4, 2). So c = 24 or c = 18."
+    },
+    {
+      "id": "SAT_p1_15_S07",
+      "type": "expanding_binomials_matching_coefficients",
+      "question": "If (ax + 3)(bx + 4) = 18x² + cx + 12 for all values of x, and a + b = 9, what are the two possible values for c?",
+      "choices": {
+        "A": "3 and 6",
+        "B": "9 and 18",
+        "C": "30 and 33",
+        "D": "7 and 30"
+      },
+      "answer": "C",
+      "explanation": "Expanding gives ab = 18, mn = 12, and c = 4a + 3b. With a + b = 9 and ab = 18, (a, b) is (3, 6) or (6, 3). So c = 30 or c = 33."
+    },
+    {
+      "id": "SAT_p1_15_S08",
+      "type": "expanding_binomials_matching_coefficients",
+      "question": "If (ax + 1)(bx + 8) = 15x² + cx + 8 for all values of x, and a + b = 8, what are the two possible values for c?",
+      "choices": {
+        "A": "3 and 5",
+        "B": "29 and 43",
+        "C": "8 and 15",
+        "D": "9 and 23"
+      },
+      "answer": "B",
+      "explanation": "Expanding gives ab = 15, mn = 8, and c = 8a + 1b. With a + b = 8 and ab = 15, (a, b) is (3, 5) or (5, 3). So c = 29 or c = 43."
+    },
+    {
+      "id": "SAT_p1_15_S09",
+      "type": "expanding_binomials_matching_coefficients",
+      "question": "If (ax + 2)(bx + 5) = 12x² + cx + 10 for all values of x, and a + b = 8, what are the two possible values for c?",
+      "choices": {
+        "A": "22 and 34",
+        "B": "2 and 6",
+        "C": "8 and 12",
+        "D": "7 and 22"
+      },
+      "answer": "A",
+      "explanation": "Expanding gives ab = 12, mn = 10, and c = 5a + 2b. With a + b = 8 and ab = 12, (a, b) is (2, 6) or (6, 2). So c = 22 or c = 34."
+    },
+    {
+      "id": "SAT_p1_15_S10",
+      "type": "expanding_binomials_matching_coefficients",
+      "question": "If (ax + 6)(bx + 1) = 10x² + cx + 6 for all values of x, and a + b = 7, what are the two possible values for c?",
+      "choices": {
+        "A": "2 and 5",
+        "B": "7 and 10",
+        "C": "7 and 16",
+        "D": "17 and 32"
+      },
+      "answer": "D",
+      "explanation": "Expanding gives ab = 10, mn = 6, and c = 1a + 6b. With a + b = 7 and ab = 10, (a, b) is (2, 5) or (5, 2). So c = 32 or c = 17."
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "source": "SAT_p1_16",
+  "source_page": "SAT_p1_16.html",
+  "source_image": "images/SAT_p1_16.png",
+  "type": "solve_quadratic_with_constraint",
+  "questions": [
+    {
+      "id": "SAT_p1_16_S01",
+      "type": "solve_quadratic_with_constraint",
+      "question": "If t > 0 and t² − 4 = 0, what is the value of t?",
+      "choices": {
+        "A": "2",
+        "B": "−2",
+        "C": "4",
+        "D": "16"
+      },
+      "answer": "A",
+      "explanation": "t² = 4, so t = ±2; since t > 0, t = 2."
+    },
+    {
+      "id": "SAT_p1_16_S02",
+      "type": "solve_quadratic_with_constraint",
+      "question": "If t > 0 and t² − 25 = 0, what is the value of t?",
+      "choices": {
+        "A": "−5",
+        "B": "25",
+        "C": "10",
+        "D": "5"
+      },
+      "answer": "D",
+      "explanation": "t² = 25, so t = ±5; since t > 0, t = 5."
+    },
+    {
+      "id": "SAT_p1_16_S03",
+      "type": "solve_quadratic_with_constraint",
+      "question": "If t > 0 and t² − 81 = 0, what is the value of t?",
+      "choices": {
+        "A": "−9",
+        "B": "81",
+        "C": "9",
+        "D": "18"
+      },
+      "answer": "C",
+      "explanation": "t² = 81, so t = ±9; since t > 0, t = 9."
+    },
+    {
+      "id": "SAT_p1_16_S04",
+      "type": "solve_quadratic_with_constraint",
+      "question": "If t > 0 and 2t² − 32 = 0, what is the value of t?",
+      "choices": {
+        "A": "−4",
+        "B": "4",
+        "C": "16",
+        "D": "8"
+      },
+      "answer": "B",
+      "explanation": "2t² = 32, so t² = 16 and t = ±4; since t > 0, t = 4."
+    },
+    {
+      "id": "SAT_p1_16_S05",
+      "type": "solve_quadratic_with_constraint",
+      "question": "If t > 0 and t² + t − 6 = 0, what is the value of t?",
+      "choices": {
+        "A": "2",
+        "B": "−3",
+        "C": "3",
+        "D": "6"
+      },
+      "answer": "A",
+      "explanation": "Factor: (t + 3)(t − 2) = 0, so t = −3 or t = 2; since t > 0, t = 2."
+    },
+    {
+      "id": "SAT_p1_16_S06",
+      "type": "solve_quadratic_with_constraint",
+      "question": "If t > 0 and (t − 3)² = 16, what is the value of t?",
+      "choices": {
+        "A": "−1",
+        "B": "4",
+        "C": "19",
+        "D": "7"
+      },
+      "answer": "D",
+      "explanation": "t − 3 = ±4, so t = 7 or t = −1; since t > 0, t = 7."
+    },
+    {
+      "id": "SAT_p1_16_S07",
+      "type": "solve_quadratic_with_constraint",
+      "question": "If t > 0 and t² − 6t = 0, what is the value of t?",
+      "choices": {
+        "A": "0",
+        "B": "−6",
+        "C": "6",
+        "D": "36"
+      },
+      "answer": "C",
+      "explanation": "t(t − 6) = 0, so t = 0 or t = 6; since t > 0, t = 6."
+    },
+    {
+      "id": "SAT_p1_16_S08",
+      "type": "solve_quadratic_with_constraint",
+      "question": "If t > 0 and 3t² = 75, what is the value of t?",
+      "choices": {
+        "A": "−5",
+        "B": "5",
+        "C": "25",
+        "D": "15"
+      },
+      "answer": "B",
+      "explanation": "t² = 25, so t = ±5; since t > 0, t = 5."
+    },
+    {
+      "id": "SAT_p1_16_S09",
+      "type": "solve_quadratic_with_constraint",
+      "question": "If t > 0 and t² − 2t − 15 = 0, what is the value of t?",
+      "choices": {
+        "A": "5",
+        "B": "−3",
+        "C": "3",
+        "D": "15"
+      },
+      "answer": "A",
+      "explanation": "Factor: (t − 5)(t + 3) = 0, so t = 5 or t = −3; since t > 0, t = 5."
+    },
+    {
+      "id": "SAT_p1_16_S10",
+      "type": "solve_quadratic_with_constraint",
+      "question": "If t > 0 and t² − 12 = 4, what is the value of t?",
+      "choices": {
+        "A": "−4",
+        "B": "16",
+        "C": "8",
+        "D": "4"
+      },
+      "answer": "D",
+      "explanation": "t² = 16, so t = ±4; since t > 0, t = 4."
+    }
+  ]
+}

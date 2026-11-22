@@ -1,0 +1,138 @@
+{
+  "source": "SAT_p1_11",
+  "source_page": "SAT_p1_11.html",
+  "source_image": "images/SAT_p1_11.png",
+  "type": "linear_system_word_problem",
+  "questions": [
+    {
+      "id": "SAT_p1_11_S01",
+      "type": "linear_system_word_problem",
+      "question": "b = 2.35 + 0.25x\nc = 1.75 + 0.40x\nIn the equations above, b and c represent the price per pound, in dollars, of beef and chicken, respectively, x weeks after July 1 during last summer. What was the price per pound of beef when it was equal to the price per pound of chicken?",
+      "choices": {
+        "A": "$3.35",
+        "B": "$3.60",
+        "C": "$3.05",
+        "D": "$3.90"
+      },
+      "answer": "A",
+      "explanation": "Set b = c: 2.35 + 0.25x = 1.75 + 0.40x, so x = 4. Then b = 2.35 + 0.25(4) = $3.35."
+    },
+    {
+      "id": "SAT_p1_11_S02",
+      "type": "linear_system_word_problem",
+      "question": "b = 3.10 + 0.20x\nc = 2.20 + 0.50x\nIn the equations above, b and c represent the price per pound, in dollars, of apples and pears, respectively, x weeks after March 1. What was the price per pound of apples when it was equal to the price per pound of pears?",
+      "choices": {
+        "A": "$3.95",
+        "B": "$3.40",
+        "C": "$4.25",
+        "D": "$3.70"
+      },
+      "answer": "D",
+      "explanation": "Set b = c: 3.10 + 0.20x = 2.20 + 0.50x, so x = 3. Then b = 3.10 + 0.20(3) = $3.70."
+    },
+    {
+      "id": "SAT_p1_11_S03",
+      "type": "linear_system_word_problem",
+      "question": "b = 1.80 + 0.30x\nc = 1.20 + 0.45x\nIn the equations above, b and c represent the price per pound, in dollars, of cheddar cheese and swiss cheese, respectively, x weeks after September 1. What was the price per pound of cheddar cheese when it was equal to the price per pound of swiss cheese?",
+      "choices": {
+        "A": "$3.25",
+        "B": "$2.70",
+        "C": "$3.00",
+        "D": "$3.55"
+      },
+      "answer": "C",
+      "explanation": "Set b = c: 1.80 + 0.30x = 1.20 + 0.45x, so x = 4. Then b = 1.80 + 0.30(4) = $3.00."
+    },
+    {
+      "id": "SAT_p1_11_S04",
+      "type": "linear_system_word_problem",
+      "question": "b = 4.50 + 0.15x\nc = 3.60 + 0.30x\nIn the equations above, b and c represent the price per pound, in dollars, of salmon and tuna, respectively, x weeks after May 1. What was the price per pound of salmon when it was equal to the price per pound of tuna?",
+      "choices": {
+        "A": "$5.65",
+        "B": "$5.40",
+        "C": "$5.10",
+        "D": "$5.95"
+      },
+      "answer": "B",
+      "explanation": "Set b = c: 4.50 + 0.15x = 3.60 + 0.30x, so x = 6. Then b = 4.50 + 0.15(6) = $5.40."
+    },
+    {
+      "id": "SAT_p1_11_S05",
+      "type": "linear_system_word_problem",
+      "question": "b = 2.00 + 0.35x\nc = 1.40 + 0.60x\nIn the equations above, b and c represent the price per pound, in dollars, of bread and rolls, respectively, x weeks after January 1. What was the price per pound of bread when it was equal to the price per pound of rolls?",
+      "choices": {
+        "A": "$2.84",
+        "B": "$3.09",
+        "C": "$2.54",
+        "D": "$3.39"
+      },
+      "answer": "A",
+      "explanation": "Set b = c: 2.00 + 0.35x = 1.40 + 0.60x, so x = 12/5. Then b = 2.00 + 0.35(12/5) = $2.84."
+    },
+    {
+      "id": "SAT_p1_11_S06",
+      "type": "linear_system_word_problem",
+      "question": "b = 5.25 + 0.10x\nc = 4.05 + 0.30x\nIn the equations above, b and c represent the price per pound, in dollars, of coffee and tea, respectively, x weeks after June 1. What was the price per pound of coffee when it was equal to the price per pound of tea?",
+      "choices": {
+        "A": "$6.10",
+        "B": "$5.55",
+        "C": "$6.40",
+        "D": "$5.85"
+      },
+      "answer": "D",
+      "explanation": "Set b = c: 5.25 + 0.10x = 4.05 + 0.30x, so x = 6. Then b = 5.25 + 0.10(6) = $5.85."
+    },
+    {
+      "id": "SAT_p1_11_S07",
+      "type": "linear_system_word_problem",
+      "question": "b = 1.10 + 0.40x\nc = 0.50 + 0.60x\nIn the equations above, b and c represent the price per pound, in dollars, of oranges and lemons, respectively, x weeks after April 1. What was the price per pound of oranges when it was equal to the price per pound of lemons?",
+      "choices": {
+        "A": "$2.55",
+        "B": "$2.00",
+        "C": "$2.30",
+        "D": "$2.85"
+      },
+      "answer": "C",
+      "explanation": "Set b = c: 1.10 + 0.40x = 0.50 + 0.60x, so x = 3. Then b = 1.10 + 0.40(3) = $2.30."
+    },
+    {
+      "id": "SAT_p1_11_S08",
+      "type": "linear_system_word_problem",
+      "question": "b = 6.00 + 0.50x\nc = 4.00 + 0.75x\nIn the equations above, b and c represent the price per pound, in dollars, of shrimp and crab, respectively, x weeks after August 1. What was the price per pound of shrimp when it was equal to the price per pound of crab?",
+      "choices": {
+        "A": "$10.25",
+        "B": "$10.00",
+        "C": "$9.70",
+        "D": "$10.55"
+      },
+      "answer": "B",
+      "explanation": "Set b = c: 6.00 + 0.50x = 4.00 + 0.75x, so x = 8. Then b = 6.00 + 0.50(8) = $10.00."
+    },
+    {
+      "id": "SAT_p1_11_S09",
+      "type": "linear_system_word_problem",
+      "question": "b = 3.75 + 0.25x\nc = 2.55 + 0.45x\nIn the equations above, b and c represent the price per pound, in dollars, of almonds and walnuts, respectively, x weeks after October 1. What was the price per pound of almonds when it was equal to the price per pound of walnuts?",
+      "choices": {
+        "A": "$5.25",
+        "B": "$5.50",
+        "C": "$4.95",
+        "D": "$5.80"
+      },
+      "answer": "A",
+      "explanation": "Set b = c: 3.75 + 0.25x = 2.55 + 0.45x, so x = 6. Then b = 3.75 + 0.25(6) = $5.25."
+    },
+    {
+      "id": "SAT_p1_11_S10",
+      "type": "linear_system_word_problem",
+      "question": "b = 0.90 + 0.18x\nc = 0.30 + 0.33x\nIn the equations above, b and c represent the price per pound, in dollars, of tomatoes and peppers, respectively, x weeks after July 1. What was the price per pound of tomatoes when it was equal to the price per pound of peppers?",
+      "choices": {
+        "A": "$1.87",
+        "B": "$1.32",
+        "C": "$2.17",
+        "D": "$1.62"
+      },
+      "answer": "D",
+      "explanation": "Set b = c: 0.90 + 0.18x = 0.30 + 0.33x, so x = 4. Then b = 0.90 + 0.18(4) = $1.62."
+    }
+  ]
+}
