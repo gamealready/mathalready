@@ -27,7 +27,7 @@ body {
   line-height: 0px;
 }
 
-h1, h2, h3 {
+h1, h2, h3, .logo-title {
   margin: 0;
   padding: 10px 0;
   font-family: 'Comic Sans MS', 'Arial Rounded MT Bold', sans-serif;
@@ -35,12 +35,12 @@ h1, h2, h3 {
   font-weight: bold;
 }
 
-h1 a, h1 a:hover {
+h1 a, h1 a:hover, .logo-title a, .logo-title a:hover {
   text-decoration: none;
   color: #FF69B4;
 }
 
-h1 span {
+h1 span, .logo-title span {
   color: #FFA500; /* Orange - bright contrast */
 }
 
@@ -84,7 +84,11 @@ p {
   padding: 0 0 10px 0;
 }
 
-.logo h1 {
+.article h1 {
+  font-size: 1.5em;
+}
+
+.logo .logo-title {
   font-size: 36px;
   line-height: 1.2em;
 }
