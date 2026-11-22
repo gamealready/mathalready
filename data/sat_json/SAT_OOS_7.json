@@ -1,0 +1,15 @@
+{
+  "id": "SAT_OOS_7",
+  "source_page": "SAT_OOS_7.html",
+  "source_image": "images/SAT_OOS_7.png",
+  "question": "If y = x^3 + 2x + 5 and z = x^2 + 7x + 1, what is 2y + z in terms of x?",
+  "choices": {
+    "A": "3x^3 + 11x + 11",
+    "B": "2x^3 + x^2 + 9x + 6",
+    "C": "2x^3 + x^2 + 11x + 11",
+    "D": "2x^3 + 2x^2 + 18x + 12"
+  },
+  "answer": "C",
+  "explanation": "2y = 2x^3 + 4x + 10; adding z gives 2x^3 + x^2 + 11x + 11.",
+  "status": "ok"
+}

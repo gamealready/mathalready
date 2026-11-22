@@ -1,0 +1,15 @@
+{
+  "id": "SAT_OOS_1",
+  "source_page": "SAT_OOS_1.html",
+  "source_image": "images/SAT_OOS_1.png",
+  "question": "Line l is graphed in the xy-plane. [Diagram: a straight line l sloping downward from upper left to lower right, crossing the y-axis at about y = 6 and the x-axis at about x = 4, with marked points at (0,6), (2,3), (4,0) and further points down to the right; axes labeled -5 and 5.] If line l is translated up 5 units and right 7 units, what is the slope of the new line?",
+  "choices": {
+    "A": "2/5",
+    "B": "-3/2",
+    "C": "-8/9",
+    "D": "-11/14"
+  },
+  "answer": "B",
+  "explanation": "A translation does not change slope. Slope = (3-6)/(2-0) = -3/2.",
+  "status": "ok"
+}

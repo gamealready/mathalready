@@ -1,0 +1,15 @@
+{
+  "id": "SAT_OOS_2",
+  "source_page": "SAT_OOS_2.html",
+  "source_image": "images/SAT_OOS_2.png",
+  "question": "The average number of students per classroom, y, at Central High School can be estimated using the equation y = 0.8636x + 27.227, where x represents the number of years since 2004 and x <= 10. Which of the following statements is the best interpretation of the number 0.8636 in the context of this problem?",
+  "choices": {
+    "A": "The estimated average number of students per classroom in 2004",
+    "B": "The estimated average number of students per classroom in 2014",
+    "C": "The estimated yearly decrease in the average number of students per classroom",
+    "D": "The estimated yearly increase in the average number of students per classroom"
+  },
+  "answer": "D",
+  "explanation": "0.8636 is the slope: the average increases by about 0.8636 students per classroom each year.",
+  "status": "ok"
+}

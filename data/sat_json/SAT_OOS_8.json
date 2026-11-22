@@ -1,0 +1,15 @@
+{
+  "id": "SAT_OOS_8",
+  "source_page": "SAT_OOS_8.html",
+  "source_image": "images/SAT_OOS_8.png",
+  "question": "Which of the following is equal to sin(pi/5)?",
+  "choices": {
+    "A": "-cos(pi/5)",
+    "B": "-sin(pi/5)",
+    "C": "cos(3pi/10)",
+    "D": "sin(7pi/10)"
+  },
+  "answer": "C",
+  "explanation": "sin(x) = cos(pi/2 - x); pi/2 - pi/5 = 3pi/10.",
+  "status": "ok"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "SAT_OOS_6",
+  "source_page": "SAT_OOS_6.html",
+  "source_image": "images/SAT_OOS_6.png",
+  "question": "If a^(-1/2) = x, where a > 0 and x > 0, which of the following equations gives a in terms of x?",
+  "choices": {
+    "A": "a = 1/sqrt(x)",
+    "B": "a = 1/x^2",
+    "C": "a = sqrt(x)",
+    "D": "a = -x^2"
+  },
+  "answer": "B",
+  "explanation": "a^(-1/2) = x, so a = x^(-2) = 1/x^2.",
+  "status": "ok"
+}
