@@ -1,0 +1,18 @@
+ID: SAT_OOS_3
+Source page: SAT_OOS_3.html
+
+QUESTION:
+If 2/(a - 1) = m/y, and y != 0 where a != 1, what is y in terms of a? (m is a randomized value: 4, 8, 12, 16 or 20; the page stores it in localStorage as 'midVariable'. There is no image.)
+
+CHOICES:
+A) m/2 - (m/2)a  (page option A, with m/2 shown as the number 'ans')
+B) 3-5a
+C) 2-4a
+D) 4-2a
+E) 6-3a (page option E)
+
+ANSWER: A (as coded on the page)
+
+EXPLANATION: Cross-multiplying gives 2y = m(a - 1), so y = (m/2)(a - 1) = (m/2)a - m/2. Page option A is m/2 - (m/2)a, which is the NEGATIVE of this. Options B-E are fixed strings that do not depend on m.
+
+STATUS: MISMATCH: page marks A as correct, but A has the wrong sign; the page's choices are not consistent with the randomized stem. Needs review.

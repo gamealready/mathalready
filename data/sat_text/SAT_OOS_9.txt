@@ -1,0 +1,18 @@
+ID: SAT_OOS_9
+Source page: SAT_OOS_9.html
+Source image: images/SAT_OOS_9.png
+
+QUESTION:
+[Diagram: a semicircle with diameter AB at the bottom (A left, B right) and a chord CD parallel to AB near the top, C on the left arc, D on the right arc.] The semicircle above has a radius of r inches, and chord CD is parallel to the diameter AB. If the length of CD is 2/3 of the length of AB, what is the distance between the chord and the diameter in terms of r?
+
+CHOICES:
+A) (1/3) pi r
+B) (2/3) pi r
+C) (sqrt(2)/2) r
+D) (sqrt(5)/3) r
+
+ANSWER: D
+
+EXPLANATION: AB = 2r, CD = 4r/3, half-chord = 2r/3. Distance = sqrt(r^2 - (2r/3)^2) = (sqrt(5)/3) r.
+
+STATUS: ok

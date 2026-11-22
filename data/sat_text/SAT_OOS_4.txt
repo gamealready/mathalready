@@ -1,0 +1,18 @@
+ID: SAT_OOS_4
+Source page: SAT_OOS_4.html
+Source image: images/SAT_OOS_4.png
+
+QUESTION:
+In the complex number system, which of the following is equal to (14 - 2i)(7 + 12i)? (Note: i = sqrt(-1))
+
+CHOICES:
+A) 74
+B) 122
+C) 74 + 154i
+D) 122 + 154i
+
+ANSWER: D
+
+EXPLANATION: 98 + 168i - 14i - 24i^2 = 98 + 24 + 154i = 122 + 154i.
+
+STATUS: ok
