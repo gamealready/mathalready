@@ -15,4 +15,4 @@ ANSWER: C
 
 EXPLANATION: Vertex form. y = 2x^2 - 12x + 16, vertex x = 3, y = 18 - 36 + 16 = -2, so y = 2(x - 3)^2 + (-2).
 
-STATUS: MISMATCH: page stores D as correct, but the correct answer is C.
+STATUS: ok (page answer corrected to C)
