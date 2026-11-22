@@ -136,12 +136,22 @@
     var q = qs[Math.floor(Math.random() * qs.length)];
     return { type: d.type_name || "SAT", q: q };
   }
+  function hasDiagram(q) { return !!(q.source_image && /\[Diagram:/.test(q.question)); }
+  function stem(q) { return hasDiagram(q) ? q.question.replace(/\s*\[Diagram:[^\]]*\]/, "") : q.question; }
+  function addDiagram(q) {
+    if (!hasDiagram(q)) return;
+    var img = document.createElement("img");
+    img.src = q.source_image; img.alt = q.question.match(/\[Diagram:([^\]]*)\]/)[1].trim();
+    img.style.maxWidth = "100%";
+    app.appendChild(img);
+  }
   function show() {
     app.innerHTML = "";
     var p = picks[idx];
     app.appendChild(el("h2", "Question " + (idx + 1) + " of " + picks.length));
     app.appendChild(el("p", p.type, "type"));
-    app.appendChild(el("p", p.q.question));
+    app.appendChild(el("p", stem(p.q)));
+    addDiagram(p.q);
     var form = el("div");
     Object.keys(p.q.choices).forEach(function (k) {
       var lab = el("label"); lab.style.display = "block";
@@ -164,7 +174,8 @@
     picks.forEach(function (p, i) {
       var ok = chosen[i] === p.q.answer;
       app.appendChild(el("h3", (i + 1) + ". " + p.type));
-      app.appendChild(el("p", p.q.question));
+      app.appendChild(el("p", stem(p.q)));
+      addDiagram(p.q);
       app.appendChild(el("p", "Your answer: " + (chosen[i] ? chosen[i] + ". " + p.q.choices[chosen[i]] : "(none)") + (ok ? " - correct" : " - incorrect")));
       app.appendChild(el("p", "Correct answer: " + p.q.answer + ". " + p.q.choices[p.q.answer]));
       app.appendChild(el("p", "Explanation: " + (p.q.solution || p.q.explanation || "")));
