@@ -14,13 +14,21 @@
 <div class="main"><div class="content"><div class="content_resize"><div class="mainbar"><div class="article">
   <p><a href="index.html">Home</a></p>
   <h1 id="title">AMC 8 Question</h1>
+  <div id="setup" style="display:none">
+    <p><label for="count">How many questions do you want to practice?</label> <input id="count" type="number" min="1" value="5" /> <span id="maxq"></span></p>
+    <p><button id="start" type="button">Start</button></p>
+  </div>
+  <div id="summary" style="display:none"></div>
+  <div id="quiz">
+  <p id="progress"></p>
   <p><label for="number">Question:</label> <select id="number" disabled></select></p>
   <p><b id="question"></b></p>
   <p><img id="figure" alt="Figure" style="display:none;max-width:100%" /></p>
   <table id="choices" border="0"></table>
   <p><button id="check" type="button" disabled>Submit</button> <b id="result" aria-live="polite"></b></p>
   <p id="solution" style="display:none"></p>
-  <p><a id="next" href="#">Next question</a></p>
+  <p><a id="next" href="#">Next question</a><button id="nextq" type="button" style="display:none">Next</button></p>
+  </div>
   <font size="-1">The problems on this page are copyrighted by the <a href="https://www.maa.org/math-competitions">American Mathematics Competitions.</a></font>
 </div></div></div></div></div>
 <script>
@@ -30,7 +38,7 @@
   var params = new URLSearchParams(location.search);
   var year = (params.get('y') || '2026').replace(/\D/g, '');
   var L = ['A', 'B', 'C', 'D', 'E'];
-  var q, order;
+  var q, order, data, session = null;
 
   function typeset() {
     if (window.renderMathInElement) {
@@ -83,8 +91,85 @@
     var r = document.querySelector('input[name=c]:checked');
     if (!r) return;
     var ok = order[+r.value] === q.answer;
+    if (session && !session.answered) {
+      session.answered = true;
+      if (ok) session.right++;
+      else session.wrong.push({ q: q, chosen: q.choices[order[+r.value]] });
+      document.getElementById('check').disabled = true;
+      var nb = document.getElementById('nextq');
+      nb.textContent = session.i + 1 >= session.list.length ? 'Finish' : 'Next';
+      nb.style.display = '';
+    }
     document.getElementById('result').textContent = ok ? 'Correct' : 'Not Correct';
     if (q.solution) document.getElementById('solution').style.display = '';
+  };
+
+  function nextSession() {
+    document.getElementById('nextq').style.display = 'none';
+    session.i++;
+    if (session.i >= session.list.length) return summarize();
+    session.answered = false;
+    q = session.list[session.i];
+    document.getElementById('progress').textContent = 'Question ' + (session.i + 1) + ' of ' + session.list.length;
+    show();
+  }
+
+  function summarize() {
+    document.getElementById('quiz').style.display = 'none';
+    var box = document.getElementById('summary');
+    box.style.display = '';
+    box.innerHTML = '';
+    function add(tag, text) {
+      var e = document.createElement(tag);
+      e.textContent = text;
+      box.appendChild(e);
+      return e;
+    }
+    document.getElementById('title').textContent = 'AMC 8 ' + year + ' Practice Results';
+    add('p', 'Score: ' + session.right + ' / ' + session.list.length).style.fontWeight = 'bold';
+    if (!session.wrong.length) add('p', 'You got every question right!');
+    else {
+      add('p', 'Questions you got wrong:');
+      session.wrong.forEach(function (w) {
+        add('h3', 'Problem ' + w.q.num);
+        add('p', w.q.question);
+        if (w.q.figure) {
+          var img = document.createElement('img');
+          img.src = w.q.figure;
+          img.alt = 'Problem ' + w.q.num + ' diagram';
+          img.style.maxWidth = '100%';
+          box.appendChild(img);
+        }
+        add('p', 'Your answer: ' + w.chosen);
+        add('p', 'Correct answer: ' + w.q.choices[w.q.answer]);
+        if (w.q.solution) add('p', 'Solution: ' + w.q.solution);
+      });
+    }
+    var again = add('p', '');
+    var a = document.createElement('a');
+    a.href = 'amc8_question.html?y=' + year;
+    a.textContent = 'Practice again';
+    again.appendChild(a);
+    typeset();
+  }
+
+  document.getElementById('nextq').onclick = nextSession;
+
+  document.getElementById('start').onclick = function () {
+    var n = parseInt(document.getElementById('count').value, 10);
+    if (!(n >= 1)) n = 1;
+    n = Math.min(n, data.length);
+    var list = data.slice();
+    for (var i = list.length - 1; i > 0; i--) {
+      var j = Math.floor(Math.random() * (i + 1));
+      var t = list[i]; list[i] = list[j]; list[j] = t;
+    }
+    session = { list: list.slice(0, n), i: -1, right: 0, wrong: [], answered: false };
+    document.getElementById('setup').style.display = 'none';
+    document.getElementById('quiz').style.display = '';
+    document.getElementById('number').parentNode.style.display = 'none';
+    document.getElementById('next').style.display = 'none';
+    nextSession();
   };
 
   fetch('data/amc8_' + year + '.json')
@@ -92,7 +177,8 @@
       if (!r.ok) throw new Error('HTTP ' + r.status);
       return r.json();
     })
-    .then(function (data) {
+    .then(function (d) {
+      data = d;
       if (!data.length) throw new Error('No questions found');
       var number = document.getElementById('number');
       data.forEach(function (item) {
@@ -102,6 +188,15 @@
         number.appendChild(option);
       });
       var requested = params.get('n');
+      if (requested === null) {
+        document.getElementById('quiz').style.display = 'none';
+        document.getElementById('setup').style.display = '';
+        var cnt = document.getElementById('count');
+        cnt.max = data.length;
+        cnt.value = Math.min(5, data.length);
+        document.getElementById('maxq').textContent = '(1-' + data.length + ')';
+        return;
+      }
       q = requested === null ? data[Math.floor(Math.random() * data.length)] :
         data.filter(function (e) { return String(e.num) === requested; })[0];
       if (!q) throw new Error('Question not found');
