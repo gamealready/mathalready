@@ -1,0 +1,16 @@
+{
+  "id": "SAT_OOS_3",
+  "source_page": "SAT_OOS_3.html",
+  "source_image": null,
+  "question": "If 2/(a - 1) = m/y, and y != 0 where a != 1, what is y in terms of a? (m is a randomized value: 4, 8, 12, 16 or 20; the page stores it in localStorage as 'midVariable'. There is no image.)",
+  "choices": {
+    "A": "(m/2)a - m/2",
+    "B": "3-5a",
+    "C": "2-4a",
+    "D": "4-2a",
+    "E": "6-3a"
+  },
+  "answer": "A",
+  "explanation": "Cross-multiplying gives 2y = m(a - 1), so y = (m/2)(a - 1) = (m/2)a - m/2. Options B-E are fixed distractors.",
+  "status": "ok (page option A corrected)"
+}
