@@ -1,0 +1,138 @@
+{
+  "source": "SAT_p1_18",
+  "source_page": "SAT_p1_18.html",
+  "source_image": "images/SAT_p1_18.png",
+  "type": "linear_system_of_equations",
+  "questions": [
+    {
+      "id": "SAT_p1_18_S01",
+      "type": "linear_system_of_equations",
+      "question": "x + y = -9\nx + 2y = -25\nAccording to the system of equations above, what is the value of x?",
+      "choices": {
+        "A": "7",
+        "B": "-16",
+        "C": "-7",
+        "D": "9"
+      },
+      "answer": "A",
+      "explanation": "Subtract the first equation from the second: y = -25 - (-9) = -16. Then x = -9 - (-16) = 7."
+    },
+    {
+      "id": "SAT_p1_18_S02",
+      "type": "linear_system_of_equations",
+      "question": "x + y = -5\nx + 2y = -12\nAccording to the system of equations above, what is the value of x?",
+      "choices": {
+        "A": "-7",
+        "B": "-2",
+        "C": "4",
+        "D": "2"
+      },
+      "answer": "D",
+      "explanation": "Subtract the first equation from the second: y = -12 - (-5) = -7. Then x = -5 - (-7) = 2."
+    },
+    {
+      "id": "SAT_p1_18_S03",
+      "type": "linear_system_of_equations",
+      "question": "x + y = 7\nx + 2y = 19\nAccording to the system of equations above, what is the value of x?",
+      "choices": {
+        "A": "12",
+        "B": "5",
+        "C": "-5",
+        "D": "-3"
+      },
+      "answer": "C",
+      "explanation": "Subtract the first equation from the second: y = 19 - (7) = 12. Then x = 7 - (12) = -5."
+    },
+    {
+      "id": "SAT_p1_18_S04",
+      "type": "linear_system_of_equations",
+      "question": "x + y = 10\nx + 2y = 13\nAccording to the system of equations above, what is the value of x?",
+      "choices": {
+        "A": "3",
+        "B": "7",
+        "C": "-7",
+        "D": "9"
+      },
+      "answer": "B",
+      "explanation": "Subtract the first equation from the second: y = 13 - (10) = 3. Then x = 10 - (3) = 7."
+    },
+    {
+      "id": "SAT_p1_18_S05",
+      "type": "linear_system_of_equations",
+      "question": "x + y = -4\nx + 2y = -11\nAccording to the system of equations above, what is the value of x?",
+      "choices": {
+        "A": "3",
+        "B": "-7",
+        "C": "-3",
+        "D": "5"
+      },
+      "answer": "A",
+      "explanation": "Subtract the first equation from the second: y = -11 - (-4) = -7. Then x = -4 - (-7) = 3."
+    },
+    {
+      "id": "SAT_p1_18_S06",
+      "type": "linear_system_of_equations",
+      "question": "x + y = 3\nx + 2y = 5\nAccording to the system of equations above, what is the value of x?",
+      "choices": {
+        "A": "2",
+        "B": "-1",
+        "C": "3",
+        "D": "1"
+      },
+      "answer": "D",
+      "explanation": "Subtract the first equation from the second: y = 5 - (3) = 2. Then x = 3 - (2) = 1."
+    },
+    {
+      "id": "SAT_p1_18_S07",
+      "type": "linear_system_of_equations",
+      "question": "x + y = -8\nx + 2y = -3\nAccording to the system of equations above, what is the value of x?",
+      "choices": {
+        "A": "5",
+        "B": "13",
+        "C": "-13",
+        "D": "-11"
+      },
+      "answer": "C",
+      "explanation": "Subtract the first equation from the second: y = -3 - (-8) = 5. Then x = -8 - (5) = -13."
+    },
+    {
+      "id": "SAT_p1_18_S08",
+      "type": "linear_system_of_equations",
+      "question": "x + y = 12\nx + 2y = 20\nAccording to the system of equations above, what is the value of x?",
+      "choices": {
+        "A": "8",
+        "B": "4",
+        "C": "-4",
+        "D": "6"
+      },
+      "answer": "B",
+      "explanation": "Subtract the first equation from the second: y = 20 - (12) = 8. Then x = 12 - (8) = 4."
+    },
+    {
+      "id": "SAT_p1_18_S09",
+      "type": "linear_system_of_equations",
+      "question": "x + y = -2\nx + 2y = -9\nAccording to the system of equations above, what is the value of x?",
+      "choices": {
+        "A": "5",
+        "B": "-7",
+        "C": "-5",
+        "D": "7"
+      },
+      "answer": "A",
+      "explanation": "Subtract the first equation from the second: y = -9 - (-2) = -7. Then x = -2 - (-7) = 5."
+    },
+    {
+      "id": "SAT_p1_18_S10",
+      "type": "linear_system_of_equations",
+      "question": "x + y = 6\nx + 2y = 1\nAccording to the system of equations above, what is the value of x?",
+      "choices": {
+        "A": "-5",
+        "B": "-11",
+        "C": "13",
+        "D": "11"
+      },
+      "answer": "D",
+      "explanation": "Subtract the first equation from the second: y = 1 - (6) = -5. Then x = 6 - (-5) = 11."
+    }
+  ]
+}

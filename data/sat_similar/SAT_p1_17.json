@@ -1,0 +1,138 @@
+{
+  "source": "SAT_p1_17",
+  "source_page": "SAT_p1_17.html",
+  "source_image": "images/SAT_p1_17.png",
+  "type": "similar_triangles_application",
+  "questions": [
+    {
+      "id": "SAT_p1_17_S01",
+      "type": "similar_triangles_application",
+      "question": "A park ranger wants to find the distance x, in feet, across a pond. Points A, E, B, C, and D are marked so that segments AC and DE intersect at B, A and E are on opposite sides of the pond, and C and D are on land. Segment AE has length x. The lengths of AB, EB, BD, and CD are 1800 feet, 1400 feet, 700 feet, and 800 feet, respectively. Angle AEB and angle CDB have the same measure. What is the value of x?",
+      "choices": {
+        "A": "1600",
+        "B": "2057",
+        "C": "400",
+        "D": "2200"
+      },
+      "answer": "A",
+      "explanation": "Angles AEB and CDB are equal and the angles at B are vertical angles, so triangles ABE and CBD are similar, with AE corresponding to CD and EB corresponding to DB. Thus x/800 = 1400/700, so x = 1600."
+    },
+    {
+      "id": "SAT_p1_17_S02",
+      "type": "similar_triangles_application",
+      "question": "A park ranger wants to find the distance x, in feet, across a pond. Points A, E, B, C, and D are marked so that segments AC and DE intersect at B, A and E are on opposite sides of the pond, and C and D are on land. Segment AE has length x. The lengths of AB, EB, BD, and CD are 1500 feet, 900 feet, 300 feet, and 500 feet, respectively. Angle AEB and angle CDB have the same measure. What is the value of x?",
+      "choices": {
+        "A": "2500",
+        "B": "167",
+        "C": "1400",
+        "D": "1500"
+      },
+      "answer": "D",
+      "explanation": "Angles AEB and CDB are equal and the angles at B are vertical angles, so triangles ABE and CBD are similar, with AE corresponding to CD and EB corresponding to DB. Thus x/500 = 900/300, so x = 1500."
+    },
+    {
+      "id": "SAT_p1_17_S03",
+      "type": "similar_triangles_application",
+      "question": "A park ranger wants to find the distance x, in feet, across a pond. Points A, E, B, C, and D are marked so that segments AC and DE intersect at B, A and E are on opposite sides of the pond, and C and D are on land. Segment AE has length x. The lengths of AB, EB, BD, and CD are 2000 feet, 1200 feet, 400 feet, and 350 feet, respectively. Angle AEB and angle CDB have the same measure. What is the value of x?",
+      "choices": {
+        "A": "1750",
+        "B": "117",
+        "C": "1050",
+        "D": "1550"
+      },
+      "answer": "C",
+      "explanation": "Angles AEB and CDB are equal and the angles at B are vertical angles, so triangles ABE and CBD are similar, with AE corresponding to CD and EB corresponding to DB. Thus x/350 = 1200/400, so x = 1050."
+    },
+    {
+      "id": "SAT_p1_17_S04",
+      "type": "similar_triangles_application",
+      "question": "A park ranger wants to find the distance x, in feet, across a pond. Points A, E, B, C, and D are marked so that segments AC and DE intersect at B, A and E are on opposite sides of the pond, and C and D are on land. Segment AE has length x. The lengths of AB, EB, BD, and CD are 1200 feet, 1000 feet, 500 feet, and 450 feet, respectively. Angle AEB and angle CDB have the same measure. What is the value of x?",
+      "choices": {
+        "A": "1080",
+        "B": "900",
+        "C": "225",
+        "D": "1450"
+      },
+      "answer": "B",
+      "explanation": "Angles AEB and CDB are equal and the angles at B are vertical angles, so triangles ABE and CBD are similar, with AE corresponding to CD and EB corresponding to DB. Thus x/450 = 1000/500, so x = 900."
+    },
+    {
+      "id": "SAT_p1_17_S05",
+      "type": "similar_triangles_application",
+      "question": "A park ranger wants to find the distance x, in feet, across a pond. Points A, E, B, C, and D are marked so that segments AC and DE intersect at B, A and E are on opposite sides of the pond, and C and D are on land. Segment AE has length x. The lengths of AB, EB, BD, and CD are 2400 feet, 1600 feet, 800 feet, and 650 feet, respectively. Angle AEB and angle CDB have the same measure. What is the value of x?",
+      "choices": {
+        "A": "1300",
+        "B": "1950",
+        "C": "325",
+        "D": "2250"
+      },
+      "answer": "A",
+      "explanation": "Angles AEB and CDB are equal and the angles at B are vertical angles, so triangles ABE and CBD are similar, with AE corresponding to CD and EB corresponding to DB. Thus x/650 = 1600/800, so x = 1300."
+    },
+    {
+      "id": "SAT_p1_17_S06",
+      "type": "similar_triangles_application",
+      "question": "A park ranger wants to find the distance x, in feet, across a pond. Points A, E, B, C, and D are marked so that segments AC and DE intersect at B, A and E are on opposite sides of the pond, and C and D are on land. Segment AE has length x. The lengths of AB, EB, BD, and CD are 1600 feet, 1500 feet, 300 feet, and 240 feet, respectively. Angle AEB and angle CDB have the same measure. What is the value of x?",
+      "choices": {
+        "A": "1280",
+        "B": "48",
+        "C": "1740",
+        "D": "1200"
+      },
+      "answer": "D",
+      "explanation": "Angles AEB and CDB are equal and the angles at B are vertical angles, so triangles ABE and CBD are similar, with AE corresponding to CD and EB corresponding to DB. Thus x/240 = 1500/300, so x = 1200."
+    },
+    {
+      "id": "SAT_p1_17_S07",
+      "type": "similar_triangles_application",
+      "question": "A park ranger wants to find the distance x, in feet, across a pond. Points A, E, B, C, and D are marked so that segments AC and DE intersect at B, A and E are on opposite sides of the pond, and C and D are on land. Segment AE has length x. The lengths of AB, EB, BD, and CD are 900 feet, 600 feet, 200 feet, and 420 feet, respectively. Angle AEB and angle CDB have the same measure. What is the value of x?",
+      "choices": {
+        "A": "1890",
+        "B": "140",
+        "C": "1260",
+        "D": "1020"
+      },
+      "answer": "C",
+      "explanation": "Angles AEB and CDB are equal and the angles at B are vertical angles, so triangles ABE and CBD are similar, with AE corresponding to CD and EB corresponding to DB. Thus x/420 = 600/200, so x = 1260."
+    },
+    {
+      "id": "SAT_p1_17_S08",
+      "type": "similar_triangles_application",
+      "question": "A park ranger wants to find the distance x, in feet, across a pond. Points A, E, B, C, and D are marked so that segments AC and DE intersect at B, A and E are on opposite sides of the pond, and C and D are on land. Segment AE has length x. The lengths of AB, EB, BD, and CD are 2100 feet, 1800 feet, 600 feet, and 350 feet, respectively. Angle AEB and angle CDB have the same measure. What is the value of x?",
+      "choices": {
+        "A": "1225",
+        "B": "1050",
+        "C": "117",
+        "D": "2150"
+      },
+      "answer": "B",
+      "explanation": "Angles AEB and CDB are equal and the angles at B are vertical angles, so triangles ABE and CBD are similar, with AE corresponding to CD and EB corresponding to DB. Thus x/350 = 1800/600, so x = 1050."
+    },
+    {
+      "id": "SAT_p1_17_S09",
+      "type": "similar_triangles_application",
+      "question": "A park ranger wants to find the distance x, in feet, across a pond. Points A, E, B, C, and D are marked so that segments AC and DE intersect at B, A and E are on opposite sides of the pond, and C and D are on land. Segment AE has length x. The lengths of AB, EB, BD, and CD are 1000 feet, 800 feet, 200 feet, and 125 feet, respectively. Angle AEB and angle CDB have the same measure. What is the value of x?",
+      "choices": {
+        "A": "500",
+        "B": "625",
+        "C": "31",
+        "D": "925"
+      },
+      "answer": "A",
+      "explanation": "Angles AEB and CDB are equal and the angles at B are vertical angles, so triangles ABE and CBD are similar, with AE corresponding to CD and EB corresponding to DB. Thus x/125 = 800/200, so x = 500."
+    },
+    {
+      "id": "SAT_p1_17_S10",
+      "type": "similar_triangles_application",
+      "question": "A park ranger wants to find the distance x, in feet, across a pond. Points A, E, B, C, and D are marked so that segments AC and DE intersect at B, A and E are on opposite sides of the pond, and C and D are on land. Segment AE has length x. The lengths of AB, EB, BD, and CD are 1400 feet, 1200 feet, 400 feet, and 550 feet, respectively. Angle AEB and angle CDB have the same measure. What is the value of x?",
+      "choices": {
+        "A": "1925",
+        "B": "183",
+        "C": "1750",
+        "D": "1650"
+      },
+      "answer": "D",
+      "explanation": "Angles AEB and CDB are equal and the angles at B are vertical angles, so triangles ABE and CBD are similar, with AE corresponding to CD and EB corresponding to DB. Thus x/550 = 1200/400, so x = 1650."
+    }
+  ]
+}
