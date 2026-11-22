@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="robots" content="noindex" />
+<title>AMC 8 Question - MathAlready</title>
+<link href="styleV0303.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" />
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"></script>
+</head>
+<body>
+<div class="main"><div class="content"><div class="content_resize"><div class="mainbar"><div class="article">
+  <p><a href="index.html">Home</a></p>
+  <h1 id="title">AMC 8 Question</h1>
+  <p><b id="question"></b></p>
+  <p><img id="figure" alt="Figure" style="display:none;max-width:100%" /></p>
+  <table id="choices" border="0"></table>
+  <p><button id="check" type="button">Submit</button> <b id="result"></b></p>
+  <p id="solution" style="display:none"></p>
+  <p><a id="next" href="#">Next question</a></p>
+  <font size="-1">The problems on this page are copyrighted by the <a href="https://www.maa.org/math-competitions">American Mathematics Competitions.</a></font>
+</div></div></div></div></div>
+<script>
+// Usage: amc8_question.html?y=2026&n=11  (omit n for a random question)
+// Data lives in data/amc8_<year>.json; math is LaTeX between $...$ or \(...\).
+(function () {
+  var params = new URLSearchParams(location.search);
+  var year = (params.get('y') || '2026').replace(/\D/g, '');
+  var L = ['A', 'B', 'C', 'D', 'E'];
+  var q, order, chosen = null;
+
+  function typeset() {
+    if (window.renderMathInElement) {
+      renderMathInElement(document.querySelector('.article'), {
+        delimiters: [
+          { left: '$$', right: '$$', display: true },
+          { left: '\\[', right: '\\]', display: true },
+          { left: '$', right: '$', display: false },
+          { left: '\\(', right: '\\)', display: false }
+        ]
+      });
+    }
+  }
+
+  function show() {
+    order = [0, 1, 2, 3, 4];
+    for (var i = 4; i > 0; i--) {
+      var j = Math.floor(Math.random() * (i + 1));
+      var t = order[i]; order[i] = order[j]; order[j] = t;
+    }
+    document.getElementById('title').textContent = 'AMC 8 ' + year + ' Problem ' + q.num;
+    document.title = 'AMC 8 ' + year + ' Problem ' + q.num + ' - MathAlready';
+    document.getElementById('question').textContent = q.question;
+    var fig = document.getElementById('figure');
+    fig.style.display = q.figure ? '' : 'none';
+    if (q.figure) fig.src = q.figure;
+    var html = '';
+    order.forEach(function (idx, k) {
+      html += '<tr><td><label><input type="radio" name="c" value="' + k + '"> <b>(' + L[k] + ')</b></label></td><td class="choice"></td></tr>';
+    });
+    var tbl = document.getElementById('choices');
+    tbl.innerHTML = html;
+    var cells = tbl.querySelectorAll('.choice');
+    order.forEach(function (idx, k) { cells[k].textContent = q.choices[idx]; });
+    document.getElementById('result').textContent = '';
+    var sol = document.getElementById('solution');
+    sol.style.display = 'none';
+    sol.textContent = q.solution || '';
+    typeset();
+  }
+
+  document.getElementById('check').onclick = function () {
+    var r = document.querySelector('input[name=c]:checked');
+    if (!r) return;
+    var ok = order[+r.value] === q.answer;
+    document.getElementById('result').textContent = ok ? 'Correct' : 'Not Correct';
+    if (q.solution) document.getElementById('solution').style.display = '';
+  };
+
+  fetch('data/amc8_' + year + '.json')
+    .then(function (r) { return r.json(); })
+    .then(function (data) {
+      var n = parseInt(params.get('n'), 10);
+      q = data.filter(function (e) { return e.num === n; })[0] || data[Math.floor(Math.random() * data.length)];
+      document.getElementById('next').href = 'amc8_question.html?y=' + year;
+      window.addEventListener('load', show);
+      if (document.readyState === 'complete') show();
+    })
+    .catch(function (e) { document.getElementById('question').textContent = 'Error loading questions: ' + e; });
+})();
+</script>
+</body>
+</html>
