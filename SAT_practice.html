@@ -121,7 +121,7 @@
 <div id="sfc97culthbz7dmcy7pem1nlwdyxnu8wcq8" style="text-align:center"></div>
 <div style="text-align:center">Copyright 2022-2026 MathAlready</div><script>
 (function () {
-  var FILES = ["SAT_matching_coefficients_questions.json"];
+  var FILES = ["SAT_matching_coefficients_questions.json", "data/sat_json/SAT_OOS_1.json", "data/sat_json/SAT_OOS_2.json", "data/sat_json/SAT_OOS_3.json", "data/sat_json/SAT_OOS_4.json", "data/sat_json/SAT_OOS_5.json", "data/sat_json/SAT_OOS_6.json", "data/sat_json/SAT_OOS_7.json", "data/sat_json/SAT_OOS_8.json", "data/sat_json/SAT_OOS_9.json", "data/sat_json/SAT_OOS_10_CA.json"];
   var app = document.getElementById("sat-app");
   var picks = [], idx = 0, chosen = [];
   function el(tag, text, cls) { var e = document.createElement(tag); if (text !== undefined) e.textContent = text; if (cls) e.className = cls; return e; }
@@ -129,7 +129,9 @@
     return fetch(f).then(function (r) { if (!r.ok) throw new Error(f); return r.json(); }).catch(function () { return null; });
   }
   function pick(d) {
-    var qs = (d && d.questions) || [];
+    if (!d) return null;
+    if (d.question && d.choices) return { type: "SAT question " + (d.id || ""), q: d };
+    var qs = d.questions || [];
     if (!qs.length) return null;
     var q = qs[Math.floor(Math.random() * qs.length)];
     return { type: d.type_name || "SAT", q: q };
