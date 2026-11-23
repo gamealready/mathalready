@@ -1,0 +1,16 @@
+{
+  "id": "SAT_p1_3",
+  "source_page": "SAT_p1_3.html",
+  "source_image": "images/SAT_p1_3.png",
+  "question": "On Saturday afternoon, Armand sent m text messages each hour for 5 hours, and Tyrone sent p text messages each hour for 4 hours. Which of the following represents the total number of messages sent by Armand and Tyrone on Saturday afternoon?",
+  "choices": {
+    "A": "9mp",
+    "B": "20mp",
+    "C": "5m + 4p",
+    "D": "4m + 5p"
+  },
+  "answer": "C",
+  "explanation": "Armand sent 5m messages and Tyrone sent 4p, so the total is 5m + 4p.",
+  "diagram": null,
+  "status": "ok"
+}

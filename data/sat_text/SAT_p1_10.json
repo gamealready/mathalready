@@ -1,0 +1,16 @@
+{
+  "id": "SAT_p1_10",
+  "source_page": "SAT_p1_10.html",
+  "source_image": "images/SAT_p1_10.png",
+  "question": "g(x) = ax² + 24. For the function g defined above, a is a constant and g(4) = 8. What is the value of g(−4)?",
+  "choices": {
+    "A": "8",
+    "B": "0",
+    "C": "−1",
+    "D": "−8"
+  },
+  "answer": "A",
+  "explanation": "16a + 24 = 8 gives a = −1. g(−4) = −16 + 24 = 8 (g is even, so g(−4) = g(4)).",
+  "diagram": null,
+  "status": "ok"
+}

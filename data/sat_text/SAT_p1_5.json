@@ -1,0 +1,16 @@
+{
+  "id": "SAT_p1_5",
+  "source_page": "SAT_p1_5.html",
+  "source_image": "images/SAT_p1_5.png",
+  "question": "(x²y − 3y² + 5xy²) − (−x²y + 3xy² − 3y²). Which of the following is equivalent to the expression above?",
+  "choices": {
+    "A": "4x²y²",
+    "B": "8xy² − 6y²",
+    "C": "2x²y + 2xy²",
+    "D": "2x²y + 8xy² − 6y²"
+  },
+  "answer": "C",
+  "explanation": "Distribute the minus sign: x²y − 3y² + 5xy² + x²y − 3xy² + 3y² = 2x²y + 2xy².",
+  "diagram": null,
+  "status": "ok"
+}

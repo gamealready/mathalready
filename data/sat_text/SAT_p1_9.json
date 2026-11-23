@@ -1,0 +1,16 @@
+{
+  "id": "SAT_p1_9",
+  "source_page": "SAT_p1_9.html",
+  "source_image": "images/SAT_p1_9.png",
+  "question": "3x + 4y = −23 and 2y − x = −19. What is the solution (x, y) to the system of equations above?",
+  "choices": {
+    "A": "(−5, −2)",
+    "B": "(3, −8)",
+    "C": "(4, −6)",
+    "D": "(9, −6)"
+  },
+  "answer": "B",
+  "explanation": "From the second equation x = 2y + 19. Then 3(2y + 19) + 4y = −23 gives 10y = −80, y = −8, x = 3.",
+  "diagram": null,
+  "status": "ok"
+}
