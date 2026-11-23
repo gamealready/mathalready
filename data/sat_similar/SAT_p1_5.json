@@ -1,0 +1,138 @@
+{
+  "source": "SAT_p1_5",
+  "source_page": "SAT_p1_5.html",
+  "source_image": "images/SAT_p1_5.png",
+  "type": "polynomial_subtraction",
+  "questions": [
+    {
+      "id": "SAT_p1_5_S01",
+      "type": "polynomial_subtraction",
+      "question": "(3x²y − 2y² + 4xy²) − (x²y − 5xy² + 2y²). Which of the following is equivalent to the expression above?",
+      "choices": {
+        "A": "2x²y + 9xy² − 4y²",
+        "B": "2x²y − xy² − 4y²",
+        "C": "4x²y + 9xy²",
+        "D": "4x²y − xy²"
+      },
+      "answer": "A",
+      "explanation": "Distribute the minus sign and combine like terms: x²y: 3 − (1) = 2; xy²: 4 − (−5) = 9; y²: −2 − (2) = −4. Result: 2x²y + 9xy² − 4y²."
+    },
+    {
+      "id": "SAT_p1_5_S02",
+      "type": "polynomial_subtraction",
+      "question": "(2x²y + 4y² − xy²) − (x²y + 2xy² + 3y²). Which of the following is equivalent to the expression above?",
+      "choices": {
+        "A": "3x²y − 3xy² + 7y²",
+        "B": "3x²y + xy² + 7y²",
+        "C": "x²y − 3xy² + y²",
+        "D": "x²y + xy² + y²"
+      },
+      "answer": "C",
+      "explanation": "Distribute the minus sign and combine like terms: x²y: 2 − (1) = 1; xy²: −1 − (2) = −3; y²: 4 − (3) = 1. Result: x²y − 3xy² + y²."
+    },
+    {
+      "id": "SAT_p1_5_S03",
+      "type": "polynomial_subtraction",
+      "question": "(3x²y − 2y² + 4xy²) − (2x²y − xy² − 2y²). Which of the following is equivalent to the expression above?",
+      "choices": {
+        "A": "x²y + 3xy²",
+        "B": "5x²y + 3xy² − 4y²",
+        "C": "x²y + 5xy²",
+        "D": "5x²y + 5xy² − 4y²"
+      },
+      "answer": "C",
+      "explanation": "Distribute the minus sign and combine like terms: x²y: 3 − (2) = 1; xy²: 4 − (−1) = 5; y²: −2 − (−2) = 0. Result: x²y + 5xy²."
+    },
+    {
+      "id": "SAT_p1_5_S04",
+      "type": "polynomial_subtraction",
+      "question": "(x²y + 5y² − 3xy²) − (−2x²y + 4xy² + y²). Which of the following is equivalent to the expression above?",
+      "choices": {
+        "A": "−x²y − 7xy² + 6y²",
+        "B": "−x²y + xy² + 6y²",
+        "C": "3x²y + xy² + 4y²",
+        "D": "3x²y − 7xy² + 4y²"
+      },
+      "answer": "D",
+      "explanation": "Distribute the minus sign and combine like terms: x²y: 1 − (−2) = 3; xy²: −3 − (4) = −7; y²: 5 − (1) = 4. Result: 3x²y − 7xy² + 4y²."
+    },
+    {
+      "id": "SAT_p1_5_S05",
+      "type": "polynomial_subtraction",
+      "question": "(4x²y − y² + 2xy²) − (3x²y + 5xy² − y²). Which of the following is equivalent to the expression above?",
+      "choices": {
+        "A": "x²y + 7xy²",
+        "B": "7x²y + 7xy² − 2y²",
+        "C": "x²y − 3xy²",
+        "D": "7x²y − 3xy² − 2y²"
+      },
+      "answer": "C",
+      "explanation": "Distribute the minus sign and combine like terms: x²y: 4 − (3) = 1; xy²: 2 − (5) = −3; y²: −1 − (−1) = 0. Result: x²y − 3xy²."
+    },
+    {
+      "id": "SAT_p1_5_S06",
+      "type": "polynomial_subtraction",
+      "question": "(2x²y − 3y² + xy²) − (−x²y − 2xy² + 2y²). Which of the following is equivalent to the expression above?",
+      "choices": {
+        "A": "3x²y − xy² − 5y²",
+        "B": "x²y − xy² − y²",
+        "C": "x²y + 3xy² − y²",
+        "D": "3x²y + 3xy² − 5y²"
+      },
+      "answer": "D",
+      "explanation": "Distribute the minus sign and combine like terms: x²y: 2 − (−1) = 3; xy²: 1 − (−2) = 3; y²: −3 − (2) = −5. Result: 3x²y + 3xy² − 5y²."
+    },
+    {
+      "id": "SAT_p1_5_S07",
+      "type": "polynomial_subtraction",
+      "question": "(5x²y + 2y² − 4xy²) − (2x²y + xy² − 3y²). Which of the following is equivalent to the expression above?",
+      "choices": {
+        "A": "7x²y − 5xy² − y²",
+        "B": "3x²y − 3xy² + 5y²",
+        "C": "3x²y − 5xy² + 5y²",
+        "D": "7x²y − 3xy² − y²"
+      },
+      "answer": "C",
+      "explanation": "Distribute the minus sign and combine like terms: x²y: 5 − (2) = 3; xy²: −4 − (1) = −5; y²: 2 − (−3) = 5. Result: 3x²y − 5xy² + 5y²."
+    },
+    {
+      "id": "SAT_p1_5_S08",
+      "type": "polynomial_subtraction",
+      "question": "(x²y − 4y² + 6xy²) − (3x²y + 2xy² − 4y²). Which of the following is equivalent to the expression above?",
+      "choices": {
+        "A": "−2x²y + 4xy²",
+        "B": "4x²y + 8xy² − 8y²",
+        "C": "−2x²y + 8xy²",
+        "D": "4x²y + 4xy² − 8y²"
+      },
+      "answer": "A",
+      "explanation": "Distribute the minus sign and combine like terms: x²y: 1 − (3) = −2; xy²: 6 − (2) = 4; y²: −4 − (−4) = 0. Result: −2x²y + 4xy²."
+    },
+    {
+      "id": "SAT_p1_5_S09",
+      "type": "polynomial_subtraction",
+      "question": "(3x²y + y² − 2xy²) − (−2x²y + 3xy² + 4y²). Which of the following is equivalent to the expression above?",
+      "choices": {
+        "A": "5x²y + xy² − 3y²",
+        "B": "x²y − 5xy² + 5y²",
+        "C": "5x²y − 5xy² − 3y²",
+        "D": "x²y + xy² + 5y²"
+      },
+      "answer": "C",
+      "explanation": "Distribute the minus sign and combine like terms: x²y: 3 − (−2) = 5; xy²: −2 − (3) = −5; y²: 1 − (4) = −3. Result: 5x²y − 5xy² − 3y²."
+    },
+    {
+      "id": "SAT_p1_5_S10",
+      "type": "polynomial_subtraction",
+      "question": "(2x²y − 5y² + 3xy²) − (4x²y − xy² − 5y²). Which of the following is equivalent to the expression above?",
+      "choices": {
+        "A": "6x²y + 4xy² − 10y²",
+        "B": "−2x²y + 2xy²",
+        "C": "6x²y + 2xy² − 10y²",
+        "D": "−2x²y + 4xy²"
+      },
+      "answer": "D",
+      "explanation": "Distribute the minus sign and combine like terms: x²y: 2 − (4) = −2; xy²: 3 − (−1) = 4; y²: −5 − (−5) = 0. Result: −2x²y + 4xy²."
+    }
+  ]
+}

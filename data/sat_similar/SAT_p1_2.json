@@ -1,0 +1,138 @@
+{
+  "source": "SAT_p1_2",
+  "source_page": "SAT_p1_2.html",
+  "source_image": "images/SAT_p1_2.png",
+  "type": "complex_number_arithmetic",
+  "questions": [
+    {
+      "id": "SAT_p1_2_S01",
+      "type": "complex_number_arithmetic",
+      "question": "For i = √−1, what is the sum (9 + 2i) + (−4 + 5i)?",
+      "choices": {
+        "A": "5 − 3i",
+        "B": "5 + 7i",
+        "C": "13 + 7i",
+        "D": "7 + 8i"
+      },
+      "answer": "B",
+      "explanation": "Add real parts: 9 − 4 = 5. Add imaginary parts: 2i + 5i = 7i."
+    },
+    {
+      "id": "SAT_p1_2_S02",
+      "type": "complex_number_arithmetic",
+      "question": "For i = √−1, what is the sum (4 − 2i) + (5 + 6i)?",
+      "choices": {
+        "A": "−1 + 4i",
+        "B": "9 − 8i",
+        "C": "11 + 5i",
+        "D": "9 + 4i"
+      },
+      "answer": "D",
+      "explanation": "Add real parts: 4 + 5 = 9. Add imaginary parts: −2i + 6i = 4i."
+    },
+    {
+      "id": "SAT_p1_2_S03",
+      "type": "complex_number_arithmetic",
+      "question": "For i = √−1, what is the sum (−3 + 5i) + (9 − 1i)?",
+      "choices": {
+        "A": "8 + 5i",
+        "B": "6 + 4i",
+        "C": "6 + 6i",
+        "D": "−12 + 4i"
+      },
+      "answer": "B",
+      "explanation": "Add real parts: −3 + 9 = 6. Add imaginary parts: 5i − 1i = 4i."
+    },
+    {
+      "id": "SAT_p1_2_S04",
+      "type": "complex_number_arithmetic",
+      "question": "For i = √−1, what is the difference (6 + 2i) − (1 + 7i)?",
+      "choices": {
+        "A": "5 + 9i",
+        "B": "5 − 5i",
+        "C": "7 − 4i",
+        "D": "7 − 5i"
+      },
+      "answer": "B",
+      "explanation": "Subtract real parts: 6 − (1) = 5. Subtract imaginary parts: 2i − (7i) = −5i."
+    },
+    {
+      "id": "SAT_p1_2_S05",
+      "type": "complex_number_arithmetic",
+      "question": "For i = √−1, what is the sum (8 − 4i) + (−2 + 3i)?",
+      "choices": {
+        "A": "6 − 7i",
+        "B": "8 + 0i",
+        "C": "6 − 1i",
+        "D": "10 − 1i"
+      },
+      "answer": "C",
+      "explanation": "Add real parts: 8 − 2 = 6. Add imaginary parts: −4i + 3i = −1i."
+    },
+    {
+      "id": "SAT_p1_2_S06",
+      "type": "complex_number_arithmetic",
+      "question": "For i = √−1, what is the difference (5 + 5i) − (3 − 2i)?",
+      "choices": {
+        "A": "2 + 7i",
+        "B": "8 + 7i",
+        "C": "2 + 3i",
+        "D": "4 + 8i"
+      },
+      "answer": "A",
+      "explanation": "Subtract real parts: 5 − (3) = 2. Subtract imaginary parts: 5i − (−2i) = 7i."
+    },
+    {
+      "id": "SAT_p1_2_S07",
+      "type": "complex_number_arithmetic",
+      "question": "For i = √−1, what is the sum (−6 + 1i) + (−4 + 8i)?",
+      "choices": {
+        "A": "−2 + 9i",
+        "B": "−12 + 10i",
+        "C": "−10 − 7i",
+        "D": "−10 + 9i"
+      },
+      "answer": "D",
+      "explanation": "Add real parts: −6 − 4 = −10. Add imaginary parts: 1i + 8i = 9i."
+    },
+    {
+      "id": "SAT_p1_2_S08",
+      "type": "complex_number_arithmetic",
+      "question": "For i = √−1, what is the difference (10 − 3i) − (7 + 5i)?",
+      "choices": {
+        "A": "5 − 7i",
+        "B": "17 − 8i",
+        "C": "3 − 8i",
+        "D": "3 + 2i"
+      },
+      "answer": "C",
+      "explanation": "Subtract real parts: 10 − (7) = 3. Subtract imaginary parts: −3i − (5i) = −8i."
+    },
+    {
+      "id": "SAT_p1_2_S09",
+      "type": "complex_number_arithmetic",
+      "question": "For i = √−1, what is the sum (2 + 9i) + (−5 − 6i)?",
+      "choices": {
+        "A": "−3 + 15i",
+        "B": "7 + 3i",
+        "C": "−3 + 3i",
+        "D": "−5 + 4i"
+      },
+      "answer": "C",
+      "explanation": "Add real parts: 2 − 5 = −3. Add imaginary parts: 9i − 6i = 3i."
+    },
+    {
+      "id": "SAT_p1_2_S10",
+      "type": "complex_number_arithmetic",
+      "question": "For i = √−1, what is the difference (−1 − 7i) − (4 + 2i)?",
+      "choices": {
+        "A": "3 − 9i",
+        "B": "−7 − 8i",
+        "C": "−5 − 9i",
+        "D": "−5 − 5i"
+      },
+      "answer": "C",
+      "explanation": "Subtract real parts: −1 − (4) = −5. Subtract imaginary parts: −7i − (2i) = −9i."
+    }
+  ]
+}

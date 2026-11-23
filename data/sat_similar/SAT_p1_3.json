@@ -1,0 +1,138 @@
+{
+  "source": "SAT_p1_3",
+  "source_page": "SAT_p1_3.html",
+  "source_image": "images/SAT_p1_3.png",
+  "type": "linear_expression_word_problem",
+  "questions": [
+    {
+      "id": "SAT_p1_3_S01",
+      "type": "linear_expression_word_problem",
+      "question": "On Sunday morning, Maria read m pages each hour for 3 hours, and Jin read p pages each hour for 6 hours. Which of the following represents the total number of pages read by Maria and Jin on Sunday morning?",
+      "choices": {
+        "A": "18mp",
+        "B": "9mp",
+        "C": "6m + 3p",
+        "D": "3m + 6p"
+      },
+      "answer": "D",
+      "explanation": "Maria read 3m pages and Jin read 6p, so the total is 3m + 6p."
+    },
+    {
+      "id": "SAT_p1_3_S02",
+      "type": "linear_expression_word_problem",
+      "question": "On Sunday morning, Dana swam a laps each hour for 4 hours, and Luis swam b laps each hour for 5 hours. Which of the following represents the total number of laps swam by Dana and Luis on Sunday morning?",
+      "choices": {
+        "A": "9ab",
+        "B": "20ab",
+        "C": "4a + 5b",
+        "D": "5a + 4b"
+      },
+      "answer": "C",
+      "explanation": "Dana swam 4a laps and Luis swam 5b, so the total is 4a + 5b."
+    },
+    {
+      "id": "SAT_p1_3_S03",
+      "type": "linear_expression_word_problem",
+      "question": "On Sunday morning, Priya sent e emails each hour for 6 hours, and Omar sent f emails each hour for 3 hours. Which of the following represents the total number of emails sent by Priya and Omar on Sunday morning?",
+      "choices": {
+        "A": "18ef",
+        "B": "6e + 3f",
+        "C": "3e + 6f",
+        "D": "9ef"
+      },
+      "answer": "B",
+      "explanation": "Priya sent 6e emails and Omar sent 3f, so the total is 6e + 3f."
+    },
+    {
+      "id": "SAT_p1_3_S04",
+      "type": "linear_expression_word_problem",
+      "question": "On Sunday morning, Chen sorted c cards each hour for 2 hours, and Rosa sorted d cards each hour for 7 hours. Which of the following represents the total number of cards sorted by Chen and Rosa on Sunday morning?",
+      "choices": {
+        "A": "7c + 2d",
+        "B": "2c + 7d",
+        "C": "9cd",
+        "D": "14cd"
+      },
+      "answer": "B",
+      "explanation": "Chen sorted 2c cards and Rosa sorted 7d, so the total is 2c + 7d."
+    },
+    {
+      "id": "SAT_p1_3_S05",
+      "type": "linear_expression_word_problem",
+      "question": "On Sunday morning, Ben biked x miles each hour for 5 hours, and Alicia biked y miles each hour for 4 hours. Which of the following represents the total number of miles biked by Ben and Alicia on Sunday morning?",
+      "choices": {
+        "A": "4x + 5y",
+        "B": "20xy",
+        "C": "5x + 4y",
+        "D": "9xy"
+      },
+      "answer": "C",
+      "explanation": "Ben biked 5x miles and Alicia biked 4y, so the total is 5x + 4y."
+    },
+    {
+      "id": "SAT_p1_3_S06",
+      "type": "linear_expression_word_problem",
+      "question": "On Sunday morning, Tom packed s boxes each hour for 3 hours, and Keisha packed t boxes each hour for 8 hours. Which of the following represents the total number of boxes packed by Tom and Keisha on Sunday morning?",
+      "choices": {
+        "A": "24st",
+        "B": "11st",
+        "C": "3s + 8t",
+        "D": "8s + 3t"
+      },
+      "answer": "C",
+      "explanation": "Tom packed 3s boxes and Keisha packed 8t, so the total is 3s + 8t."
+    },
+    {
+      "id": "SAT_p1_3_S07",
+      "type": "linear_expression_word_problem",
+      "question": "On Sunday morning, Ivy solved j problems each hour for 4 hours, and Marcus solved k problems each hour for 6 hours. Which of the following represents the total number of problems solved by Ivy and Marcus on Sunday morning?",
+      "choices": {
+        "A": "6j + 4k",
+        "B": "24jk",
+        "C": "4j + 6k",
+        "D": "10jk"
+      },
+      "answer": "C",
+      "explanation": "Ivy solved 4j problems and Marcus solved 6k, so the total is 4j + 6k."
+    },
+    {
+      "id": "SAT_p1_3_S08",
+      "type": "linear_expression_word_problem",
+      "question": "On Sunday morning, Sam delivered u flyers each hour for 7 hours, and Nina delivered v flyers each hour for 2 hours. Which of the following represents the total number of flyers delivered by Sam and Nina on Sunday morning?",
+      "choices": {
+        "A": "2u + 7v",
+        "B": "14uv",
+        "C": "7u + 2v",
+        "D": "9uv"
+      },
+      "answer": "C",
+      "explanation": "Sam delivered 7u flyers and Nina delivered 2v, so the total is 7u + 2v."
+    },
+    {
+      "id": "SAT_p1_3_S09",
+      "type": "linear_expression_word_problem",
+      "question": "On Sunday morning, Leo practiced g songs each hour for 5 hours, and Hana practiced h songs each hour for 3 hours. Which of the following represents the total number of songs practiced by Leo and Hana on Sunday morning?",
+      "choices": {
+        "A": "3g + 5h",
+        "B": "5g + 3h",
+        "C": "8gh",
+        "D": "15gh"
+      },
+      "answer": "B",
+      "explanation": "Leo practiced 5g songs and Hana practiced 3h, so the total is 5g + 3h."
+    },
+    {
+      "id": "SAT_p1_3_S10",
+      "type": "linear_expression_word_problem",
+      "question": "On Sunday morning, Ava edited q photos each hour for 8 hours, and Raj edited r photos each hour for 5 hours. Which of the following represents the total number of photos edited by Ava and Raj on Sunday morning?",
+      "choices": {
+        "A": "8q + 5r",
+        "B": "13qr",
+        "C": "5q + 8r",
+        "D": "40qr"
+      },
+      "answer": "A",
+      "explanation": "Ava edited 8q photos and Raj edited 5r, so the total is 8q + 5r."
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "source": "SAT_p1_9",
+  "source_page": "SAT_p1_9.html",
+  "source_image": "images/SAT_p1_9.png",
+  "type": "linear_system_solve",
+  "questions": [
+    {
+      "id": "SAT_p1_9_S01",
+      "type": "linear_system_solve",
+      "question": "3x + 4y = −6 and 2y − x = −8. What is the solution (x, y) to the system of equations above?",
+      "choices": {
+        "A": "(−3, 2)",
+        "B": "(−2, −3)",
+        "C": "(2, 3)",
+        "D": "(2, −3)"
+      },
+      "answer": "D",
+      "explanation": "From the second equation x = 2y + 8. Substituting into the first equation and solving gives y = −3 and x = 2; check: 3(2) + 4(−3) = −6."
+    },
+    {
+      "id": "SAT_p1_9_S02",
+      "type": "linear_system_solve",
+      "question": "2x + 3y = 16 and 1y − x = −3. What is the solution (x, y) to the system of equations above?",
+      "choices": {
+        "A": "(2, 5)",
+        "B": "(5, 2)",
+        "C": "(5, −2)",
+        "D": "(−5, 2)"
+      },
+      "answer": "B",
+      "explanation": "From the second equation x = 1y + 3. Substituting into the first equation and solving gives y = 2 and x = 5; check: 2(5) + 3(2) = 16."
+    },
+    {
+      "id": "SAT_p1_9_S03",
+      "type": "linear_system_solve",
+      "question": "4x + 1y = −13 and 2y − x = 10. What is the solution (x, y) to the system of equations above?",
+      "choices": {
+        "A": "(−4, −3)",
+        "B": "(4, 3)",
+        "C": "(3, −4)",
+        "D": "(−4, 3)"
+      },
+      "answer": "D",
+      "explanation": "From the second equation x = 2y - 10. Substituting into the first equation and solving gives y = 3 and x = −4; check: 4(−4) + 1(3) = −13."
+    },
+    {
+      "id": "SAT_p1_9_S04",
+      "type": "linear_system_solve",
+      "question": "5x + 2y = 28 and 3y − x = −9. What is the solution (x, y) to the system of equations above?",
+      "choices": {
+        "A": "(6, −1)",
+        "B": "(−1, 6)",
+        "C": "(6, 1)",
+        "D": "(−6, −1)"
+      },
+      "answer": "A",
+      "explanation": "From the second equation x = 3y + 9. Substituting into the first equation and solving gives y = −1 and x = 6; check: 5(6) + 2(−1) = 28."
+    },
+    {
+      "id": "SAT_p1_9_S05",
+      "type": "linear_system_solve",
+      "question": "3x + 2y = −16 and 1y − x = −3. What is the solution (x, y) to the system of equations above?",
+      "choices": {
+        "A": "(−5, −2)",
+        "B": "(−2, −5)",
+        "C": "(2, −5)",
+        "D": "(−2, 5)"
+      },
+      "answer": "B",
+      "explanation": "From the second equation x = 1y + 3. Substituting into the first equation and solving gives y = −5 and x = −2; check: 3(−2) + 2(−5) = −16."
+    },
+    {
+      "id": "SAT_p1_9_S06",
+      "type": "linear_system_solve",
+      "question": "2x + 5y = 26 and 2y − x = 5. What is the solution (x, y) to the system of equations above?",
+      "choices": {
+        "A": "(4, 3)",
+        "B": "(3, 4)",
+        "C": "(−3, 4)",
+        "D": "(3, −4)"
+      },
+      "answer": "B",
+      "explanation": "From the second equation x = 2y - 5. Substituting into the first equation and solving gives y = 4 and x = 3; check: 2(3) + 5(4) = 26."
+    },
+    {
+      "id": "SAT_p1_9_S07",
+      "type": "linear_system_solve",
+      "question": "3x + 4y = 13 and 1y − x = −9. What is the solution (x, y) to the system of equations above?",
+      "choices": {
+        "A": "(−2, 7)",
+        "B": "(−7, −2)",
+        "C": "(7, 2)",
+        "D": "(7, −2)"
+      },
+      "answer": "D",
+      "explanation": "From the second equation x = 1y + 9. Substituting into the first equation and solving gives y = −2 and x = 7; check: 3(7) + 4(−2) = 13."
+    },
+    {
+      "id": "SAT_p1_9_S08",
+      "type": "linear_system_solve",
+      "question": "4x + 3y = −18 and 2y − x = 10. What is the solution (x, y) to the system of equations above?",
+      "choices": {
+        "A": "(6, 2)",
+        "B": "(−6, 2)",
+        "C": "(−6, −2)",
+        "D": "(2, −6)"
+      },
+      "answer": "B",
+      "explanation": "From the second equation x = 2y - 10. Substituting into the first equation and solving gives y = 2 and x = −6; check: 4(−6) + 3(2) = −18."
+    },
+    {
+      "id": "SAT_p1_9_S09",
+      "type": "linear_system_solve",
+      "question": "5x + 1y = −1 and 2y − x = −13. What is the solution (x, y) to the system of equations above?",
+      "choices": {
+        "A": "(1, −6)",
+        "B": "(−6, 1)",
+        "C": "(−1, −6)",
+        "D": "(1, 6)"
+      },
+      "answer": "A",
+      "explanation": "From the second equation x = 2y + 13. Substituting into the first equation and solving gives y = −6 and x = 1; check: 5(1) + 1(−6) = −1."
+    },
+    {
+      "id": "SAT_p1_9_S10",
+      "type": "linear_system_solve",
+      "question": "2x + 3y = 23 and 1y − x = 1. What is the solution (x, y) to the system of equations above?",
+      "choices": {
+        "A": "(4, 5)",
+        "B": "(−4, 5)",
+        "C": "(5, 4)",
+        "D": "(4, −5)"
+      },
+      "answer": "A",
+      "explanation": "From the second equation x = 1y - 1. Substituting into the first equation and solving gives y = 5 and x = 4; check: 2(4) + 3(5) = 23."
+    }
+  ]
+}
