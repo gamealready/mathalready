@@ -1,0 +1,138 @@
+{
+  "source": "SAT_p1_4",
+  "source_page": "SAT_p1_4.html",
+  "source_image": "images/SAT_p1_4.png",
+  "type": "linear_model_interpretation",
+  "questions": [
+    {
+      "id": "SAT_p1_4_S01",
+      "type": "linear_model_interpretation",
+      "question": "Kathy is working through a batch of phones that need repairs. The number remaining can be estimated with the equation P = 108 − 23d, where P is the number of phones left and d is the number of days she has worked that week. What is the meaning of the value 108 in this equation?",
+      "choices": {
+        "A": "There are 108 phones to fix at the start of the week.",
+        "B": "The work is done at a rate of 23 phones per day.",
+        "C": "The job is completed after 108 days.",
+        "D": "The work is done at a rate of 108 phones per day."
+      },
+      "answer": "A",
+      "explanation": "When d = 0 (the start), P = 108, so 108 is the initial amount. The rate is 23 phones per day."
+    },
+    {
+      "id": "SAT_p1_4_S02",
+      "type": "linear_model_interpretation",
+      "question": "Marcus is working through a truck full of boxes to unload. The number remaining can be estimated with the equation B = 240 − 16h, where B is the number of boxes left and h is the number of hours he has worked. What is the meaning of the value 240 in this equation?",
+      "choices": {
+        "A": "The job is completed after 240 hours.",
+        "B": "There are 240 boxes to unload at the start of the shift.",
+        "C": "The work is done at a rate of 240 boxes per hour.",
+        "D": "The work is done at a rate of 16 boxes per hour."
+      },
+      "answer": "B",
+      "explanation": "When h = 0 (the start), B = 240, so 240 is the initial amount. The rate is 16 boxes per hour."
+    },
+    {
+      "id": "SAT_p1_4_S03",
+      "type": "linear_model_interpretation",
+      "question": "Elena is working through a manuscript of pages to proofread. The number remaining can be estimated with the equation R = 320 − 40d, where R is the number of pages left and d is the number of days she has worked. What is the meaning of the value 320 in this equation?",
+      "choices": {
+        "A": "The work is done at a rate of 40 pages per day.",
+        "B": "There are 320 pages to proofread at the start of the project.",
+        "C": "The job is completed after 320 days.",
+        "D": "The work is done at a rate of 320 pages per day."
+      },
+      "answer": "B",
+      "explanation": "When d = 0 (the start), R = 320, so 320 is the initial amount. The rate is 40 pages per day."
+    },
+    {
+      "id": "SAT_p1_4_S04",
+      "type": "linear_model_interpretation",
+      "question": "Hiro is working through a list of lawns to mow for a landscaping company. The number remaining can be estimated with the equation L = 54 − 6d, where L is the number of lawns left and d is the number of days he has worked. What is the meaning of the value 54 in this equation?",
+      "choices": {
+        "A": "The work is done at a rate of 6 lawns per day.",
+        "B": "The job is completed after 54 days.",
+        "C": "There are 54 lawns to mow at the start of the month.",
+        "D": "The work is done at a rate of 54 lawns per day."
+      },
+      "answer": "C",
+      "explanation": "When d = 0 (the start), L = 54, so 54 is the initial amount. The rate is 6 lawns per day."
+    },
+    {
+      "id": "SAT_p1_4_S05",
+      "type": "linear_model_interpretation",
+      "question": "Wei is working through a tank of water to pump out. The number remaining can be estimated with the equation W = 500 − 25m, where W is the number of gallons of water left in the tank and m is the number of minutes since pumping began. What is the meaning of the value 500 in this equation?",
+      "choices": {
+        "A": "The work is done at a rate of 500 gallons per minute.",
+        "B": "The work is done at a rate of 25 gallons per minute.",
+        "C": "The job is completed after 500 minutes.",
+        "D": "There are 500 gallons of water in the tank at the start of the pumping."
+      },
+      "answer": "D",
+      "explanation": "When m = 0 (the start), W = 500, so 500 is the initial amount. The rate is 25 gallons per minute."
+    },
+    {
+      "id": "SAT_p1_4_S06",
+      "type": "linear_model_interpretation",
+      "question": "Nadia is working through an inbox full of emails to answer. The number remaining can be estimated with the equation E = 175 − 35h, where E is the number of emails left and h is the number of hours she has worked. What is the meaning of the value 175 in this equation?",
+      "choices": {
+        "A": "The job is completed after 175 hours.",
+        "B": "There are 175 emails to answer at the start of the day.",
+        "C": "The work is done at a rate of 175 emails per hour.",
+        "D": "The work is done at a rate of 35 emails per hour."
+      },
+      "answer": "B",
+      "explanation": "When h = 0 (the start), E = 175, so 175 is the initial amount. The rate is 35 emails per hour."
+    },
+    {
+      "id": "SAT_p1_4_S07",
+      "type": "linear_model_interpretation",
+      "question": "Tessa is working through an order of loaves to bake. The number remaining can be estimated with the equation N = 96 − 12h, where N is the number of loaves left to bake and h is the number of hours of baking. What is the meaning of the value 96 in this equation?",
+      "choices": {
+        "A": "The work is done at a rate of 96 loaves per hour.",
+        "B": "There are 96 loaves to bake at the start of the order.",
+        "C": "The job is completed after 96 hours.",
+        "D": "The work is done at a rate of 12 loaves per hour."
+      },
+      "answer": "B",
+      "explanation": "When h = 0 (the start), N = 96, so 96 is the initial amount. The rate is 12 loaves per hour."
+    },
+    {
+      "id": "SAT_p1_4_S08",
+      "type": "linear_model_interpretation",
+      "question": "Omar is working through a pile of invoices to process. The number remaining can be estimated with the equation I = 150 − 18d, where I is the number of invoices left and d is the number of days he has worked. What is the meaning of the value 150 in this equation?",
+      "choices": {
+        "A": "The work is done at a rate of 150 invoices per day.",
+        "B": "The work is done at a rate of 18 invoices per day.",
+        "C": "The job is completed after 150 days.",
+        "D": "There are 150 invoices to process at the start of the week."
+      },
+      "answer": "D",
+      "explanation": "When d = 0 (the start), I = 150, so 150 is the initial amount. The rate is 18 invoices per day."
+    },
+    {
+      "id": "SAT_p1_4_S09",
+      "type": "linear_model_interpretation",
+      "question": "Grace is working through a block of tickets to sell for a play. The number remaining can be estimated with the equation T = 420 − 28d, where T is the number of tickets left and d is the number of days of sales. What is the meaning of the value 420 in this equation?",
+      "choices": {
+        "A": "There are 420 tickets to sell at the start of the sales period.",
+        "B": "The work is done at a rate of 420 tickets per day.",
+        "C": "The work is done at a rate of 28 tickets per day.",
+        "D": "The job is completed after 420 days."
+      },
+      "answer": "A",
+      "explanation": "When d = 0 (the start), T = 420, so 420 is the initial amount. The rate is 28 tickets per day."
+    },
+    {
+      "id": "SAT_p1_4_S10",
+      "type": "linear_model_interpretation",
+      "question": "Victor is working through a pile of bricks to lay for a wall. The number remaining can be estimated with the equation K = 800 − 50h, where K is the number of bricks left and h is the number of hours he has worked. What is the meaning of the value 800 in this equation?",
+      "choices": {
+        "A": "The work is done at a rate of 800 bricks per hour.",
+        "B": "There are 800 bricks to lay at the start of the job.",
+        "C": "The work is done at a rate of 50 bricks per hour.",
+        "D": "The job is completed after 800 hours."
+      },
+      "answer": "B",
+      "explanation": "When h = 0 (the start), K = 800, so 800 is the initial amount. The rate is 50 bricks per hour."
+    }
+  ]
+}

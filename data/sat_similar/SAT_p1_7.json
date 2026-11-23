@@ -1,0 +1,138 @@
+{
+  "source": "SAT_p1_7",
+  "source_page": "SAT_p1_7.html",
+  "source_image": "images/SAT_p1_7.png",
+  "type": "rate_proportion_clock",
+  "questions": [
+    {
+      "id": "SAT_p1_7_S01",
+      "type": "rate_proportion_clock",
+      "question": "The clock in Sri's car, which is not accurate, gains time at a constant rate. One day as he begins shopping, he notes that his car clock and his watch (which is accurate) both say 12:00 noon. When he is done shopping, his watch says 12:40 and his car clock says 12:48. Later that day, Sri loses his watch. He looks at his car clock and it says 9:00. What is the actual time?",
+      "choices": {
+        "A": "7:20",
+        "B": "7:30",
+        "C": "8:44",
+        "D": "8:52"
+      },
+      "answer": "B",
+      "explanation": "The car clock advances 48 minutes for every 40 actual minutes. It shows 540 minutes since noon, so actual elapsed time = 540 × 40/48 = 450 minutes, and the actual time is 7:30."
+    },
+    {
+      "id": "SAT_p1_7_S02",
+      "type": "rate_proportion_clock",
+      "question": "The clock in Sri's car, which is not accurate, gains time at a constant rate. One day as he begins shopping, he notes that his car clock and his watch (which is accurate) both say 12:00 noon. When he is done shopping, his watch says 12:30 and his car clock says 12:36. Later that day, Sri loses his watch. He looks at his car clock and it says 7:00. What is the actual time?",
+      "choices": {
+        "A": "6:54",
+        "B": "5:50",
+        "C": "6:48",
+        "D": "5:40"
+      },
+      "answer": "B",
+      "explanation": "The car clock advances 36 minutes for every 30 actual minutes. It shows 420 minutes since noon, so actual elapsed time = 420 × 30/36 = 350 minutes, and the actual time is 5:50."
+    },
+    {
+      "id": "SAT_p1_7_S03",
+      "type": "rate_proportion_clock",
+      "question": "The clock in Sri's car, which is not accurate, gains time at a constant rate. One day as he begins shopping, he notes that his car clock and his watch (which is accurate) both say 12:00 noon. When he is done shopping, his watch says 12:40 and his car clock says 12:45. Later that day, Sri loses his watch. He looks at his car clock and it says 9:00. What is the actual time?",
+      "choices": {
+        "A": "7:50",
+        "B": "8:50",
+        "C": "8:55",
+        "D": "8:00"
+      },
+      "answer": "D",
+      "explanation": "The car clock advances 45 minutes for every 40 actual minutes. It shows 540 minutes since noon, so actual elapsed time = 540 × 40/45 = 480 minutes, and the actual time is 8:00."
+    },
+    {
+      "id": "SAT_p1_7_S04",
+      "type": "rate_proportion_clock",
+      "question": "The clock in Sri's car, which is not accurate, gains time at a constant rate. One day as he begins shopping, he notes that his car clock and his watch (which is accurate) both say 12:00 noon. When he is done shopping, his watch says 12:20 and his car clock says 12:24. Later that day, Sri loses his watch. He looks at his car clock and it says 8:00. What is the actual time?",
+      "choices": {
+        "A": "7:52",
+        "B": "7:56",
+        "C": "6:40",
+        "D": "6:30"
+      },
+      "answer": "C",
+      "explanation": "The car clock advances 24 minutes for every 20 actual minutes. It shows 480 minutes since noon, so actual elapsed time = 480 × 20/24 = 400 minutes, and the actual time is 6:40."
+    },
+    {
+      "id": "SAT_p1_7_S05",
+      "type": "rate_proportion_clock",
+      "question": "The clock in Sri's car, which is not accurate, gains time at a constant rate. One day as he begins shopping, he notes that his car clock and his watch (which is accurate) both say 12:00 noon. When he is done shopping, his watch says 12:30 and his car clock says 12:32. Later that day, Sri loses his watch. He looks at his car clock and it says 8:00. What is the actual time?",
+      "choices": {
+        "A": "7:20",
+        "B": "7:58",
+        "C": "7:56",
+        "D": "7:30"
+      },
+      "answer": "D",
+      "explanation": "The car clock advances 32 minutes for every 30 actual minutes. It shows 480 minutes since noon, so actual elapsed time = 480 × 30/32 = 450 minutes, and the actual time is 7:30."
+    },
+    {
+      "id": "SAT_p1_7_S06",
+      "type": "rate_proportion_clock",
+      "question": "The clock in Sri's car, which is not accurate, gains time at a constant rate. One day as he begins shopping, he notes that his car clock and his watch (which is accurate) both say 12:00 noon. When he is done shopping, his watch says 12:45 and his car clock says 12:50. Later that day, Sri loses his watch. He looks at his car clock and it says 10:00. What is the actual time?",
+      "choices": {
+        "A": "8:50",
+        "B": "9:55",
+        "C": "9:00",
+        "D": "9:50"
+      },
+      "answer": "C",
+      "explanation": "The car clock advances 50 minutes for every 45 actual minutes. It shows 600 minutes since noon, so actual elapsed time = 600 × 45/50 = 540 minutes, and the actual time is 9:00."
+    },
+    {
+      "id": "SAT_p1_7_S07",
+      "type": "rate_proportion_clock",
+      "question": "The clock in Sri's car, which is not accurate, gains time at a constant rate. One day as he begins shopping, he notes that his car clock and his watch (which is accurate) both say 12:00 noon. When he is done shopping, his watch says 1:00 and his car clock says 1:06. Later that day, Sri loses his watch. He looks at his car clock and it says 11:00. What is the actual time?",
+      "choices": {
+        "A": "10:48",
+        "B": "10:54",
+        "C": "9:50",
+        "D": "10:00"
+      },
+      "answer": "D",
+      "explanation": "The car clock advances 66 minutes for every 60 actual minutes. It shows 660 minutes since noon, so actual elapsed time = 660 × 60/66 = 600 minutes, and the actual time is 10:00."
+    },
+    {
+      "id": "SAT_p1_7_S08",
+      "type": "rate_proportion_clock",
+      "question": "The clock in Sri's car, which is not accurate, gains time at a constant rate. One day as he begins shopping, he notes that his car clock and his watch (which is accurate) both say 12:00 noon. When he is done shopping, his watch says 12:24 and his car clock says 12:30. Later that day, Sri loses his watch. He looks at his car clock and it says 5:00. What is the actual time?",
+      "choices": {
+        "A": "4:54",
+        "B": "3:50",
+        "C": "4:48",
+        "D": "4:00"
+      },
+      "answer": "D",
+      "explanation": "The car clock advances 30 minutes for every 24 actual minutes. It shows 300 minutes since noon, so actual elapsed time = 300 × 24/30 = 240 minutes, and the actual time is 4:00."
+    },
+    {
+      "id": "SAT_p1_7_S09",
+      "type": "rate_proportion_clock",
+      "question": "The clock in Sri's car, which is not accurate, gains time at a constant rate. One day as he begins shopping, he notes that his car clock and his watch (which is accurate) both say 12:00 noon. When he is done shopping, his watch says 12:36 and his car clock says 12:42. Later that day, Sri loses his watch. He looks at his car clock and it says 7:00. What is the actual time?",
+      "choices": {
+        "A": "6:54",
+        "B": "6:00",
+        "C": "5:50",
+        "D": "6:48"
+      },
+      "answer": "B",
+      "explanation": "The car clock advances 42 minutes for every 36 actual minutes. It shows 420 minutes since noon, so actual elapsed time = 420 × 36/42 = 360 minutes, and the actual time is 6:00."
+    },
+    {
+      "id": "SAT_p1_7_S10",
+      "type": "rate_proportion_clock",
+      "question": "The clock in Sri's car, which is not accurate, gains time at a constant rate. One day as he begins shopping, he notes that his car clock and his watch (which is accurate) both say 12:00 noon. When he is done shopping, his watch says 12:50 and his car clock says 12:55. Later that day, Sri loses his watch. He looks at his car clock and it says 11:00. What is the actual time?",
+      "choices": {
+        "A": "9:50",
+        "B": "10:50",
+        "C": "10:00",
+        "D": "10:55"
+      },
+      "answer": "C",
+      "explanation": "The car clock advances 55 minutes for every 50 actual minutes. It shows 660 minutes since noon, so actual elapsed time = 660 × 50/55 = 600 minutes, and the actual time is 10:00."
+    }
+  ]
+}

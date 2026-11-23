@@ -1,0 +1,138 @@
+{
+  "source": "SAT_p1_6",
+  "source_page": "SAT_p1_6.html",
+  "source_image": "images/SAT_p1_6.png",
+  "type": "linear_model_slope",
+  "questions": [
+    {
+      "id": "SAT_p1_6_S01",
+      "type": "linear_model_slope",
+      "question": "h = 3a + 28.6. A pediatrician uses the model above to estimate the height h of a girl, in inches, in terms of age a, in years, between a = 2 and a = 5. Based on the model, what is the estimated increase in the girl's height for each additional unit of a?",
+      "choices": {
+        "A": "3",
+        "B": "9",
+        "C": "28.6",
+        "D": "31.6"
+      },
+      "answer": "A",
+      "explanation": "The model is linear with slope 3, so the estimate increases by 3 for each 1-unit increase in a."
+    },
+    {
+      "id": "SAT_p1_6_S02",
+      "type": "linear_model_slope",
+      "question": "h = 12t + 15.5. A botanist uses the model above to estimate the height h of a sunflower, in centimeters, in terms of time t, in weeks, between t = 1 and t = 8. Based on the model, what is the estimated increase in the sunflower's height for each additional unit of t?",
+      "choices": {
+        "A": "12",
+        "B": "15.5",
+        "C": "84",
+        "D": "27.5"
+      },
+      "answer": "A",
+      "explanation": "The model is linear with slope 12, so the estimate increases by 12 for each 1-unit increase in t."
+    },
+    {
+      "id": "SAT_p1_6_S03",
+      "type": "linear_model_slope",
+      "question": "d = 9t + 2.4. A coach uses the model above to estimate the distance d a runner has covered, in kilometers, in terms of time t, in hours, between t = 1 and t = 4. Based on the model, what is the estimated increase in the distance covered for each additional unit of t?",
+      "choices": {
+        "A": "9",
+        "B": "27",
+        "C": "11.4",
+        "D": "2.4"
+      },
+      "answer": "A",
+      "explanation": "The model is linear with slope 9, so the estimate increases by 9 for each 1-unit increase in t."
+    },
+    {
+      "id": "SAT_p1_6_S04",
+      "type": "linear_model_slope",
+      "question": "T = 4t + 18.2. A scientist uses the model above to estimate the temperature T of a solution, in degrees Celsius, in terms of time t, in minutes, between t = 0 and t = 10. Based on the model, what is the estimated increase in the temperature for each additional unit of t?",
+      "choices": {
+        "A": "18.2",
+        "B": "4",
+        "C": "22.2",
+        "D": "40"
+      },
+      "answer": "B",
+      "explanation": "The model is linear with slope 4, so the estimate increases by 4 for each 1-unit increase in t."
+    },
+    {
+      "id": "SAT_p1_6_S05",
+      "type": "linear_model_slope",
+      "question": "B = 35t + 420. A librarian uses the model above to estimate the number of books B in a collection, in terms of time t, in years, between t = 1 and t = 6. Based on the model, what is the estimated increase in the number of books for each additional unit of t?",
+      "choices": {
+        "A": "35",
+        "B": "420",
+        "C": "175",
+        "D": "455"
+      },
+      "answer": "A",
+      "explanation": "The model is linear with slope 35, so the estimate increases by 35 for each 1-unit increase in t."
+    },
+    {
+      "id": "SAT_p1_6_S06",
+      "type": "linear_model_slope",
+      "question": "m = 2.5t + 1.5. A farmer uses the model above to estimate the mass m of a pumpkin, in pounds, in terms of time t, in weeks, between t = 2 and t = 12. Based on the model, what is the estimated increase in the pumpkin's mass for each additional unit of t?",
+      "choices": {
+        "A": "25",
+        "B": "4",
+        "C": "1.5",
+        "D": "2.5"
+      },
+      "answer": "D",
+      "explanation": "The model is linear with slope 2.5, so the estimate increases by 2.5 for each 1-unit increase in t."
+    },
+    {
+      "id": "SAT_p1_6_S07",
+      "type": "linear_model_slope",
+      "question": "R = 85d + 300. A store manager uses the model above to estimate the revenue R, in dollars, in terms of number of days d the sale has run, between d = 1 and d = 14. Based on the model, what is the estimated increase in the revenue for each additional unit of d?",
+      "choices": {
+        "A": "300",
+        "B": "85",
+        "C": "385",
+        "D": "1105"
+      },
+      "answer": "B",
+      "explanation": "The model is linear with slope 85, so the estimate increases by 85 for each 1-unit increase in d."
+    },
+    {
+      "id": "SAT_p1_6_S08",
+      "type": "linear_model_slope",
+      "question": "L = 0.6t + 250. An engineer uses the model above to estimate the length L of a metal rod, in millimeters, in terms of temperature rise t, in degrees Celsius, between t = 0 and t = 50. Based on the model, what is the estimated increase in the rod's length for each additional unit of t?",
+      "choices": {
+        "A": "250.6",
+        "B": "0.6",
+        "C": "250",
+        "D": "30"
+      },
+      "answer": "B",
+      "explanation": "The model is linear with slope 0.6, so the estimate increases by 0.6 for each 1-unit increase in t."
+    },
+    {
+      "id": "SAT_p1_6_S09",
+      "type": "linear_model_slope",
+      "question": "S = 6h + 52. A tutor uses the model above to estimate the score S a student earns, in terms of hours h of tutoring, between h = 0 and h = 8. Based on the model, what is the estimated increase in the score for each additional unit of h?",
+      "choices": {
+        "A": "48",
+        "B": "52",
+        "C": "58",
+        "D": "6"
+      },
+      "answer": "D",
+      "explanation": "The model is linear with slope 6, so the estimate increases by 6 for each 1-unit increase in h."
+    },
+    {
+      "id": "SAT_p1_6_S10",
+      "type": "linear_model_slope",
+      "question": "P = 7t + 13.5. A biologist uses the model above to estimate the population P of a bacteria sample, in thousands, in terms of time t, in hours, between t = 1 and t = 9. Based on the model, what is the estimated increase in the population for each additional unit of t?",
+      "choices": {
+        "A": "20.5",
+        "B": "13.5",
+        "C": "56",
+        "D": "7"
+      },
+      "answer": "D",
+      "explanation": "The model is linear with slope 7, so the estimate increases by 7 for each 1-unit increase in t."
+    }
+  ]
+}

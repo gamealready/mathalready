@@ -1,0 +1,138 @@
+{
+  "source": "SAT_p1_10",
+  "source_page": "SAT_p1_10.html",
+  "source_image": "images/SAT_p1_10.png",
+  "type": "function_evaluation_even_function",
+  "questions": [
+    {
+      "id": "SAT_p1_10_S01",
+      "type": "function_evaluation_even_function",
+      "question": "g(x) = ax² + 32. For the function g defined above, a is a constant and g(4) = 16. What is the value of g(−4)?",
+      "choices": {
+        "A": "32",
+        "B": "48",
+        "C": "−16",
+        "D": "16"
+      },
+      "answer": "D",
+      "explanation": "16a + 32 = 16 gives a = −1. g(−4) = −1(16) + 32 = 16 (g is even, so g(−4) = g(4))."
+    },
+    {
+      "id": "SAT_p1_10_S02",
+      "type": "function_evaluation_even_function",
+      "question": "g(x) = ax² + 20. For the function g defined above, a is a constant and g(3) = 11. What is the value of g(−3)?",
+      "choices": {
+        "A": "−9",
+        "B": "−11",
+        "C": "9",
+        "D": "11"
+      },
+      "answer": "D",
+      "explanation": "9a + 20 = 11 gives a = −1. g(−3) = −1(9) + 20 = 11 (g is even, so g(−3) = g(3))."
+    },
+    {
+      "id": "SAT_p1_10_S03",
+      "type": "function_evaluation_even_function",
+      "question": "g(x) = ax² + 30. For the function g defined above, a is a constant and g(5) = 5. What is the value of g(−5)?",
+      "choices": {
+        "A": "−5",
+        "B": "25",
+        "C": "5",
+        "D": "−25"
+      },
+      "answer": "C",
+      "explanation": "25a + 30 = 5 gives a = −1. g(−5) = −1(25) + 30 = 5 (g is even, so g(−5) = g(5))."
+    },
+    {
+      "id": "SAT_p1_10_S04",
+      "type": "function_evaluation_even_function",
+      "question": "g(x) = ax² + 15. For the function g defined above, a is a constant and g(2) = 7. What is the value of g(−2)?",
+      "choices": {
+        "A": "7",
+        "B": "−7",
+        "C": "8",
+        "D": "−8"
+      },
+      "answer": "A",
+      "explanation": "4a + 15 = 7 gives a = −2. g(−2) = −2(4) + 15 = 7 (g is even, so g(−2) = g(2))."
+    },
+    {
+      "id": "SAT_p1_10_S05",
+      "type": "function_evaluation_even_function",
+      "question": "g(x) = ax² + 40. For the function g defined above, a is a constant and g(6) = 4. What is the value of g(−6)?",
+      "choices": {
+        "A": "4",
+        "B": "36",
+        "C": "−36",
+        "D": "−4"
+      },
+      "answer": "A",
+      "explanation": "36a + 40 = 4 gives a = −1. g(−6) = −1(36) + 40 = 4 (g is even, so g(−6) = g(6))."
+    },
+    {
+      "id": "SAT_p1_10_S06",
+      "type": "function_evaluation_even_function",
+      "question": "g(x) = ax² + 10. For the function g defined above, a is a constant and g(3) = 1. What is the value of g(−3)?",
+      "choices": {
+        "A": "−9",
+        "B": "−1",
+        "C": "1",
+        "D": "9"
+      },
+      "answer": "C",
+      "explanation": "9a + 10 = 1 gives a = −1. g(−3) = −1(9) + 10 = 1 (g is even, so g(−3) = g(3))."
+    },
+    {
+      "id": "SAT_p1_10_S07",
+      "type": "function_evaluation_even_function",
+      "question": "g(x) = ax² + 50. For the function g defined above, a is a constant and g(4) = 18. What is the value of g(−4)?",
+      "choices": {
+        "A": "32",
+        "B": "−18",
+        "C": "18",
+        "D": "−32"
+      },
+      "answer": "C",
+      "explanation": "16a + 50 = 18 gives a = −2. g(−4) = −2(16) + 50 = 18 (g is even, so g(−4) = g(4))."
+    },
+    {
+      "id": "SAT_p1_10_S08",
+      "type": "function_evaluation_even_function",
+      "question": "g(x) = ax² + 9. For the function g defined above, a is a constant and g(2) = 1. What is the value of g(−2)?",
+      "choices": {
+        "A": "1",
+        "B": "−8",
+        "C": "−1",
+        "D": "8"
+      },
+      "answer": "A",
+      "explanation": "4a + 9 = 1 gives a = −2. g(−2) = −2(4) + 9 = 1 (g is even, so g(−2) = g(2))."
+    },
+    {
+      "id": "SAT_p1_10_S09",
+      "type": "function_evaluation_even_function",
+      "question": "g(x) = ax² + 45. For the function g defined above, a is a constant and g(5) = 20. What is the value of g(−5)?",
+      "choices": {
+        "A": "25",
+        "B": "−20",
+        "C": "20",
+        "D": "−25"
+      },
+      "answer": "C",
+      "explanation": "25a + 45 = 20 gives a = −1. g(−5) = −1(25) + 45 = 20 (g is even, so g(−5) = g(5))."
+    },
+    {
+      "id": "SAT_p1_10_S10",
+      "type": "function_evaluation_even_function",
+      "question": "g(x) = ax² + 36. For the function g defined above, a is a constant and g(3) = 9. What is the value of g(−3)?",
+      "choices": {
+        "A": "9",
+        "B": "−9",
+        "C": "27",
+        "D": "−27"
+      },
+      "answer": "A",
+      "explanation": "9a + 36 = 9 gives a = −3. g(−3) = −3(9) + 36 = 9 (g is even, so g(−3) = g(3))."
+    }
+  ]
+}

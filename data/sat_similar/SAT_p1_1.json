@@ -1,0 +1,138 @@
+{
+  "source": "SAT_p1_1",
+  "source_page": "SAT_p1_1.html",
+  "source_image": "images/SAT_p1_1.png",
+  "type": "linear_equation_substitution",
+  "questions": [
+    {
+      "id": "SAT_p1_1_S01",
+      "type": "linear_equation_substitution",
+      "question": "If (x − 3)/4 = k and k = 6, what is the value of x?",
+      "choices": {
+        "A": "24",
+        "B": "9",
+        "C": "27",
+        "D": "21"
+      },
+      "answer": "C",
+      "explanation": "Substitute k = 6: (x − 3)/4 = 6, so x − 3 = 24 and x = 27."
+    },
+    {
+      "id": "SAT_p1_1_S02",
+      "type": "linear_equation_substitution",
+      "question": "If (x − 2)/4 = k and k = 5, what is the value of x?",
+      "choices": {
+        "A": "7",
+        "B": "22",
+        "C": "20",
+        "D": "18"
+      },
+      "answer": "B",
+      "explanation": "Substitute k = 5: (x − 2)/4 = 5, so x − 2 = 20 and x = 22."
+    },
+    {
+      "id": "SAT_p1_1_S03",
+      "type": "linear_equation_substitution",
+      "question": "If (x − 5)/2 = k and k = 6, what is the value of x?",
+      "choices": {
+        "A": "12",
+        "B": "11",
+        "C": "7",
+        "D": "17"
+      },
+      "answer": "D",
+      "explanation": "Substitute k = 6: (x − 5)/2 = 6, so x − 5 = 12 and x = 17."
+    },
+    {
+      "id": "SAT_p1_1_S04",
+      "type": "linear_equation_substitution",
+      "question": "If (x − 3)/5 = k and k = 4, what is the value of x?",
+      "choices": {
+        "A": "20",
+        "B": "23",
+        "C": "17",
+        "D": "7"
+      },
+      "answer": "B",
+      "explanation": "Substitute k = 4: (x − 3)/5 = 4, so x − 3 = 20 and x = 23."
+    },
+    {
+      "id": "SAT_p1_1_S05",
+      "type": "linear_equation_substitution",
+      "question": "If (x − 4)/3 = k and k = 7, what is the value of x?",
+      "choices": {
+        "A": "21",
+        "B": "17",
+        "C": "25",
+        "D": "11"
+      },
+      "answer": "C",
+      "explanation": "Substitute k = 7: (x − 4)/3 = 7, so x − 4 = 21 and x = 25."
+    },
+    {
+      "id": "SAT_p1_1_S06",
+      "type": "linear_equation_substitution",
+      "question": "If (x − 7)/2 = k and k = 8, what is the value of x?",
+      "choices": {
+        "A": "23",
+        "B": "9",
+        "C": "16",
+        "D": "15"
+      },
+      "answer": "A",
+      "explanation": "Substitute k = 8: (x − 7)/2 = 8, so x − 7 = 16 and x = 23."
+    },
+    {
+      "id": "SAT_p1_1_S07",
+      "type": "linear_equation_substitution",
+      "question": "If (x − 6)/4 = k and k = 3, what is the value of x?",
+      "choices": {
+        "A": "9",
+        "B": "12",
+        "C": "18",
+        "D": "6"
+      },
+      "answer": "C",
+      "explanation": "Substitute k = 3: (x − 6)/4 = 3, so x − 6 = 12 and x = 18."
+    },
+    {
+      "id": "SAT_p1_1_S08",
+      "type": "linear_equation_substitution",
+      "question": "If (x − 2)/6 = k and k = 2, what is the value of x?",
+      "choices": {
+        "A": "14",
+        "B": "10",
+        "C": "12",
+        "D": "4"
+      },
+      "answer": "A",
+      "explanation": "Substitute k = 2: (x − 2)/6 = 2, so x − 2 = 12 and x = 14."
+    },
+    {
+      "id": "SAT_p1_1_S09",
+      "type": "linear_equation_substitution",
+      "question": "If (x − 8)/5 = k and k = 3, what is the value of x?",
+      "choices": {
+        "A": "7",
+        "B": "15",
+        "C": "23",
+        "D": "11"
+      },
+      "answer": "C",
+      "explanation": "Substitute k = 3: (x − 8)/5 = 3, so x − 8 = 15 and x = 23."
+    },
+    {
+      "id": "SAT_p1_1_S10",
+      "type": "linear_equation_substitution",
+      "question": "If (x − 9)/3 = k and k = 4, what is the value of x?",
+      "choices": {
+        "A": "21",
+        "B": "12",
+        "C": "3",
+        "D": "13"
+      },
+      "answer": "A",
+      "explanation": "Substitute k = 4: (x − 9)/3 = 4, so x − 9 = 12 and x = 21."
+    }
+  ]
+}
