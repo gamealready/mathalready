@@ -55,7 +55,7 @@
       <div class="mainbar">
         <div class="article">
           <h1>SAT Practice</h1><div class="clr"></div>
-          <p>One random question from each SAT question type. Answers and explanations are shown at the end.</p>
+          <p>One random question from each of the SAT question types (original and similar practice questions). Answers and explanations are shown at the end.</p>
           <div id="sat-app"><p>Loading questions...</p></div>
         </div>
 
@@ -121,20 +121,26 @@
 <div id="sfc97culthbz7dmcy7pem1nlwdyxnu8wcq8" style="text-align:center"></div>
 <div style="text-align:center">Copyright 2022-2026 MathAlready</div><script>
 (function () {
-  var FILES = ["SAT_matching_coefficients_questions.json", "data/sat_json/SAT_OOS_1.json", "data/sat_json/SAT_OOS_2.json", "data/sat_json/SAT_OOS_3.json", "data/sat_json/SAT_OOS_4.json", "data/sat_json/SAT_OOS_5.json", "data/sat_json/SAT_OOS_6.json", "data/sat_json/SAT_OOS_7.json", "data/sat_json/SAT_OOS_8.json", "data/sat_json/SAT_OOS_9.json", "data/sat_json/SAT_OOS_10_CA.json"];
+  var GROUPS = [["SAT_matching_coefficients_questions.json"]];
+  for (var i = 1; i <= 10; i++) { var n = "SAT_OOS_" + (i === 10 ? "10_CA" : i); GROUPS.push(["data/sat_similar/" + n + ".json", "data/sat_json/" + n + ".json"]); }
+  for (var j = 1; j <= 20; j++) GROUPS.push(["data/sat_similar/SAT_p1_" + j + ".json", "data/sat_text/SAT_p1_" + j + ".json"]);
   var app = document.getElementById("sat-app");
   var picks = [], idx = 0, chosen = [];
   function el(tag, text, cls) { var e = document.createElement(tag); if (text !== undefined) e.textContent = text; if (cls) e.className = cls; return e; }
   function load(f) {
     return fetch(f).then(function (r) { if (!r.ok) throw new Error(f); return r.json(); }).catch(function () { return null; });
   }
-  function pick(d) {
-    if (!d) return null;
-    if (d.question && d.choices) return { type: "SAT question " + (d.id || ""), q: d };
-    var qs = d.questions || [];
-    if (!qs.length) return null;
-    var q = qs[Math.floor(Math.random() * qs.length)];
-    return { type: d.type_name || "SAT", q: q };
+  function pick(ds) {
+    var pool = [], type = "SAT";
+    ds.forEach(function (d) {
+      if (!d) return;
+      if (d.question && d.choices) { if (d.status === undefined || d.status === "ok") pool.push(d); return; }
+      if (d.type_name) type = d.type_name;
+      (d.questions || []).forEach(function (q) { pool.push(q); });
+    });
+    if (!pool.length) return null;
+    var q = pool[Math.floor(Math.random() * pool.length)];
+    return { type: q.type ? q.type.replace(/_/g, " ") : type, q: q };
   }
   function hasDiagram(q) { return !!(q.diagram_image && /\[Diagram:/.test(q.question)); }
   function stem(q) { return hasDiagram(q) ? q.question.replace(/\s*\[Diagram:[^\]]*\]/, "") : q.question; }
@@ -184,8 +190,8 @@
   }
   function start() {
     app.innerHTML = "<p>Loading questions...</p>";
-    Promise.all(FILES.map(load)).then(function (ds) {
-      picks = ds.map(pick).filter(Boolean); idx = 0; chosen = [];
+    Promise.all(GROUPS.map(function (g) { return Promise.all(g.map(load)); })).then(function (gs) {
+      picks = gs.map(pick).filter(Boolean); idx = 0; chosen = [];
       if (!picks.length) { app.textContent = "No questions available."; return; }
       show();
     });
