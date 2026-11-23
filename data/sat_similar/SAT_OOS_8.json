@@ -1,0 +1,138 @@
+{
+  "source": "SAT_OOS_8",
+  "source_page": "SAT_OOS_8.html",
+  "source_image": "images/SAT_OOS_8.png",
+  "type": "trig_cofunction_identity",
+  "questions": [
+    {
+      "id": "SAT_OOS_8_S01",
+      "type": "trig_cofunction_identity",
+      "question": "Which of the following is equal to sin(pi/7)?",
+      "choices": {
+        "A": "cos(5pi/14)",
+        "B": "cos(9pi/14)",
+        "C": "sin(5pi/14)",
+        "D": "-cos(pi/7)"
+      },
+      "answer": "A",
+      "explanation": "sin(x) = cos(pi/2 - x); pi/2 - pi/7 = 5pi/14."
+    },
+    {
+      "id": "SAT_OOS_8_S02",
+      "type": "trig_cofunction_identity",
+      "question": "Which of the following is equal to cos(pi/8)?",
+      "choices": {
+        "A": "-sin(pi/8)",
+        "B": "sin(3pi/8)",
+        "C": "cos(3pi/8)",
+        "D": "-cos(pi/8)"
+      },
+      "answer": "B",
+      "explanation": "cos(x) = sin(pi/2 - x); pi/2 - pi/8 = 3pi/8."
+    },
+    {
+      "id": "SAT_OOS_8_S03",
+      "type": "trig_cofunction_identity",
+      "question": "Which of the following is equal to sin(2pi/9)?",
+      "choices": {
+        "A": "-sin(2pi/9)",
+        "B": "-cos(2pi/9)",
+        "C": "cos(7pi/9)",
+        "D": "cos(5pi/18)"
+      },
+      "answer": "D",
+      "explanation": "sin(x) = cos(pi/2 - x); pi/2 - 2pi/9 = 5pi/18."
+    },
+    {
+      "id": "SAT_OOS_8_S04",
+      "type": "trig_cofunction_identity",
+      "question": "Which of the following is equal to cos(pi/12)?",
+      "choices": {
+        "A": "-sin(pi/12)",
+        "B": "sin(5pi/12)",
+        "C": "-cos(5pi/12)",
+        "D": "cos(5pi/12)"
+      },
+      "answer": "B",
+      "explanation": "cos(x) = sin(pi/2 - x); pi/2 - pi/12 = 5pi/12."
+    },
+    {
+      "id": "SAT_OOS_8_S05",
+      "type": "trig_cofunction_identity",
+      "question": "Which of the following is equal to sin(3pi/11)?",
+      "choices": {
+        "A": "cos(8pi/11)",
+        "B": "-sin(5pi/22)",
+        "C": "cos(5pi/22)",
+        "D": "-cos(3pi/11)"
+      },
+      "answer": "C",
+      "explanation": "sin(x) = cos(pi/2 - x); pi/2 - 3pi/11 = 5pi/22."
+    },
+    {
+      "id": "SAT_OOS_8_S06",
+      "type": "trig_cofunction_identity",
+      "question": "Which of the following is equal to cos(pi/9)?",
+      "choices": {
+        "A": "-cos(pi/9)",
+        "B": "sin(8pi/9)",
+        "C": "sin(7pi/18)",
+        "D": "cos(7pi/18)"
+      },
+      "answer": "C",
+      "explanation": "cos(x) = sin(pi/2 - x); pi/2 - pi/9 = 7pi/18."
+    },
+    {
+      "id": "SAT_OOS_8_S07",
+      "type": "trig_cofunction_identity",
+      "question": "Which of the following is equal to sin(2pi/7)?",
+      "choices": {
+        "A": "cos(11pi/14)",
+        "B": "-sin(3pi/14)",
+        "C": "cos(3pi/14)",
+        "D": "sin(3pi/14)"
+      },
+      "answer": "C",
+      "explanation": "sin(x) = cos(pi/2 - x); pi/2 - 2pi/7 = 3pi/14."
+    },
+    {
+      "id": "SAT_OOS_8_S08",
+      "type": "trig_cofunction_identity",
+      "question": "Which of the following is equal to cos(3pi/14)?",
+      "choices": {
+        "A": "-cos(2pi/7)",
+        "B": "sin(2pi/7)",
+        "C": "-sin(3pi/14)",
+        "D": "cos(2pi/7)"
+      },
+      "answer": "B",
+      "explanation": "cos(x) = sin(pi/2 - x); pi/2 - 3pi/14 = 2pi/7."
+    },
+    {
+      "id": "SAT_OOS_8_S09",
+      "type": "trig_cofunction_identity",
+      "question": "Which of the following is equal to sin(pi/10)?",
+      "choices": {
+        "A": "-cos(pi/10)",
+        "B": "cos(pi/10)",
+        "C": "cos(2pi/5)",
+        "D": "-sin(2pi/5)"
+      },
+      "answer": "C",
+      "explanation": "sin(x) = cos(pi/2 - x); pi/2 - pi/10 = 2pi/5."
+    },
+    {
+      "id": "SAT_OOS_8_S10",
+      "type": "trig_cofunction_identity",
+      "question": "Which of the following is equal to cos(5pi/18)?",
+      "choices": {
+        "A": "-sin(5pi/18)",
+        "B": "-cos(5pi/18)",
+        "C": "sin(2pi/9)",
+        "D": "sin(5pi/18)"
+      },
+      "answer": "C",
+      "explanation": "cos(x) = sin(pi/2 - x); pi/2 - 5pi/18 = 2pi/9."
+    }
+  ]
+}

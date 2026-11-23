@@ -1,0 +1,138 @@
+{
+  "source": "SAT_OOS_4",
+  "source_page": "SAT_OOS_4.html",
+  "source_image": "images/SAT_OOS_4.png",
+  "type": "complex_number_multiplication",
+  "questions": [
+    {
+      "id": "SAT_OOS_4_S01",
+      "type": "complex_number_multiplication",
+      "question": "In the complex number system, which of the following is equal to (9 - 8i)(6 - i)? (Note: i = sqrt(-1))",
+      "choices": {
+        "A": "62",
+        "B": "46",
+        "C": "46 - 57i",
+        "D": "62 - 57i"
+      },
+      "answer": "C",
+      "explanation": "Multiplying out, the real part is (9)(6) - (-8)(-1) = 46 (using i^2 = -1) and the imaginary part is (9)(-1) + (-8)(6) = -57, so the product is 46 - 57i."
+    },
+    {
+      "id": "SAT_OOS_4_S02",
+      "type": "complex_number_multiplication",
+      "question": "In the complex number system, which of the following is equal to (5 - 4i)(7 - 8i)? (Note: i = sqrt(-1))",
+      "choices": {
+        "A": "67 - 68i",
+        "B": "67",
+        "C": "3",
+        "D": "3 - 68i"
+      },
+      "answer": "D",
+      "explanation": "Multiplying out, the real part is (5)(7) - (-4)(-8) = 3 (using i^2 = -1) and the imaginary part is (5)(-8) + (-4)(7) = -68, so the product is 3 - 68i."
+    },
+    {
+      "id": "SAT_OOS_4_S03",
+      "type": "complex_number_multiplication",
+      "question": "In the complex number system, which of the following is equal to (9 - 2i)(-8 - 8i)? (Note: i = sqrt(-1))",
+      "choices": {
+        "A": "-88",
+        "B": "-88 - 56i",
+        "C": "-56",
+        "D": "-56 - 56i"
+      },
+      "answer": "B",
+      "explanation": "Multiplying out, the real part is (9)(-8) - (-2)(-8) = -88 (using i^2 = -1) and the imaginary part is (9)(-8) + (-2)(-8) = -56, so the product is -88 - 56i."
+    },
+    {
+      "id": "SAT_OOS_4_S04",
+      "type": "complex_number_multiplication",
+      "question": "In the complex number system, which of the following is equal to (5 - 7i)(-7 - 2i)? (Note: i = sqrt(-1))",
+      "choices": {
+        "A": "-49",
+        "B": "-49 + 39i",
+        "C": "-21 + 39i",
+        "D": "-21"
+      },
+      "answer": "B",
+      "explanation": "Multiplying out, the real part is (5)(-7) - (-7)(-2) = -49 (using i^2 = -1) and the imaginary part is (5)(-2) + (-7)(-7) = 39, so the product is -49 + 39i."
+    },
+    {
+      "id": "SAT_OOS_4_S05",
+      "type": "complex_number_multiplication",
+      "question": "In the complex number system, which of the following is equal to (8 - 8i)(8 + 5i)? (Note: i = sqrt(-1))",
+      "choices": {
+        "A": "104",
+        "B": "104 - 24i",
+        "C": "24",
+        "D": "24 - 24i"
+      },
+      "answer": "B",
+      "explanation": "Multiplying out, the real part is (8)(8) - (-8)(5) = 104 (using i^2 = -1) and the imaginary part is (8)(5) + (-8)(8) = -24, so the product is 104 - 24i."
+    },
+    {
+      "id": "SAT_OOS_4_S06",
+      "type": "complex_number_multiplication",
+      "question": "In the complex number system, which of the following is equal to (3 - 8i)(2 + i)? (Note: i = sqrt(-1))",
+      "choices": {
+        "A": "14",
+        "B": "-2",
+        "C": "-2 - 13i",
+        "D": "14 - 13i"
+      },
+      "answer": "D",
+      "explanation": "Multiplying out, the real part is (3)(2) - (-8)(1) = 14 (using i^2 = -1) and the imaginary part is (3)(1) + (-8)(2) = -13, so the product is 14 - 13i."
+    },
+    {
+      "id": "SAT_OOS_4_S07",
+      "type": "complex_number_multiplication",
+      "question": "In the complex number system, which of the following is equal to (2 + 9i)(5 - 9i)? (Note: i = sqrt(-1))",
+      "choices": {
+        "A": "-71 + 27i",
+        "B": "-71",
+        "C": "91",
+        "D": "91 + 27i"
+      },
+      "answer": "D",
+      "explanation": "Multiplying out, the real part is (2)(5) - (9)(-9) = 91 (using i^2 = -1) and the imaginary part is (2)(-9) + (9)(5) = 27, so the product is 91 + 27i."
+    },
+    {
+      "id": "SAT_OOS_4_S08",
+      "type": "complex_number_multiplication",
+      "question": "In the complex number system, which of the following is equal to (4 + 2i)(-4 - 3i)? (Note: i = sqrt(-1))",
+      "choices": {
+        "A": "-22 - 20i",
+        "B": "-22",
+        "C": "-10",
+        "D": "-10 - 20i"
+      },
+      "answer": "D",
+      "explanation": "Multiplying out, the real part is (4)(-4) - (2)(-3) = -10 (using i^2 = -1) and the imaginary part is (4)(-3) + (2)(-4) = -20, so the product is -10 - 20i."
+    },
+    {
+      "id": "SAT_OOS_4_S09",
+      "type": "complex_number_multiplication",
+      "question": "In the complex number system, which of the following is equal to (8 + 4i)(-2 - i)? (Note: i = sqrt(-1))",
+      "choices": {
+        "A": "-12",
+        "B": "-12 - 16i",
+        "C": "-20 - 16i",
+        "D": "-20"
+      },
+      "answer": "B",
+      "explanation": "Multiplying out, the real part is (8)(-2) - (4)(-1) = -12 (using i^2 = -1) and the imaginary part is (8)(-1) + (4)(-2) = -16, so the product is -12 - 16i."
+    },
+    {
+      "id": "SAT_OOS_4_S10",
+      "type": "complex_number_multiplication",
+      "question": "In the complex number system, which of the following is equal to (3 + 7i)(-5 - 5i)? (Note: i = sqrt(-1))",
+      "choices": {
+        "A": "20 - 50i",
+        "B": "-50 - 50i",
+        "C": "-50",
+        "D": "20"
+      },
+      "answer": "A",
+      "explanation": "Multiplying out, the real part is (3)(-5) - (7)(-5) = 20 (using i^2 = -1) and the imaginary part is (3)(-5) + (7)(-5) = -50, so the product is 20 - 50i."
+    }
+  ]
+}

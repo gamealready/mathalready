@@ -1,0 +1,148 @@
+{
+  "source": "SAT_OOS_3",
+  "source_page": "SAT_OOS_3.html",
+  "source_image": null,
+  "type": "solve_rational_equation_for_variable",
+  "questions": [
+    {
+      "id": "SAT_OOS_3_S01",
+      "type": "solve_rational_equation_for_variable",
+      "question": "If 6/(a - 3) = 24/y, and y != 0 where a != 3, what is y in terms of a?",
+      "choices": {
+        "A": "24a - 72",
+        "B": "4a + 12",
+        "C": "6a - 18",
+        "D": "4a - 12",
+        "E": "(1/4)a - 3/4"
+      },
+      "answer": "D",
+      "explanation": "Cross-multiplying gives 6y = 24(a - 3), so y = 4(a - 3) = 4a - 12."
+    },
+    {
+      "id": "SAT_OOS_3_S02",
+      "type": "solve_rational_equation_for_variable",
+      "question": "If 5/(a + 4) = 15/y, and y != 0 where a != -4, what is y in terms of a?",
+      "choices": {
+        "A": "(1/3)a + 4/3",
+        "B": "3a + 12",
+        "C": "5a + 20",
+        "D": "4a + 16",
+        "E": "3a - 12"
+      },
+      "answer": "B",
+      "explanation": "Cross-multiplying gives 5y = 15(a + 4), so y = 3(a + 4) = 3a + 12."
+    },
+    {
+      "id": "SAT_OOS_3_S03",
+      "type": "solve_rational_equation_for_variable",
+      "question": "If 6/(a + 1) = 42/y, and y != 0 where a != -1, what is y in terms of a?",
+      "choices": {
+        "A": "7a + 7",
+        "B": "(1/7)a + 1/7",
+        "C": "42a + 42",
+        "D": "6a + 6",
+        "E": "7a + 1"
+      },
+      "answer": "A",
+      "explanation": "Cross-multiplying gives 6y = 42(a + 1), so y = 7(a + 1) = 7a + 7."
+    },
+    {
+      "id": "SAT_OOS_3_S04",
+      "type": "solve_rational_equation_for_variable",
+      "question": "If 4/(a + 4) = 8/y, and y != 0 where a != -4, what is y in terms of a?",
+      "choices": {
+        "A": "3a + 12",
+        "B": "(1/2)a + 2",
+        "C": "2a + 4",
+        "D": "2a + 8",
+        "E": "2a - 8"
+      },
+      "answer": "D",
+      "explanation": "Cross-multiplying gives 4y = 8(a + 4), so y = 2(a + 4) = 2a + 8."
+    },
+    {
+      "id": "SAT_OOS_3_S05",
+      "type": "solve_rational_equation_for_variable",
+      "question": "If 3/(a + 3) = 12/y, and y != 0 where a != -3, what is y in terms of a?",
+      "choices": {
+        "A": "4a - 12",
+        "B": "(1/4)a + 3/4",
+        "C": "4a + 12",
+        "D": "3a + 9",
+        "E": "5a + 15"
+      },
+      "answer": "C",
+      "explanation": "Cross-multiplying gives 3y = 12(a + 3), so y = 4(a + 3) = 4a + 12."
+    },
+    {
+      "id": "SAT_OOS_3_S06",
+      "type": "solve_rational_equation_for_variable",
+      "question": "If 4/(a + 5) = 32/y, and y != 0 where a != -5, what is y in terms of a?",
+      "choices": {
+        "A": "(1/8)a + 5/8",
+        "B": "8a + 5",
+        "C": "32a + 160",
+        "D": "8a - 40",
+        "E": "8a + 40"
+      },
+      "answer": "E",
+      "explanation": "Cross-multiplying gives 4y = 32(a + 5), so y = 8(a + 5) = 8a + 40."
+    },
+    {
+      "id": "SAT_OOS_3_S07",
+      "type": "solve_rational_equation_for_variable",
+      "question": "If 5/(a + 3) = 30/y, and y != 0 where a != -3, what is y in terms of a?",
+      "choices": {
+        "A": "30a + 90",
+        "B": "(1/6)a + 1/2",
+        "C": "7a + 21",
+        "D": "5a + 15",
+        "E": "6a + 18"
+      },
+      "answer": "E",
+      "explanation": "Cross-multiplying gives 5y = 30(a + 3), so y = 6(a + 3) = 6a + 18."
+    },
+    {
+      "id": "SAT_OOS_3_S08",
+      "type": "solve_rational_equation_for_variable",
+      "question": "If 6/(a + 1) = 12/y, and y != 0 where a != -1, what is y in terms of a?",
+      "choices": {
+        "A": "12a + 12",
+        "B": "2a - 2",
+        "C": "(1/2)a + 1/2",
+        "D": "3a + 3",
+        "E": "2a + 2"
+      },
+      "answer": "E",
+      "explanation": "Cross-multiplying gives 6y = 12(a + 1), so y = 2(a + 1) = 2a + 2."
+    },
+    {
+      "id": "SAT_OOS_3_S09",
+      "type": "solve_rational_equation_for_variable",
+      "question": "If 2/(a - 2) = 6/y, and y != 0 where a != 2, what is y in terms of a?",
+      "choices": {
+        "A": "3a + 6",
+        "B": "3a - 6",
+        "C": "2a - 4",
+        "D": "4a - 8",
+        "E": "3a - 2"
+      },
+      "answer": "B",
+      "explanation": "Cross-multiplying gives 2y = 6(a - 2), so y = 3(a - 2) = 3a - 6."
+    },
+    {
+      "id": "SAT_OOS_3_S10",
+      "type": "solve_rational_equation_for_variable",
+      "question": "If 3/(a - 5) = 15/y, and y != 0 where a != 5, what is y in terms of a?",
+      "choices": {
+        "A": "6a - 30",
+        "B": "5a - 5",
+        "C": "5a - 25",
+        "D": "5a + 25",
+        "E": "15a - 75"
+      },
+      "answer": "C",
+      "explanation": "Cross-multiplying gives 3y = 15(a - 5), so y = 5(a - 5) = 5a - 25."
+    }
+  ]
+}
