@@ -1,0 +1,138 @@
+{
+  "source": "SAT_OOS_2",
+  "source_page": "SAT_OOS_2.html",
+  "source_image": "images/SAT_OOS_2.png",
+  "type": "interpret_linear_model_coefficient",
+  "questions": [
+    {
+      "id": "SAT_OOS_2_S01",
+      "type": "interpret_linear_model_coefficient",
+      "question": "The number of daily visitors to the City Museum, y, can be estimated using the equation y = 0.75x + 41.3, where x represents the number of years since 2008 and x <= 12. Which of the following statements is the best interpretation of the number 0.75 in the context of this problem?",
+      "choices": {
+        "A": "The estimated number of daily visitors to the City Museum in 2008",
+        "B": "The estimated yearly increase in the number of daily visitors to the City Museum",
+        "C": "The estimated number of daily visitors to the City Museum in 2020",
+        "D": "The estimated yearly decrease in the number of daily visitors to the City Museum"
+      },
+      "answer": "B",
+      "explanation": "0.75 is the slope, and it is positive: the estimate increases by about 0.75 each year."
+    },
+    {
+      "id": "SAT_OOS_2_S02",
+      "type": "interpret_linear_model_coefficient",
+      "question": "The average monthly water bill, in dollars, for a household in Riverton, y, can be estimated using the equation y = 62.8 - 1.45x, where x represents the number of years since 2010 and x <= 10. Which of the following statements is the best interpretation of the number 1.45 in the context of this problem?",
+      "choices": {
+        "A": "The estimated average monthly water bill, in dollars, for a household in Riverton in 2020",
+        "B": "The estimated yearly increase in the average monthly water bill, in dollars, for a household in Riverton",
+        "C": "The estimated yearly decrease in the average monthly water bill, in dollars, for a household in Riverton",
+        "D": "The estimated average monthly water bill, in dollars, for a household in Riverton in 2010"
+      },
+      "answer": "C",
+      "explanation": "1.45 is subtracted for each year x, so the estimate decreases by about 1.45 each year."
+    },
+    {
+      "id": "SAT_OOS_2_S03",
+      "type": "interpret_linear_model_coefficient",
+      "question": "The average number of books per student in the Lakeview school library, y, can be estimated using the equation y = 0.32x + 8.46, where x represents the number of years since 2005 and x <= 15. Which of the following statements is the best interpretation of the number 8.46 in the context of this problem?",
+      "choices": {
+        "A": "The estimated average number of books per student in the Lakeview school library in 2020",
+        "B": "The estimated yearly increase in the average number of books per student in the Lakeview school library",
+        "C": "The estimated average number of books per student in the Lakeview school library in 2005",
+        "D": "The estimated yearly decrease in the average number of books per student in the Lakeview school library"
+      },
+      "answer": "C",
+      "explanation": "8.46 is the y-intercept: the value of y when x = 0, which is the estimate for 2005."
+    },
+    {
+      "id": "SAT_OOS_2_S04",
+      "type": "interpret_linear_model_coefficient",
+      "question": "The average number of minutes of daily commute for workers in Pine County, y, can be estimated using the equation y = 1.12x + 24.6, where x represents the number of years since 2012 and x <= 8. Which of the following statements is the best interpretation of the number 1.12 in the context of this problem?",
+      "choices": {
+        "A": "The estimated yearly decrease in the average number of minutes of daily commute for workers in Pine County",
+        "B": "The estimated yearly increase in the average number of minutes of daily commute for workers in Pine County",
+        "C": "The estimated average number of minutes of daily commute for workers in Pine County in 2012",
+        "D": "The estimated average number of minutes of daily commute for workers in Pine County in 2020"
+      },
+      "answer": "B",
+      "explanation": "1.12 is the slope, and it is positive: the estimate increases by about 1.12 each year."
+    },
+    {
+      "id": "SAT_OOS_2_S05",
+      "type": "interpret_linear_model_coefficient",
+      "question": "The average price, in dollars, of a movie ticket at Starlight Cinema, y, can be estimated using the equation y = 0.18x + 6.35, where x represents the number of years since 2000 and x <= 20. Which of the following statements is the best interpretation of the number 6.35 in the context of this problem?",
+      "choices": {
+        "A": "The estimated yearly decrease in the average price, in dollars, of a movie ticket at Starlight Cinema",
+        "B": "The estimated average price, in dollars, of a movie ticket at Starlight Cinema in 2020",
+        "C": "The estimated yearly increase in the average price, in dollars, of a movie ticket at Starlight Cinema",
+        "D": "The estimated average price, in dollars, of a movie ticket at Starlight Cinema in 2000"
+      },
+      "answer": "D",
+      "explanation": "6.35 is the y-intercept: the value of y when x = 0, which is the estimate for 2000."
+    },
+    {
+      "id": "SAT_OOS_2_S06",
+      "type": "interpret_linear_model_coefficient",
+      "question": "The number of students per computer at Oak Ridge High School, y, can be estimated using the equation y = 6.72 - 0.54x, where x represents the number of years since 2006 and x <= 9. Which of the following statements is the best interpretation of the number 0.54 in the context of this problem?",
+      "choices": {
+        "A": "The estimated yearly decrease in the number of students per computer at Oak Ridge High School",
+        "B": "The estimated yearly increase in the number of students per computer at Oak Ridge High School",
+        "C": "The estimated number of students per computer at Oak Ridge High School in 2006",
+        "D": "The estimated number of students per computer at Oak Ridge High School in 2015"
+      },
+      "answer": "A",
+      "explanation": "0.54 is subtracted for each year x, so the estimate decreases by about 0.54 each year."
+    },
+    {
+      "id": "SAT_OOS_2_S07",
+      "type": "interpret_linear_model_coefficient",
+      "question": "The average height, in inches, of the maple saplings at Green Valley Nursery, y, can be estimated using the equation y = 4.7x + 13.2, where x represents the number of years since 2015 and x <= 6. Which of the following statements is the best interpretation of the number 4.7 in the context of this problem?",
+      "choices": {
+        "A": "The estimated yearly increase in the average height, in inches, of the maple saplings at Green Valley Nursery",
+        "B": "The estimated average height, in inches, of the maple saplings at Green Valley Nursery in 2015",
+        "C": "The estimated yearly decrease in the average height, in inches, of the maple saplings at Green Valley Nursery",
+        "D": "The estimated average height, in inches, of the maple saplings at Green Valley Nursery in 2021"
+      },
+      "answer": "A",
+      "explanation": "4.7 is the slope, and it is positive: the estimate increases by about 4.7 each year."
+    },
+    {
+      "id": "SAT_OOS_2_S08",
+      "type": "interpret_linear_model_coefficient",
+      "question": "The average annual snowfall, in inches, in the town of Northfield, y, can be estimated using the equation y = 52.9 - 0.28x, where x represents the number of years since 1995 and x <= 25. Which of the following statements is the best interpretation of the number 52.9 in the context of this problem?",
+      "choices": {
+        "A": "The estimated yearly increase in the average annual snowfall, in inches, in the town of Northfield",
+        "B": "The estimated yearly decrease in the average annual snowfall, in inches, in the town of Northfield",
+        "C": "The estimated average annual snowfall, in inches, in the town of Northfield in 2020",
+        "D": "The estimated average annual snowfall, in inches, in the town of Northfield in 1995"
+      },
+      "answer": "D",
+      "explanation": "52.9 is the y-intercept: the value of y when x = 0, which is the estimate for 1995."
+    },
+    {
+      "id": "SAT_OOS_2_S09",
+      "type": "interpret_linear_model_coefficient",
+      "question": "The average number of customers per day at Sunny Side Cafe, y, can be estimated using the equation y = 118.4 - 2.6x, where x represents the number of years since 2014 and x <= 10. Which of the following statements is the best interpretation of the number 2.6 in the context of this problem?",
+      "choices": {
+        "A": "The estimated yearly decrease in the average number of customers per day at Sunny Side Cafe",
+        "B": "The estimated average number of customers per day at Sunny Side Cafe in 2014",
+        "C": "The estimated average number of customers per day at Sunny Side Cafe in 2024",
+        "D": "The estimated yearly increase in the average number of customers per day at Sunny Side Cafe"
+      },
+      "answer": "A",
+      "explanation": "2.6 is subtracted for each year x, so the estimate decreases by about 2.6 each year."
+    },
+    {
+      "id": "SAT_OOS_2_S10",
+      "type": "interpret_linear_model_coefficient",
+      "question": "The population density, in people per square mile, of Maple County, y, can be estimated using the equation y = 3.9x + 212.5, where x represents the number of years since 2002 and x <= 14. Which of the following statements is the best interpretation of the number 212.5 in the context of this problem?",
+      "choices": {
+        "A": "The estimated yearly decrease in the population density, in people per square mile, of Maple County",
+        "B": "The estimated yearly increase in the population density, in people per square mile, of Maple County",
+        "C": "The estimated population density, in people per square mile, of Maple County in 2002",
+        "D": "The estimated population density, in people per square mile, of Maple County in 2016"
+      },
+      "answer": "C",
+      "explanation": "212.5 is the y-intercept: the value of y when x = 0, which is the estimate for 2002."
+    }
+  ]
+}

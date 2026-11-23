@@ -1,0 +1,138 @@
+{
+  "source": "SAT_OOS_10_CA",
+  "source_page": "SAT_OOS_10_CA.html",
+  "source_image": "images/SAT_OOS_10.png",
+  "type": "linear_inequality_word_problem",
+  "questions": [
+    {
+      "id": "SAT_OOS_10_CA_S01",
+      "type": "linear_inequality_word_problem",
+      "question": "The recommended daily protein intake for a certain adult is 56 grams. One serving of beans contains 15 grams of protein and one serving of tofu contains 9 grams of protein. Which of the following inequalities represents the possible number of servings of beans, b, and servings of tofu, t, the adult could eat in a day to meet or exceed the recommended daily protein intake from these foods alone?",
+      "choices": {
+        "A": "15b + 9t >= 56",
+        "B": "15b + 9t > 56",
+        "C": "15/b + 9/t > 56",
+        "D": "15/b + 9/t >= 56"
+      },
+      "answer": "A",
+      "explanation": "The total is 15b + 9t, and the condition 'at least 56' means >= 56."
+    },
+    {
+      "id": "SAT_OOS_10_CA_S02",
+      "type": "linear_inequality_word_problem",
+      "question": "A student has at most $120 to spend on notebooks and pens. Each notebook costs $4 and each pen costs $3. Which of the following inequalities represents the possible number of notebooks, n, and pens, p, the student could buy without going over budget?",
+      "choices": {
+        "A": "4/n + 3/p < 120",
+        "B": "4n + 3p < 120",
+        "C": "4/n + 3/p <= 120",
+        "D": "4n + 3p <= 120"
+      },
+      "answer": "D",
+      "explanation": "The total is 4n + 3p, and the condition 'at most 120' means <= 120."
+    },
+    {
+      "id": "SAT_OOS_10_CA_S03",
+      "type": "linear_inequality_word_problem",
+      "question": "A truck can carry at most 2,000 pounds. Each crate of apples weighs 45 pounds and each crate of pears weighs 38 pounds. Which of the following inequalities represents the possible number of crates of apples, a, and crates of pears, p, the truck could carry?",
+      "choices": {
+        "A": "45a + 38p <= 2,000",
+        "B": "45a + 38p < 2,000",
+        "C": "45/a + 38/p <= 2,000",
+        "D": "45/a + 38/p < 2,000"
+      },
+      "answer": "A",
+      "explanation": "The total is 45a + 38p, and the condition 'at most 2,000' means <= 2,000."
+    },
+    {
+      "id": "SAT_OOS_10_CA_S04",
+      "type": "linear_inequality_word_problem",
+      "question": "A coach wants her players to exercise for more than 300 minutes per week. Each jog lasts 25 minutes and each swim lasts 40 minutes. Which of the following inequalities represents the possible number of jogs, j, and swims, s, a player could complete in a week to meet the coach's goal?",
+      "choices": {
+        "A": "25j + 40s > 300",
+        "B": "25/j + 40/s >= 300",
+        "C": "25/j + 40/s > 300",
+        "D": "25j + 40s >= 300"
+      },
+      "answer": "A",
+      "explanation": "The total is 25j + 40s, and the condition 'more than 300' means > 300."
+    },
+    {
+      "id": "SAT_OOS_10_CA_S05",
+      "type": "linear_inequality_word_problem",
+      "question": "A player needs at least 500 points to advance to the next level of a game. A small target is worth 35 points and a large target is worth 60 points. Which of the following inequalities represents the possible number of small targets, s, and large targets, l, the player could hit to advance?",
+      "choices": {
+        "A": "35s + 60l > 500",
+        "B": "35s + 60l >= 500",
+        "C": "35/s + 60/l > 500",
+        "D": "35/s + 60/l >= 500"
+      },
+      "answer": "B",
+      "explanation": "The total is 35s + 60l, and the condition 'at least 500' means >= 500."
+    },
+    {
+      "id": "SAT_OOS_10_CA_S06",
+      "type": "linear_inequality_word_problem",
+      "question": "A water tank is filled using buckets and jugs. Each bucket holds 12 liters and each jug holds 5 liters. The tank must contain fewer than 900 liters when the filling is finished. Which of the following inequalities represents the possible number of buckets, b, and jugs, j, that could be poured into the tank?",
+      "choices": {
+        "A": "12/b + 5/j < 900",
+        "B": "12b + 5j <= 900",
+        "C": "12/b + 5/j <= 900",
+        "D": "12b + 5j < 900"
+      },
+      "answer": "D",
+      "explanation": "The total is 12b + 5j, and the condition 'fewer than 900' means < 900."
+    },
+    {
+      "id": "SAT_OOS_10_CA_S07",
+      "type": "linear_inequality_word_problem",
+      "question": "A dietitian recommends consuming fewer than 2,200 calories per day. One slice of pizza has 285 calories and one salad has 140 calories. Which of the following inequalities represents the possible number of slices of pizza, p, and salads, s, a person could eat in a day to follow the recommendation from these foods alone?",
+      "choices": {
+        "A": "285/p + 140/s <= 2,200",
+        "B": "285p + 140s < 2,200",
+        "C": "285p + 140s <= 2,200",
+        "D": "285/p + 140/s < 2,200"
+      },
+      "answer": "B",
+      "explanation": "The total is 285p + 140s, and the condition 'fewer than 2,200' means < 2,200."
+    },
+    {
+      "id": "SAT_OOS_10_CA_S08",
+      "type": "linear_inequality_word_problem",
+      "question": "A school club wants to raise at least $800 for a trip. The club sells tickets for $15 each and hats for $22 each. Which of the following inequalities represents the possible number of tickets, t, and hats, h, the club could sell to reach its goal?",
+      "choices": {
+        "A": "15t + 22h > 800",
+        "B": "15t + 22h >= 800",
+        "C": "15/t + 22/h > 800",
+        "D": "15/t + 22/h >= 800"
+      },
+      "answer": "B",
+      "explanation": "The total is 15t + 22h, and the condition 'at least 800' means >= 800."
+    },
+    {
+      "id": "SAT_OOS_10_CA_S09",
+      "type": "linear_inequality_word_problem",
+      "question": "An elevator can safely carry no more than 1,400 pounds. The average adult weighs 170 pounds and the average child weighs 85 pounds. Which of the following inequalities represents the possible number of adults, a, and children, c, that could ride the elevator at one time?",
+      "choices": {
+        "A": "170/a + 85/c < 1,400",
+        "B": "170a + 85c <= 1,400",
+        "C": "170a + 85c < 1,400",
+        "D": "170/a + 85/c <= 1,400"
+      },
+      "answer": "B",
+      "explanation": "The total is 170a + 85c, and the condition 'at most 1,400' means <= 1,400."
+    },
+    {
+      "id": "SAT_OOS_10_CA_S10",
+      "type": "linear_inequality_word_problem",
+      "question": "An employee must work at least 40 hours each week. A morning shift is 6 hours long and a long shift is 9 hours long. Which of the following inequalities represents the possible number of morning shifts, m, and long shifts, l, the employee could work in a week to meet the requirement?",
+      "choices": {
+        "A": "6/m + 9/l >= 40",
+        "B": "6/m + 9/l > 40",
+        "C": "6m + 9l > 40",
+        "D": "6m + 9l >= 40"
+      },
+      "answer": "D",
+      "explanation": "The total is 6m + 9l, and the condition 'at least 40' means >= 40."
+    }
+  ]
+}
